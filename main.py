@@ -11,7 +11,7 @@ from MainMemory import *
 from Process import *
 import sys
 
-# This function will get all the arguments in the filename.
+# This function will get all d the arguments in the filename.
 def get_instructions(file_name):
     process_list = []
     with open(file_name) as f:

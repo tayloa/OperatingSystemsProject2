@@ -30,7 +30,6 @@ class MainMemory():
 
     # Placement algorithms for each process
     def next_fit(self,start,process):
-
         # Find a free range after the end index of the most recently added process
         if ("".join(self.memory[start:(start + process.frame)])) == ("." * process.frame):
             self.memory[start:(start + process.frame)] = [str(process) for char in self.memory[start:(start + process.frame)]]
@@ -47,14 +46,13 @@ class MainMemory():
         return False
 
     # Defrag memory to make space for a new process
-    def defrag(self):
+    def defrag(self,t):
         temp = "".join(self.memory)
-        temp.replace(".", "")
+        temp = temp.replace(".", "")
         free_space = len(self.memory) - len(temp)
         temp += ("." * free_space)
         self.memory = [c for c in temp]
-
-        print(self)
+        # print("time {}ms: Defragmentation complete (moved {} frames: B, C, D, E, F)".format(t, free_space))
         return free_space
 
     # Place the process based on the algorithm
@@ -71,6 +69,7 @@ class MainMemory():
         else:
             pass
         return placed
+
     # Run the simulation with a specific placement algorithm
     def run(self, algo):
 
@@ -79,20 +78,20 @@ class MainMemory():
         self.algo = algo
         print("time {}ms: Simulator started (Contiguous -- Next-Fit)".format(t))
         last_placed = "" # The last process we added
-        while (t < 1000):
+        while (1):
 
             # Check if a process finished
             unfinished = []
             for pair in self.running:
                 process = pair[0]
                 if process.finished(t):
-                    temp = "".join(self.memory)
-                    temp.replace(str(process), ".")
-                    self.memory = temp.split()
-                    print("time {}ms: Process {} removed:".format(t, process))
-                    self.process_list.append(process)
-                    print(process,process.arr_t)
                     # print(self)
+                    temp = "".join(self.memory)
+                    temp = temp.replace(str(process), ".")
+                    self.memory = [c for c in temp]
+                    print("time {}ms: Process {} removed:".format(t, process))
+                    if process.arr_t != -1:
+                        self.process_list.append(process)
                 else:
                     unfinished.append(pair)
             self.running = unfinished
@@ -102,6 +101,8 @@ class MainMemory():
             for process in self.process_list:
                 if process.arrived(t):
                     self.running.append([process,[]])
+                    for p in self.running:
+                        pro = p[0]
                 else:
                     unarrived.append(process)
             self.process_list = unarrived
@@ -110,30 +111,36 @@ class MainMemory():
             for pair in self.running:
                 process = pair[0]
                 if str(process) not in self.memory:
-                    # print("time {}ms: Process {} arrived (requires {} frames)".format(t, process, process.frame ))
+                    print("time {}ms: Process {} arrived (requires {} frames)".format(t, process, process.frame ))
                     placed = False
 
                     # Check if memory is full
-                    # if '.' not in self.memory:
-                        # print("time {}ms: Cannot place process {} -- skipped!".format(t,process))
+                    if '.' not in self.memory:
+                        continue
+                        print("time {}ms: Cannot place process {} -- skipped!".format(t,process))
+
 
                     # Add the process to the start if memory is empty
                     if "".join(self.memory) == len(self.memory) * ".":
                         self.memory[0:(process.frame)] = [str(process) for char in self.memory[0:(process.frame)]]
                         placed = True
                         print("time {}ms: Placed process {}:".format(t, process))
-                        # print(self)
-                    # else:
-                    #     start = (''.join(self.memory).rfind(last_placed)) + 1
-                    #     if self.place(start,process) == True:
-                    #         print("time {}ms: Placed process {}:".format(t, process))
-                    #         last_placed = str(process)
-                    #     else:
-                    #         if ("".join(self.memory)).count(".") >= process.frame:
-                    #             print("time {}ms: Cannot place process {} -- starting defragmentation".format(t,process))
-                    #             if self.defrag() > 0:
-                    #                 print("time {}ms: Defragmentation complete (moved {} frames: B, C, D, E, F)".format(t, free_space))
-                    #         # else:
-                    #             # print("time {}ms: Cannot place process {} -- skipped!".format(t,process))
-                    #     # print(self)
+                        last_placed = str(process)
+                    else:
+                        start = (''.join(self.memory).rfind(last_placed)) + 1
+                        if self.place(start,process) == True:
+                            print("time {}ms: Placed process {}:".format(t, process))
+                            last_placed = str(process)
+                        else:
+                            if ("".join(self.memory)).count(".") >= process.frame:
+                                # print("time {}ms: Cannot place process {} -- starting defragmentation".format(t,process))
+                                # print(self)
+                                if self.defrag(t) > 0:
+                                    self.place(start,process)
+                            else:
+                                # print("time {}ms: Cannot place process {} -- skipped!".format(t,process))
+                                process.arr_t = t + 1
+            if (len(self.process_list) == 0 and len(self.running) == 0):
+                break
             t = t + 1
+        print("time {}ms: Simulator ended ({})".format(t, algo))
