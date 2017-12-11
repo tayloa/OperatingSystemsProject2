@@ -1,0 +1,3918 @@
+time 0ms: Simulator started (Contiguous -- Next-Fit)
+time 0ms: Process A arrived (requires 45 frames)
+time 0ms: Placed process A:
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAA...................
+................................
+................................
+................................
+................................
+................................
+................................
+================================
+time 0ms: Process B arrived (requires 28 frames)
+time 0ms: Placed process B:
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBB.......................
+................................
+................................
+................................
+................................
+................................
+================================
+time 0ms: Process C arrived (requires 58 frames)
+time 0ms: Placed process C:
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCC.............................
+................................
+................................
+................................
+================================
+time 0ms: Process D arrived (requires 86 frames)
+time 0ms: Placed process D:
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDD.......
+................................
+================================
+time 0ms: Process E arrived (requires 14 frames)
+time 0ms: Placed process E:
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process F arrived (requires 45 frames)
+time 0ms: Cannot place process F -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process G arrived (requires 28 frames)
+time 0ms: Cannot place process G -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process H arrived (requires 58 frames)
+time 0ms: Cannot place process H -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process I arrived (requires 86 frames)
+time 0ms: Cannot place process I -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process J arrived (requires 45 frames)
+time 0ms: Cannot place process J -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process K arrived (requires 28 frames)
+time 0ms: Cannot place process K -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process L arrived (requires 58 frames)
+time 0ms: Cannot place process L -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process M arrived (requires 86 frames)
+time 0ms: Cannot place process M -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process N arrived (requires 45 frames)
+time 0ms: Cannot place process N -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process O arrived (requires 28 frames)
+time 0ms: Cannot place process O -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process P arrived (requires 58 frames)
+time 0ms: Cannot place process P -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process Q arrived (requires 86 frames)
+time 0ms: Cannot place process Q -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process R arrived (requires 45 frames)
+time 0ms: Cannot place process R -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process S arrived (requires 28 frames)
+time 0ms: Cannot place process S -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process T arrived (requires 58 frames)
+time 0ms: Cannot place process T -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process U arrived (requires 86 frames)
+time 0ms: Cannot place process U -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process V arrived (requires 86 frames)
+time 0ms: Cannot place process V -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process W arrived (requires 86 frames)
+time 0ms: Cannot place process W -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 100ms: Process X arrived (requires 24 frames)
+time 100ms: Placed process X:
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEEXXXXXXXXXXXXXXXXXXXXXXXX.
+================================
+time 350ms: Process A removed:
+================================
+................................
+.............BBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEEXXXXXXXXXXXXXXXXXXXXXXXX.
+================================
+time 400ms: Process A arrived (requires 45 frames)
+time 400ms: Placed process A:
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEEXXXXXXXXXXXXXXXXXXXXXXXX.
+================================
+time 400ms: Process F arrived (requires 45 frames)
+time 400ms: Cannot place process F -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEEXXXXXXXXXXXXXXXXXXXXXXXX.
+================================
+time 400ms: Process J arrived (requires 45 frames)
+time 400ms: Cannot place process J -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEEXXXXXXXXXXXXXXXXXXXXXXXX.
+================================
+time 400ms: Process N arrived (requires 45 frames)
+time 400ms: Cannot place process N -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEEXXXXXXXXXXXXXXXXXXXXXXXX.
+================================
+time 400ms: Process R arrived (requires 45 frames)
+time 400ms: Cannot place process R -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEEXXXXXXXXXXXXXXXXXXXXXXXX.
+================================
+time 435ms: Process Y arrived (requires 13 frames)
+time 435ms: Cannot place process Y -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEEXXXXXXXXXXXXXXXXXXXXXXXX.
+================================
+time 450ms: Process A removed:
+================================
+................................
+.............BBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEEXXXXXXXXXXXXXXXXXXXXXXXX.
+================================
+time 480ms: Process X removed:
+================================
+................................
+.............BBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 500ms: Process X arrived (requires 24 frames)
+time 500ms: Placed process X:
+================================
+................................
+.............BBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEEXXXXXXXXXXXXXXXXXXXXXXXX.
+================================
+time 550ms: Process Z arrived (requires 46 frames)
+time 550ms: Cannot place process Z -- starting defragmentation
+time 760ms: Defragmentation complete (moved 210 frames: B, C, D, E, X)
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDEEEEEEEEEEEEEEXXXXXX
+XXXXXXXXXXXXXXXXXX..............
+................................
+================================
+time 760ms: Placed process Z:
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDEEEEEEEEEEEEEEXXXXXX
+XXXXXXXXXXXXXXXXXXZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 860ms: Process D removed:
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCC..........
+................................
+................................
+............EEEEEEEEEEEEEEXXXXXX
+XXXXXXXXXXXXXXXXXXZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1160ms: Process C removed:
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBB....
+................................
+................................
+................................
+................................
+............EEEEEEEEEEEEEEXXXXXX
+XXXXXXXXXXXXXXXXXXZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1185ms: Process X removed:
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBB....
+................................
+................................
+................................
+................................
+............EEEEEEEEEEEEEE......
+..................ZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1310ms: Process C arrived (requires 58 frames)
+time 1310ms: Placed process C:
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCC..........
+................................
+................................
+............EEEEEEEEEEEEEE......
+..................ZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1310ms: Process H arrived (requires 58 frames)
+time 1310ms: Placed process H:
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHH................
+............EEEEEEEEEEEEEE......
+..................ZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1310ms: Process L arrived (requires 58 frames)
+time 1310ms: Cannot place process L -- skipped!
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHH................
+............EEEEEEEEEEEEEE......
+..................ZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1310ms: Process P arrived (requires 58 frames)
+time 1310ms: Cannot place process P -- skipped!
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHH................
+............EEEEEEEEEEEEEE......
+..................ZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1310ms: Process T arrived (requires 58 frames)
+time 1310ms: Cannot place process T -- skipped!
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHH................
+............EEEEEEEEEEEEEE......
+..................ZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1410ms: Process C removed:
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBB....
+................................
+......................HHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHH................
+............EEEEEEEEEEEEEE......
+..................ZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1410ms: Process H removed:
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBB....
+................................
+................................
+................................
+................................
+............EEEEEEEEEEEEEE......
+..................ZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1560ms: Process D arrived (requires 86 frames)
+time 1560ms: Placed process D:
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDD..............
+................................
+............EEEEEEEEEEEEEE......
+..................ZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1560ms: Process I arrived (requires 86 frames)
+time 1560ms: Cannot place process I -- skipped!
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDD..............
+................................
+............EEEEEEEEEEEEEE......
+..................ZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1560ms: Process M arrived (requires 86 frames)
+time 1560ms: Cannot place process M -- skipped!
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDD..............
+................................
+............EEEEEEEEEEEEEE......
+..................ZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1560ms: Process Q arrived (requires 86 frames)
+time 1560ms: Cannot place process Q -- skipped!
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDD..............
+................................
+............EEEEEEEEEEEEEE......
+..................ZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1560ms: Process U arrived (requires 86 frames)
+time 1560ms: Cannot place process U -- skipped!
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDD..............
+................................
+............EEEEEEEEEEEEEE......
+..................ZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1560ms: Process V arrived (requires 86 frames)
+time 1560ms: Cannot place process V -- skipped!
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDD..............
+................................
+............EEEEEEEEEEEEEE......
+..................ZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1560ms: Process W arrived (requires 86 frames)
+time 1560ms: Cannot place process W -- skipped!
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDD..............
+................................
+............EEEEEEEEEEEEEE......
+..................ZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1610ms: Process E removed:
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDD..............
+................................
+................................
+..................ZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1660ms: Process Z removed:
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDD..............
+................................
+................................
+................................
+................................
+================================
+time 2010ms: Process D removed:
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBB....
+................................
+................................
+................................
+................................
+................................
+................................
+................................
+================================
+time 2860ms: Process B removed:
+================================
+................................
+................................
+................................
+................................
+................................
+................................
+................................
+................................
+================================
+time 2860ms: Simulator ended (Contiguous -- Next-Fit)
+
+time 0ms: Simulator started (Contiguous -- First-Fit)
+time 0ms: Process A arrived (requires 45 frames)
+time 0ms: Placed process A:
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAA...................
+................................
+................................
+................................
+................................
+................................
+................................
+================================
+time 0ms: Process B arrived (requires 28 frames)
+time 0ms: Placed process B:
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBB.......................
+................................
+................................
+................................
+................................
+................................
+================================
+time 0ms: Process C arrived (requires 58 frames)
+time 0ms: Placed process C:
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCC.............................
+................................
+................................
+................................
+================================
+time 0ms: Process D arrived (requires 86 frames)
+time 0ms: Placed process D:
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDD.......
+................................
+================================
+time 0ms: Process E arrived (requires 14 frames)
+time 0ms: Placed process E:
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process F arrived (requires 45 frames)
+time 0ms: Cannot place process F -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process G arrived (requires 28 frames)
+time 0ms: Cannot place process G -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process H arrived (requires 58 frames)
+time 0ms: Cannot place process H -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process I arrived (requires 86 frames)
+time 0ms: Cannot place process I -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process J arrived (requires 45 frames)
+time 0ms: Cannot place process J -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process K arrived (requires 28 frames)
+time 0ms: Cannot place process K -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process L arrived (requires 58 frames)
+time 0ms: Cannot place process L -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process M arrived (requires 86 frames)
+time 0ms: Cannot place process M -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process N arrived (requires 45 frames)
+time 0ms: Cannot place process N -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process O arrived (requires 28 frames)
+time 0ms: Cannot place process O -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process P arrived (requires 58 frames)
+time 0ms: Cannot place process P -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process Q arrived (requires 86 frames)
+time 0ms: Cannot place process Q -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process R arrived (requires 45 frames)
+time 0ms: Cannot place process R -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process S arrived (requires 28 frames)
+time 0ms: Cannot place process S -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process T arrived (requires 58 frames)
+time 0ms: Cannot place process T -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process U arrived (requires 86 frames)
+time 0ms: Cannot place process U -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process V arrived (requires 86 frames)
+time 0ms: Cannot place process V -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process W arrived (requires 86 frames)
+time 0ms: Cannot place process W -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 100ms: Process X arrived (requires 24 frames)
+time 100ms: Placed process X:
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEEXXXXXXXXXXXXXXXXXXXXXXXX.
+================================
+time 350ms: Process A removed:
+================================
+................................
+.............BBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEEXXXXXXXXXXXXXXXXXXXXXXXX.
+================================
+time 400ms: Process A arrived (requires 45 frames)
+time 400ms: Placed process A:
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEEXXXXXXXXXXXXXXXXXXXXXXXX.
+================================
+time 400ms: Process F arrived (requires 45 frames)
+time 400ms: Cannot place process F -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEEXXXXXXXXXXXXXXXXXXXXXXXX.
+================================
+time 400ms: Process J arrived (requires 45 frames)
+time 400ms: Cannot place process J -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEEXXXXXXXXXXXXXXXXXXXXXXXX.
+================================
+time 400ms: Process N arrived (requires 45 frames)
+time 400ms: Cannot place process N -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEEXXXXXXXXXXXXXXXXXXXXXXXX.
+================================
+time 400ms: Process R arrived (requires 45 frames)
+time 400ms: Cannot place process R -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEEXXXXXXXXXXXXXXXXXXXXXXXX.
+================================
+time 435ms: Process Y arrived (requires 13 frames)
+time 435ms: Cannot place process Y -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEEXXXXXXXXXXXXXXXXXXXXXXXX.
+================================
+time 450ms: Process A removed:
+================================
+................................
+.............BBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEEXXXXXXXXXXXXXXXXXXXXXXXX.
+================================
+time 480ms: Process X removed:
+================================
+................................
+.............BBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 500ms: Process X arrived (requires 24 frames)
+time 500ms: Placed process X:
+================================
+XXXXXXXXXXXXXXXXXXXXXXXX........
+.............BBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 550ms: Process Z arrived (requires 46 frames)
+time 550ms: Cannot place process Z -- starting defragmentation
+time 736ms: Defragmentation complete (moved 186 frames: B, C, D, E)
+================================
+XXXXXXXXXXXXXXXXXXXXXXXXBBBBBBBB
+BBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDEEEEEEEEEEEEEE..............
+................................
+================================
+time 736ms: Placed process Z:
+================================
+XXXXXXXXXXXXXXXXXXXXXXXXBBBBBBBB
+BBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDEEEEEEEEEEEEEEZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 836ms: Process D removed:
+================================
+XXXXXXXXXXXXXXXXXXXXXXXXBBBBBBBB
+BBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCC..................
+................................
+................................
+....EEEEEEEEEEEEEEZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1136ms: Process C removed:
+================================
+XXXXXXXXXXXXXXXXXXXXXXXXBBBBBBBB
+BBBBBBBBBBBBBBBBBBBB............
+................................
+................................
+................................
+................................
+....EEEEEEEEEEEEEEZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1161ms: Process X removed:
+================================
+........................BBBBBBBB
+BBBBBBBBBBBBBBBBBBBB............
+................................
+................................
+................................
+................................
+....EEEEEEEEEEEEEEZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1286ms: Process C arrived (requires 58 frames)
+time 1286ms: Placed process C:
+================================
+........................BBBBBBBB
+BBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCC..................
+................................
+................................
+....EEEEEEEEEEEEEEZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1286ms: Process H arrived (requires 58 frames)
+time 1286ms: Placed process H:
+================================
+........................BBBBBBBB
+BBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHH........................
+....EEEEEEEEEEEEEEZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1286ms: Process L arrived (requires 58 frames)
+time 1286ms: Cannot place process L -- skipped!
+================================
+........................BBBBBBBB
+BBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHH........................
+....EEEEEEEEEEEEEEZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1286ms: Process P arrived (requires 58 frames)
+time 1286ms: Cannot place process P -- skipped!
+================================
+........................BBBBBBBB
+BBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHH........................
+....EEEEEEEEEEEEEEZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1286ms: Process T arrived (requires 58 frames)
+time 1286ms: Cannot place process T -- skipped!
+================================
+........................BBBBBBBB
+BBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHH........................
+....EEEEEEEEEEEEEEZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1386ms: Process C removed:
+================================
+........................BBBBBBBB
+BBBBBBBBBBBBBBBBBBBB............
+................................
+..............HHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHH........................
+....EEEEEEEEEEEEEEZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1386ms: Process H removed:
+================================
+........................BBBBBBBB
+BBBBBBBBBBBBBBBBBBBB............
+................................
+................................
+................................
+................................
+....EEEEEEEEEEEEEEZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1536ms: Process D arrived (requires 86 frames)
+time 1536ms: Placed process D:
+================================
+........................BBBBBBBB
+BBBBBBBBBBBBBBBBBBBBDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDD......................
+................................
+....EEEEEEEEEEEEEEZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1536ms: Process I arrived (requires 86 frames)
+time 1536ms: Cannot place process I -- skipped!
+================================
+........................BBBBBBBB
+BBBBBBBBBBBBBBBBBBBBDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDD......................
+................................
+....EEEEEEEEEEEEEEZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1536ms: Process M arrived (requires 86 frames)
+time 1536ms: Cannot place process M -- skipped!
+================================
+........................BBBBBBBB
+BBBBBBBBBBBBBBBBBBBBDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDD......................
+................................
+....EEEEEEEEEEEEEEZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1536ms: Process Q arrived (requires 86 frames)
+time 1536ms: Cannot place process Q -- skipped!
+================================
+........................BBBBBBBB
+BBBBBBBBBBBBBBBBBBBBDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDD......................
+................................
+....EEEEEEEEEEEEEEZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1536ms: Process U arrived (requires 86 frames)
+time 1536ms: Cannot place process U -- skipped!
+================================
+........................BBBBBBBB
+BBBBBBBBBBBBBBBBBBBBDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDD......................
+................................
+....EEEEEEEEEEEEEEZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1536ms: Process V arrived (requires 86 frames)
+time 1536ms: Cannot place process V -- skipped!
+================================
+........................BBBBBBBB
+BBBBBBBBBBBBBBBBBBBBDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDD......................
+................................
+....EEEEEEEEEEEEEEZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1536ms: Process W arrived (requires 86 frames)
+time 1536ms: Cannot place process W -- skipped!
+================================
+........................BBBBBBBB
+BBBBBBBBBBBBBBBBBBBBDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDD......................
+................................
+....EEEEEEEEEEEEEEZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1586ms: Process E removed:
+================================
+........................BBBBBBBB
+BBBBBBBBBBBBBBBBBBBBDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDD......................
+................................
+..................ZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1636ms: Process Z removed:
+================================
+........................BBBBBBBB
+BBBBBBBBBBBBBBBBBBBBDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDD......................
+................................
+................................
+................................
+================================
+time 1986ms: Process D removed:
+================================
+........................BBBBBBBB
+BBBBBBBBBBBBBBBBBBBB............
+................................
+................................
+................................
+................................
+................................
+................................
+================================
+time 2836ms: Process B removed:
+================================
+................................
+................................
+................................
+................................
+................................
+................................
+................................
+................................
+================================
+time 2836ms: Simulator ended (Contiguous -- First-Fit)
+
+time 0ms: Simulator started (Contiguous -- Best-Fit)
+time 0ms: Process A arrived (requires 45 frames)
+time 0ms: Placed process A:
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAA...................
+................................
+................................
+................................
+................................
+................................
+................................
+================================
+time 0ms: Process B arrived (requires 28 frames)
+time 0ms: Placed process B:
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBB.......................
+................................
+................................
+................................
+................................
+................................
+================================
+time 0ms: Process C arrived (requires 58 frames)
+time 0ms: Placed process C:
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCC.............................
+................................
+................................
+................................
+================================
+time 0ms: Process D arrived (requires 86 frames)
+time 0ms: Placed process D:
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDD.......
+................................
+================================
+time 0ms: Process E arrived (requires 14 frames)
+time 0ms: Placed process E:
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process F arrived (requires 45 frames)
+time 0ms: Cannot place process F -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process G arrived (requires 28 frames)
+time 0ms: Cannot place process G -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process H arrived (requires 58 frames)
+time 0ms: Cannot place process H -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process I arrived (requires 86 frames)
+time 0ms: Cannot place process I -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process J arrived (requires 45 frames)
+time 0ms: Cannot place process J -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process K arrived (requires 28 frames)
+time 0ms: Cannot place process K -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process L arrived (requires 58 frames)
+time 0ms: Cannot place process L -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process M arrived (requires 86 frames)
+time 0ms: Cannot place process M -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process N arrived (requires 45 frames)
+time 0ms: Cannot place process N -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process O arrived (requires 28 frames)
+time 0ms: Cannot place process O -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process P arrived (requires 58 frames)
+time 0ms: Cannot place process P -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process Q arrived (requires 86 frames)
+time 0ms: Cannot place process Q -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process R arrived (requires 45 frames)
+time 0ms: Cannot place process R -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process S arrived (requires 28 frames)
+time 0ms: Cannot place process S -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process T arrived (requires 58 frames)
+time 0ms: Cannot place process T -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process U arrived (requires 86 frames)
+time 0ms: Cannot place process U -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process V arrived (requires 86 frames)
+time 0ms: Cannot place process V -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 0ms: Process W arrived (requires 86 frames)
+time 0ms: Cannot place process W -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 100ms: Process X arrived (requires 24 frames)
+time 100ms: Placed process X:
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEEXXXXXXXXXXXXXXXXXXXXXXXX.
+================================
+time 350ms: Process A removed:
+================================
+................................
+.............BBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEEXXXXXXXXXXXXXXXXXXXXXXXX.
+================================
+time 400ms: Process A arrived (requires 45 frames)
+time 400ms: Placed process A:
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEEXXXXXXXXXXXXXXXXXXXXXXXX.
+================================
+time 400ms: Process F arrived (requires 45 frames)
+time 400ms: Cannot place process F -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEEXXXXXXXXXXXXXXXXXXXXXXXX.
+================================
+time 400ms: Process J arrived (requires 45 frames)
+time 400ms: Cannot place process J -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEEXXXXXXXXXXXXXXXXXXXXXXXX.
+================================
+time 400ms: Process N arrived (requires 45 frames)
+time 400ms: Cannot place process N -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEEXXXXXXXXXXXXXXXXXXXXXXXX.
+================================
+time 400ms: Process R arrived (requires 45 frames)
+time 400ms: Cannot place process R -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEEXXXXXXXXXXXXXXXXXXXXXXXX.
+================================
+time 435ms: Process Y arrived (requires 13 frames)
+time 435ms: Cannot place process Y -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEEXXXXXXXXXXXXXXXXXXXXXXXX.
+================================
+time 450ms: Process A removed:
+================================
+................................
+.............BBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEEXXXXXXXXXXXXXXXXXXXXXXXX.
+================================
+time 480ms: Process X removed:
+================================
+................................
+.............BBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+time 500ms: Process X arrived (requires 24 frames)
+time 500ms: Placed process X:
+================================
+................................
+.............BBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEEXXXXXXXXXXXXXXXXXXXXXXXX.
+================================
+time 550ms: Process Z arrived (requires 46 frames)
+time 550ms: Cannot place process Z -- starting defragmentation
+time 760ms: Defragmentation complete (moved 210 frames: B, C, D, E, X)
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDEEEEEEEEEEEEEEXXXXXX
+XXXXXXXXXXXXXXXXXX..............
+................................
+================================
+time 760ms: Placed process Z:
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDEEEEEEEEEEEEEEXXXXXX
+XXXXXXXXXXXXXXXXXXZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 860ms: Process D removed:
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCC..........
+................................
+................................
+............EEEEEEEEEEEEEEXXXXXX
+XXXXXXXXXXXXXXXXXXZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1160ms: Process C removed:
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBB....
+................................
+................................
+................................
+................................
+............EEEEEEEEEEEEEEXXXXXX
+XXXXXXXXXXXXXXXXXXZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1185ms: Process X removed:
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBB....
+................................
+................................
+................................
+................................
+............EEEEEEEEEEEEEE......
+..................ZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1310ms: Process C arrived (requires 58 frames)
+time 1310ms: Placed process C:
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCC..........
+................................
+................................
+............EEEEEEEEEEEEEE......
+..................ZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1310ms: Process H arrived (requires 58 frames)
+time 1310ms: Placed process H:
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHH................
+............EEEEEEEEEEEEEE......
+..................ZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1310ms: Process L arrived (requires 58 frames)
+time 1310ms: Cannot place process L -- skipped!
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHH................
+............EEEEEEEEEEEEEE......
+..................ZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1310ms: Process P arrived (requires 58 frames)
+time 1310ms: Cannot place process P -- skipped!
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHH................
+............EEEEEEEEEEEEEE......
+..................ZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1310ms: Process T arrived (requires 58 frames)
+time 1310ms: Cannot place process T -- skipped!
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHH................
+............EEEEEEEEEEEEEE......
+..................ZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1410ms: Process C removed:
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBB....
+................................
+......................HHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHH................
+............EEEEEEEEEEEEEE......
+..................ZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1410ms: Process H removed:
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBB....
+................................
+................................
+................................
+................................
+............EEEEEEEEEEEEEE......
+..................ZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1560ms: Process D arrived (requires 86 frames)
+time 1560ms: Placed process D:
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDD..............
+................................
+............EEEEEEEEEEEEEE......
+..................ZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1560ms: Process I arrived (requires 86 frames)
+time 1560ms: Cannot place process I -- skipped!
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDD..............
+................................
+............EEEEEEEEEEEEEE......
+..................ZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1560ms: Process M arrived (requires 86 frames)
+time 1560ms: Cannot place process M -- skipped!
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDD..............
+................................
+............EEEEEEEEEEEEEE......
+..................ZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1560ms: Process Q arrived (requires 86 frames)
+time 1560ms: Cannot place process Q -- skipped!
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDD..............
+................................
+............EEEEEEEEEEEEEE......
+..................ZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1560ms: Process U arrived (requires 86 frames)
+time 1560ms: Cannot place process U -- skipped!
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDD..............
+................................
+............EEEEEEEEEEEEEE......
+..................ZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1560ms: Process V arrived (requires 86 frames)
+time 1560ms: Cannot place process V -- skipped!
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDD..............
+................................
+............EEEEEEEEEEEEEE......
+..................ZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1560ms: Process W arrived (requires 86 frames)
+time 1560ms: Cannot place process W -- skipped!
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDD..............
+................................
+............EEEEEEEEEEEEEE......
+..................ZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1610ms: Process E removed:
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDD..............
+................................
+................................
+..................ZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1660ms: Process Z removed:
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDD..............
+................................
+................................
+................................
+................................
+================================
+time 2010ms: Process D removed:
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBB....
+................................
+................................
+................................
+................................
+................................
+................................
+................................
+================================
+time 2860ms: Process B removed:
+================================
+................................
+................................
+................................
+................................
+................................
+................................
+................................
+................................
+================================
+time 2860ms: Simulator ended (Contiguous -- Best-Fit)
+
+time 0ms: Simulator started (Non-contiguous)
+time 0ms: Process A arrived (requires 45 frames)
+time 0ms: Placed process A:
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAA...................
+................................
+................................
+................................
+................................
+................................
+................................
+================================
+PAGE TABLE [page,frame]:
+A: [0,0] [1,1] [2,2] [3,3] [4,4] [5,5] [6,6] [7,7] [8,8] [9,9]
+[10,10] [11,11] [12,12] [13,13] [14,14] [15,15] [16,16] [17,17] [18,18] [19,19]
+[20,20] [21,21] [22,22] [23,23] [24,24] [25,25] [26,26] [27,27] [28,28] [29,29]
+[30,30] [31,31] [32,32] [33,33] [34,34] [35,35] [36,36] [37,37] [38,38] [39,39]
+[40,40] [41,41] [42,42] [43,43] [44,44]
+time 0ms: Process B arrived (requires 28 frames)
+time 0ms: Placed process B:
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBB.......................
+................................
+................................
+................................
+................................
+................................
+================================
+PAGE TABLE [page,frame]:
+A: [0,0] [1,1] [2,2] [3,3] [4,4] [5,5] [6,6] [7,7] [8,8] [9,9]
+[10,10] [11,11] [12,12] [13,13] [14,14] [15,15] [16,16] [17,17] [18,18] [19,19]
+[20,20] [21,21] [22,22] [23,23] [24,24] [25,25] [26,26] [27,27] [28,28] [29,29]
+[30,30] [31,31] [32,32] [33,33] [34,34] [35,35] [36,36] [37,37] [38,38] [39,39]
+[40,40] [41,41] [42,42] [43,43] [44,44]
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+time 0ms: Process C arrived (requires 58 frames)
+time 0ms: Placed process C:
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCC.............................
+................................
+................................
+................................
+================================
+PAGE TABLE [page,frame]:
+A: [0,0] [1,1] [2,2] [3,3] [4,4] [5,5] [6,6] [7,7] [8,8] [9,9]
+[10,10] [11,11] [12,12] [13,13] [14,14] [15,15] [16,16] [17,17] [18,18] [19,19]
+[20,20] [21,21] [22,22] [23,23] [24,24] [25,25] [26,26] [27,27] [28,28] [29,29]
+[30,30] [31,31] [32,32] [33,33] [34,34] [35,35] [36,36] [37,37] [38,38] [39,39]
+[40,40] [41,41] [42,42] [43,43] [44,44]
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+C: [0,73] [1,74] [2,75] [3,76] [4,77] [5,78] [6,79] [7,80] [8,81] [9,82]
+[10,83] [11,84] [12,85] [13,86] [14,87] [15,88] [16,89] [17,90] [18,91] [19,92]
+[20,93] [21,94] [22,95] [23,96] [24,97] [25,98] [26,99] [27,100] [28,101] [29,102]
+[30,103] [31,104] [32,105] [33,106] [34,107] [35,108] [36,109] [37,110] [38,111] [39,112]
+[40,113] [41,114] [42,115] [43,116] [44,117] [45,118] [46,119] [47,120] [48,121] [49,122]
+[50,123] [51,124] [52,125] [53,126] [54,127] [55,128] [56,129] [57,130]
+time 0ms: Process D arrived (requires 86 frames)
+time 0ms: Placed process D:
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDD.......
+................................
+================================
+PAGE TABLE [page,frame]:
+A: [0,0] [1,1] [2,2] [3,3] [4,4] [5,5] [6,6] [7,7] [8,8] [9,9]
+[10,10] [11,11] [12,12] [13,13] [14,14] [15,15] [16,16] [17,17] [18,18] [19,19]
+[20,20] [21,21] [22,22] [23,23] [24,24] [25,25] [26,26] [27,27] [28,28] [29,29]
+[30,30] [31,31] [32,32] [33,33] [34,34] [35,35] [36,36] [37,37] [38,38] [39,39]
+[40,40] [41,41] [42,42] [43,43] [44,44]
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+C: [0,73] [1,74] [2,75] [3,76] [4,77] [5,78] [6,79] [7,80] [8,81] [9,82]
+[10,83] [11,84] [12,85] [13,86] [14,87] [15,88] [16,89] [17,90] [18,91] [19,92]
+[20,93] [21,94] [22,95] [23,96] [24,97] [25,98] [26,99] [27,100] [28,101] [29,102]
+[30,103] [31,104] [32,105] [33,106] [34,107] [35,108] [36,109] [37,110] [38,111] [39,112]
+[40,113] [41,114] [42,115] [43,116] [44,117] [45,118] [46,119] [47,120] [48,121] [49,122]
+[50,123] [51,124] [52,125] [53,126] [54,127] [55,128] [56,129] [57,130]
+D: [0,131] [1,132] [2,133] [3,134] [4,135] [5,136] [6,137] [7,138] [8,139] [9,140]
+[10,141] [11,142] [12,143] [13,144] [14,145] [15,146] [16,147] [17,148] [18,149] [19,150]
+[20,151] [21,152] [22,153] [23,154] [24,155] [25,156] [26,157] [27,158] [28,159] [29,160]
+[30,161] [31,162] [32,163] [33,164] [34,165] [35,166] [36,167] [37,168] [38,169] [39,170]
+[40,171] [41,172] [42,173] [43,174] [44,175] [45,176] [46,177] [47,178] [48,179] [49,180]
+[50,181] [51,182] [52,183] [53,184] [54,185] [55,186] [56,187] [57,188] [58,189] [59,190]
+[60,191] [61,192] [62,193] [63,194] [64,195] [65,196] [66,197] [67,198] [68,199] [69,200]
+[70,201] [71,202] [72,203] [73,204] [74,205] [75,206] [76,207] [77,208] [78,209] [79,210]
+[80,211] [81,212] [82,213] [83,214] [84,215] [85,216]
+time 0ms: Process E arrived (requires 14 frames)
+time 0ms: Placed process E:
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+PAGE TABLE [page,frame]:
+A: [0,0] [1,1] [2,2] [3,3] [4,4] [5,5] [6,6] [7,7] [8,8] [9,9]
+[10,10] [11,11] [12,12] [13,13] [14,14] [15,15] [16,16] [17,17] [18,18] [19,19]
+[20,20] [21,21] [22,22] [23,23] [24,24] [25,25] [26,26] [27,27] [28,28] [29,29]
+[30,30] [31,31] [32,32] [33,33] [34,34] [35,35] [36,36] [37,37] [38,38] [39,39]
+[40,40] [41,41] [42,42] [43,43] [44,44]
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+C: [0,73] [1,74] [2,75] [3,76] [4,77] [5,78] [6,79] [7,80] [8,81] [9,82]
+[10,83] [11,84] [12,85] [13,86] [14,87] [15,88] [16,89] [17,90] [18,91] [19,92]
+[20,93] [21,94] [22,95] [23,96] [24,97] [25,98] [26,99] [27,100] [28,101] [29,102]
+[30,103] [31,104] [32,105] [33,106] [34,107] [35,108] [36,109] [37,110] [38,111] [39,112]
+[40,113] [41,114] [42,115] [43,116] [44,117] [45,118] [46,119] [47,120] [48,121] [49,122]
+[50,123] [51,124] [52,125] [53,126] [54,127] [55,128] [56,129] [57,130]
+D: [0,131] [1,132] [2,133] [3,134] [4,135] [5,136] [6,137] [7,138] [8,139] [9,140]
+[10,141] [11,142] [12,143] [13,144] [14,145] [15,146] [16,147] [17,148] [18,149] [19,150]
+[20,151] [21,152] [22,153] [23,154] [24,155] [25,156] [26,157] [27,158] [28,159] [29,160]
+[30,161] [31,162] [32,163] [33,164] [34,165] [35,166] [36,167] [37,168] [38,169] [39,170]
+[40,171] [41,172] [42,173] [43,174] [44,175] [45,176] [46,177] [47,178] [48,179] [49,180]
+[50,181] [51,182] [52,183] [53,184] [54,185] [55,186] [56,187] [57,188] [58,189] [59,190]
+[60,191] [61,192] [62,193] [63,194] [64,195] [65,196] [66,197] [67,198] [68,199] [69,200]
+[70,201] [71,202] [72,203] [73,204] [74,205] [75,206] [76,207] [77,208] [78,209] [79,210]
+[80,211] [81,212] [82,213] [83,214] [84,215] [85,216]
+E: [0,217] [1,218] [2,219] [3,220] [4,221] [5,222] [6,223] [7,224] [8,225] [9,226]
+[10,227] [11,228] [12,229] [13,230]
+time 0ms: Process F arrived (requires 45 frames)
+time 0ms: Cannot place process F -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+PAGE TABLE [page,frame]:
+A: [0,0] [1,1] [2,2] [3,3] [4,4] [5,5] [6,6] [7,7] [8,8] [9,9]
+[10,10] [11,11] [12,12] [13,13] [14,14] [15,15] [16,16] [17,17] [18,18] [19,19]
+[20,20] [21,21] [22,22] [23,23] [24,24] [25,25] [26,26] [27,27] [28,28] [29,29]
+[30,30] [31,31] [32,32] [33,33] [34,34] [35,35] [36,36] [37,37] [38,38] [39,39]
+[40,40] [41,41] [42,42] [43,43] [44,44]
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+C: [0,73] [1,74] [2,75] [3,76] [4,77] [5,78] [6,79] [7,80] [8,81] [9,82]
+[10,83] [11,84] [12,85] [13,86] [14,87] [15,88] [16,89] [17,90] [18,91] [19,92]
+[20,93] [21,94] [22,95] [23,96] [24,97] [25,98] [26,99] [27,100] [28,101] [29,102]
+[30,103] [31,104] [32,105] [33,106] [34,107] [35,108] [36,109] [37,110] [38,111] [39,112]
+[40,113] [41,114] [42,115] [43,116] [44,117] [45,118] [46,119] [47,120] [48,121] [49,122]
+[50,123] [51,124] [52,125] [53,126] [54,127] [55,128] [56,129] [57,130]
+D: [0,131] [1,132] [2,133] [3,134] [4,135] [5,136] [6,137] [7,138] [8,139] [9,140]
+[10,141] [11,142] [12,143] [13,144] [14,145] [15,146] [16,147] [17,148] [18,149] [19,150]
+[20,151] [21,152] [22,153] [23,154] [24,155] [25,156] [26,157] [27,158] [28,159] [29,160]
+[30,161] [31,162] [32,163] [33,164] [34,165] [35,166] [36,167] [37,168] [38,169] [39,170]
+[40,171] [41,172] [42,173] [43,174] [44,175] [45,176] [46,177] [47,178] [48,179] [49,180]
+[50,181] [51,182] [52,183] [53,184] [54,185] [55,186] [56,187] [57,188] [58,189] [59,190]
+[60,191] [61,192] [62,193] [63,194] [64,195] [65,196] [66,197] [67,198] [68,199] [69,200]
+[70,201] [71,202] [72,203] [73,204] [74,205] [75,206] [76,207] [77,208] [78,209] [79,210]
+[80,211] [81,212] [82,213] [83,214] [84,215] [85,216]
+E: [0,217] [1,218] [2,219] [3,220] [4,221] [5,222] [6,223] [7,224] [8,225] [9,226]
+[10,227] [11,228] [12,229] [13,230]
+time 0ms: Process G arrived (requires 28 frames)
+time 0ms: Cannot place process G -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+PAGE TABLE [page,frame]:
+A: [0,0] [1,1] [2,2] [3,3] [4,4] [5,5] [6,6] [7,7] [8,8] [9,9]
+[10,10] [11,11] [12,12] [13,13] [14,14] [15,15] [16,16] [17,17] [18,18] [19,19]
+[20,20] [21,21] [22,22] [23,23] [24,24] [25,25] [26,26] [27,27] [28,28] [29,29]
+[30,30] [31,31] [32,32] [33,33] [34,34] [35,35] [36,36] [37,37] [38,38] [39,39]
+[40,40] [41,41] [42,42] [43,43] [44,44]
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+C: [0,73] [1,74] [2,75] [3,76] [4,77] [5,78] [6,79] [7,80] [8,81] [9,82]
+[10,83] [11,84] [12,85] [13,86] [14,87] [15,88] [16,89] [17,90] [18,91] [19,92]
+[20,93] [21,94] [22,95] [23,96] [24,97] [25,98] [26,99] [27,100] [28,101] [29,102]
+[30,103] [31,104] [32,105] [33,106] [34,107] [35,108] [36,109] [37,110] [38,111] [39,112]
+[40,113] [41,114] [42,115] [43,116] [44,117] [45,118] [46,119] [47,120] [48,121] [49,122]
+[50,123] [51,124] [52,125] [53,126] [54,127] [55,128] [56,129] [57,130]
+D: [0,131] [1,132] [2,133] [3,134] [4,135] [5,136] [6,137] [7,138] [8,139] [9,140]
+[10,141] [11,142] [12,143] [13,144] [14,145] [15,146] [16,147] [17,148] [18,149] [19,150]
+[20,151] [21,152] [22,153] [23,154] [24,155] [25,156] [26,157] [27,158] [28,159] [29,160]
+[30,161] [31,162] [32,163] [33,164] [34,165] [35,166] [36,167] [37,168] [38,169] [39,170]
+[40,171] [41,172] [42,173] [43,174] [44,175] [45,176] [46,177] [47,178] [48,179] [49,180]
+[50,181] [51,182] [52,183] [53,184] [54,185] [55,186] [56,187] [57,188] [58,189] [59,190]
+[60,191] [61,192] [62,193] [63,194] [64,195] [65,196] [66,197] [67,198] [68,199] [69,200]
+[70,201] [71,202] [72,203] [73,204] [74,205] [75,206] [76,207] [77,208] [78,209] [79,210]
+[80,211] [81,212] [82,213] [83,214] [84,215] [85,216]
+E: [0,217] [1,218] [2,219] [3,220] [4,221] [5,222] [6,223] [7,224] [8,225] [9,226]
+[10,227] [11,228] [12,229] [13,230]
+time 0ms: Process H arrived (requires 58 frames)
+time 0ms: Cannot place process H -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+PAGE TABLE [page,frame]:
+A: [0,0] [1,1] [2,2] [3,3] [4,4] [5,5] [6,6] [7,7] [8,8] [9,9]
+[10,10] [11,11] [12,12] [13,13] [14,14] [15,15] [16,16] [17,17] [18,18] [19,19]
+[20,20] [21,21] [22,22] [23,23] [24,24] [25,25] [26,26] [27,27] [28,28] [29,29]
+[30,30] [31,31] [32,32] [33,33] [34,34] [35,35] [36,36] [37,37] [38,38] [39,39]
+[40,40] [41,41] [42,42] [43,43] [44,44]
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+C: [0,73] [1,74] [2,75] [3,76] [4,77] [5,78] [6,79] [7,80] [8,81] [9,82]
+[10,83] [11,84] [12,85] [13,86] [14,87] [15,88] [16,89] [17,90] [18,91] [19,92]
+[20,93] [21,94] [22,95] [23,96] [24,97] [25,98] [26,99] [27,100] [28,101] [29,102]
+[30,103] [31,104] [32,105] [33,106] [34,107] [35,108] [36,109] [37,110] [38,111] [39,112]
+[40,113] [41,114] [42,115] [43,116] [44,117] [45,118] [46,119] [47,120] [48,121] [49,122]
+[50,123] [51,124] [52,125] [53,126] [54,127] [55,128] [56,129] [57,130]
+D: [0,131] [1,132] [2,133] [3,134] [4,135] [5,136] [6,137] [7,138] [8,139] [9,140]
+[10,141] [11,142] [12,143] [13,144] [14,145] [15,146] [16,147] [17,148] [18,149] [19,150]
+[20,151] [21,152] [22,153] [23,154] [24,155] [25,156] [26,157] [27,158] [28,159] [29,160]
+[30,161] [31,162] [32,163] [33,164] [34,165] [35,166] [36,167] [37,168] [38,169] [39,170]
+[40,171] [41,172] [42,173] [43,174] [44,175] [45,176] [46,177] [47,178] [48,179] [49,180]
+[50,181] [51,182] [52,183] [53,184] [54,185] [55,186] [56,187] [57,188] [58,189] [59,190]
+[60,191] [61,192] [62,193] [63,194] [64,195] [65,196] [66,197] [67,198] [68,199] [69,200]
+[70,201] [71,202] [72,203] [73,204] [74,205] [75,206] [76,207] [77,208] [78,209] [79,210]
+[80,211] [81,212] [82,213] [83,214] [84,215] [85,216]
+E: [0,217] [1,218] [2,219] [3,220] [4,221] [5,222] [6,223] [7,224] [8,225] [9,226]
+[10,227] [11,228] [12,229] [13,230]
+time 0ms: Process I arrived (requires 86 frames)
+time 0ms: Cannot place process I -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+PAGE TABLE [page,frame]:
+A: [0,0] [1,1] [2,2] [3,3] [4,4] [5,5] [6,6] [7,7] [8,8] [9,9]
+[10,10] [11,11] [12,12] [13,13] [14,14] [15,15] [16,16] [17,17] [18,18] [19,19]
+[20,20] [21,21] [22,22] [23,23] [24,24] [25,25] [26,26] [27,27] [28,28] [29,29]
+[30,30] [31,31] [32,32] [33,33] [34,34] [35,35] [36,36] [37,37] [38,38] [39,39]
+[40,40] [41,41] [42,42] [43,43] [44,44]
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+C: [0,73] [1,74] [2,75] [3,76] [4,77] [5,78] [6,79] [7,80] [8,81] [9,82]
+[10,83] [11,84] [12,85] [13,86] [14,87] [15,88] [16,89] [17,90] [18,91] [19,92]
+[20,93] [21,94] [22,95] [23,96] [24,97] [25,98] [26,99] [27,100] [28,101] [29,102]
+[30,103] [31,104] [32,105] [33,106] [34,107] [35,108] [36,109] [37,110] [38,111] [39,112]
+[40,113] [41,114] [42,115] [43,116] [44,117] [45,118] [46,119] [47,120] [48,121] [49,122]
+[50,123] [51,124] [52,125] [53,126] [54,127] [55,128] [56,129] [57,130]
+D: [0,131] [1,132] [2,133] [3,134] [4,135] [5,136] [6,137] [7,138] [8,139] [9,140]
+[10,141] [11,142] [12,143] [13,144] [14,145] [15,146] [16,147] [17,148] [18,149] [19,150]
+[20,151] [21,152] [22,153] [23,154] [24,155] [25,156] [26,157] [27,158] [28,159] [29,160]
+[30,161] [31,162] [32,163] [33,164] [34,165] [35,166] [36,167] [37,168] [38,169] [39,170]
+[40,171] [41,172] [42,173] [43,174] [44,175] [45,176] [46,177] [47,178] [48,179] [49,180]
+[50,181] [51,182] [52,183] [53,184] [54,185] [55,186] [56,187] [57,188] [58,189] [59,190]
+[60,191] [61,192] [62,193] [63,194] [64,195] [65,196] [66,197] [67,198] [68,199] [69,200]
+[70,201] [71,202] [72,203] [73,204] [74,205] [75,206] [76,207] [77,208] [78,209] [79,210]
+[80,211] [81,212] [82,213] [83,214] [84,215] [85,216]
+E: [0,217] [1,218] [2,219] [3,220] [4,221] [5,222] [6,223] [7,224] [8,225] [9,226]
+[10,227] [11,228] [12,229] [13,230]
+time 0ms: Process J arrived (requires 45 frames)
+time 0ms: Cannot place process J -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+PAGE TABLE [page,frame]:
+A: [0,0] [1,1] [2,2] [3,3] [4,4] [5,5] [6,6] [7,7] [8,8] [9,9]
+[10,10] [11,11] [12,12] [13,13] [14,14] [15,15] [16,16] [17,17] [18,18] [19,19]
+[20,20] [21,21] [22,22] [23,23] [24,24] [25,25] [26,26] [27,27] [28,28] [29,29]
+[30,30] [31,31] [32,32] [33,33] [34,34] [35,35] [36,36] [37,37] [38,38] [39,39]
+[40,40] [41,41] [42,42] [43,43] [44,44]
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+C: [0,73] [1,74] [2,75] [3,76] [4,77] [5,78] [6,79] [7,80] [8,81] [9,82]
+[10,83] [11,84] [12,85] [13,86] [14,87] [15,88] [16,89] [17,90] [18,91] [19,92]
+[20,93] [21,94] [22,95] [23,96] [24,97] [25,98] [26,99] [27,100] [28,101] [29,102]
+[30,103] [31,104] [32,105] [33,106] [34,107] [35,108] [36,109] [37,110] [38,111] [39,112]
+[40,113] [41,114] [42,115] [43,116] [44,117] [45,118] [46,119] [47,120] [48,121] [49,122]
+[50,123] [51,124] [52,125] [53,126] [54,127] [55,128] [56,129] [57,130]
+D: [0,131] [1,132] [2,133] [3,134] [4,135] [5,136] [6,137] [7,138] [8,139] [9,140]
+[10,141] [11,142] [12,143] [13,144] [14,145] [15,146] [16,147] [17,148] [18,149] [19,150]
+[20,151] [21,152] [22,153] [23,154] [24,155] [25,156] [26,157] [27,158] [28,159] [29,160]
+[30,161] [31,162] [32,163] [33,164] [34,165] [35,166] [36,167] [37,168] [38,169] [39,170]
+[40,171] [41,172] [42,173] [43,174] [44,175] [45,176] [46,177] [47,178] [48,179] [49,180]
+[50,181] [51,182] [52,183] [53,184] [54,185] [55,186] [56,187] [57,188] [58,189] [59,190]
+[60,191] [61,192] [62,193] [63,194] [64,195] [65,196] [66,197] [67,198] [68,199] [69,200]
+[70,201] [71,202] [72,203] [73,204] [74,205] [75,206] [76,207] [77,208] [78,209] [79,210]
+[80,211] [81,212] [82,213] [83,214] [84,215] [85,216]
+E: [0,217] [1,218] [2,219] [3,220] [4,221] [5,222] [6,223] [7,224] [8,225] [9,226]
+[10,227] [11,228] [12,229] [13,230]
+time 0ms: Process K arrived (requires 28 frames)
+time 0ms: Cannot place process K -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+PAGE TABLE [page,frame]:
+A: [0,0] [1,1] [2,2] [3,3] [4,4] [5,5] [6,6] [7,7] [8,8] [9,9]
+[10,10] [11,11] [12,12] [13,13] [14,14] [15,15] [16,16] [17,17] [18,18] [19,19]
+[20,20] [21,21] [22,22] [23,23] [24,24] [25,25] [26,26] [27,27] [28,28] [29,29]
+[30,30] [31,31] [32,32] [33,33] [34,34] [35,35] [36,36] [37,37] [38,38] [39,39]
+[40,40] [41,41] [42,42] [43,43] [44,44]
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+C: [0,73] [1,74] [2,75] [3,76] [4,77] [5,78] [6,79] [7,80] [8,81] [9,82]
+[10,83] [11,84] [12,85] [13,86] [14,87] [15,88] [16,89] [17,90] [18,91] [19,92]
+[20,93] [21,94] [22,95] [23,96] [24,97] [25,98] [26,99] [27,100] [28,101] [29,102]
+[30,103] [31,104] [32,105] [33,106] [34,107] [35,108] [36,109] [37,110] [38,111] [39,112]
+[40,113] [41,114] [42,115] [43,116] [44,117] [45,118] [46,119] [47,120] [48,121] [49,122]
+[50,123] [51,124] [52,125] [53,126] [54,127] [55,128] [56,129] [57,130]
+D: [0,131] [1,132] [2,133] [3,134] [4,135] [5,136] [6,137] [7,138] [8,139] [9,140]
+[10,141] [11,142] [12,143] [13,144] [14,145] [15,146] [16,147] [17,148] [18,149] [19,150]
+[20,151] [21,152] [22,153] [23,154] [24,155] [25,156] [26,157] [27,158] [28,159] [29,160]
+[30,161] [31,162] [32,163] [33,164] [34,165] [35,166] [36,167] [37,168] [38,169] [39,170]
+[40,171] [41,172] [42,173] [43,174] [44,175] [45,176] [46,177] [47,178] [48,179] [49,180]
+[50,181] [51,182] [52,183] [53,184] [54,185] [55,186] [56,187] [57,188] [58,189] [59,190]
+[60,191] [61,192] [62,193] [63,194] [64,195] [65,196] [66,197] [67,198] [68,199] [69,200]
+[70,201] [71,202] [72,203] [73,204] [74,205] [75,206] [76,207] [77,208] [78,209] [79,210]
+[80,211] [81,212] [82,213] [83,214] [84,215] [85,216]
+E: [0,217] [1,218] [2,219] [3,220] [4,221] [5,222] [6,223] [7,224] [8,225] [9,226]
+[10,227] [11,228] [12,229] [13,230]
+time 0ms: Process L arrived (requires 58 frames)
+time 0ms: Cannot place process L -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+PAGE TABLE [page,frame]:
+A: [0,0] [1,1] [2,2] [3,3] [4,4] [5,5] [6,6] [7,7] [8,8] [9,9]
+[10,10] [11,11] [12,12] [13,13] [14,14] [15,15] [16,16] [17,17] [18,18] [19,19]
+[20,20] [21,21] [22,22] [23,23] [24,24] [25,25] [26,26] [27,27] [28,28] [29,29]
+[30,30] [31,31] [32,32] [33,33] [34,34] [35,35] [36,36] [37,37] [38,38] [39,39]
+[40,40] [41,41] [42,42] [43,43] [44,44]
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+C: [0,73] [1,74] [2,75] [3,76] [4,77] [5,78] [6,79] [7,80] [8,81] [9,82]
+[10,83] [11,84] [12,85] [13,86] [14,87] [15,88] [16,89] [17,90] [18,91] [19,92]
+[20,93] [21,94] [22,95] [23,96] [24,97] [25,98] [26,99] [27,100] [28,101] [29,102]
+[30,103] [31,104] [32,105] [33,106] [34,107] [35,108] [36,109] [37,110] [38,111] [39,112]
+[40,113] [41,114] [42,115] [43,116] [44,117] [45,118] [46,119] [47,120] [48,121] [49,122]
+[50,123] [51,124] [52,125] [53,126] [54,127] [55,128] [56,129] [57,130]
+D: [0,131] [1,132] [2,133] [3,134] [4,135] [5,136] [6,137] [7,138] [8,139] [9,140]
+[10,141] [11,142] [12,143] [13,144] [14,145] [15,146] [16,147] [17,148] [18,149] [19,150]
+[20,151] [21,152] [22,153] [23,154] [24,155] [25,156] [26,157] [27,158] [28,159] [29,160]
+[30,161] [31,162] [32,163] [33,164] [34,165] [35,166] [36,167] [37,168] [38,169] [39,170]
+[40,171] [41,172] [42,173] [43,174] [44,175] [45,176] [46,177] [47,178] [48,179] [49,180]
+[50,181] [51,182] [52,183] [53,184] [54,185] [55,186] [56,187] [57,188] [58,189] [59,190]
+[60,191] [61,192] [62,193] [63,194] [64,195] [65,196] [66,197] [67,198] [68,199] [69,200]
+[70,201] [71,202] [72,203] [73,204] [74,205] [75,206] [76,207] [77,208] [78,209] [79,210]
+[80,211] [81,212] [82,213] [83,214] [84,215] [85,216]
+E: [0,217] [1,218] [2,219] [3,220] [4,221] [5,222] [6,223] [7,224] [8,225] [9,226]
+[10,227] [11,228] [12,229] [13,230]
+time 0ms: Process M arrived (requires 86 frames)
+time 0ms: Cannot place process M -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+PAGE TABLE [page,frame]:
+A: [0,0] [1,1] [2,2] [3,3] [4,4] [5,5] [6,6] [7,7] [8,8] [9,9]
+[10,10] [11,11] [12,12] [13,13] [14,14] [15,15] [16,16] [17,17] [18,18] [19,19]
+[20,20] [21,21] [22,22] [23,23] [24,24] [25,25] [26,26] [27,27] [28,28] [29,29]
+[30,30] [31,31] [32,32] [33,33] [34,34] [35,35] [36,36] [37,37] [38,38] [39,39]
+[40,40] [41,41] [42,42] [43,43] [44,44]
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+C: [0,73] [1,74] [2,75] [3,76] [4,77] [5,78] [6,79] [7,80] [8,81] [9,82]
+[10,83] [11,84] [12,85] [13,86] [14,87] [15,88] [16,89] [17,90] [18,91] [19,92]
+[20,93] [21,94] [22,95] [23,96] [24,97] [25,98] [26,99] [27,100] [28,101] [29,102]
+[30,103] [31,104] [32,105] [33,106] [34,107] [35,108] [36,109] [37,110] [38,111] [39,112]
+[40,113] [41,114] [42,115] [43,116] [44,117] [45,118] [46,119] [47,120] [48,121] [49,122]
+[50,123] [51,124] [52,125] [53,126] [54,127] [55,128] [56,129] [57,130]
+D: [0,131] [1,132] [2,133] [3,134] [4,135] [5,136] [6,137] [7,138] [8,139] [9,140]
+[10,141] [11,142] [12,143] [13,144] [14,145] [15,146] [16,147] [17,148] [18,149] [19,150]
+[20,151] [21,152] [22,153] [23,154] [24,155] [25,156] [26,157] [27,158] [28,159] [29,160]
+[30,161] [31,162] [32,163] [33,164] [34,165] [35,166] [36,167] [37,168] [38,169] [39,170]
+[40,171] [41,172] [42,173] [43,174] [44,175] [45,176] [46,177] [47,178] [48,179] [49,180]
+[50,181] [51,182] [52,183] [53,184] [54,185] [55,186] [56,187] [57,188] [58,189] [59,190]
+[60,191] [61,192] [62,193] [63,194] [64,195] [65,196] [66,197] [67,198] [68,199] [69,200]
+[70,201] [71,202] [72,203] [73,204] [74,205] [75,206] [76,207] [77,208] [78,209] [79,210]
+[80,211] [81,212] [82,213] [83,214] [84,215] [85,216]
+E: [0,217] [1,218] [2,219] [3,220] [4,221] [5,222] [6,223] [7,224] [8,225] [9,226]
+[10,227] [11,228] [12,229] [13,230]
+time 0ms: Process N arrived (requires 45 frames)
+time 0ms: Cannot place process N -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+PAGE TABLE [page,frame]:
+A: [0,0] [1,1] [2,2] [3,3] [4,4] [5,5] [6,6] [7,7] [8,8] [9,9]
+[10,10] [11,11] [12,12] [13,13] [14,14] [15,15] [16,16] [17,17] [18,18] [19,19]
+[20,20] [21,21] [22,22] [23,23] [24,24] [25,25] [26,26] [27,27] [28,28] [29,29]
+[30,30] [31,31] [32,32] [33,33] [34,34] [35,35] [36,36] [37,37] [38,38] [39,39]
+[40,40] [41,41] [42,42] [43,43] [44,44]
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+C: [0,73] [1,74] [2,75] [3,76] [4,77] [5,78] [6,79] [7,80] [8,81] [9,82]
+[10,83] [11,84] [12,85] [13,86] [14,87] [15,88] [16,89] [17,90] [18,91] [19,92]
+[20,93] [21,94] [22,95] [23,96] [24,97] [25,98] [26,99] [27,100] [28,101] [29,102]
+[30,103] [31,104] [32,105] [33,106] [34,107] [35,108] [36,109] [37,110] [38,111] [39,112]
+[40,113] [41,114] [42,115] [43,116] [44,117] [45,118] [46,119] [47,120] [48,121] [49,122]
+[50,123] [51,124] [52,125] [53,126] [54,127] [55,128] [56,129] [57,130]
+D: [0,131] [1,132] [2,133] [3,134] [4,135] [5,136] [6,137] [7,138] [8,139] [9,140]
+[10,141] [11,142] [12,143] [13,144] [14,145] [15,146] [16,147] [17,148] [18,149] [19,150]
+[20,151] [21,152] [22,153] [23,154] [24,155] [25,156] [26,157] [27,158] [28,159] [29,160]
+[30,161] [31,162] [32,163] [33,164] [34,165] [35,166] [36,167] [37,168] [38,169] [39,170]
+[40,171] [41,172] [42,173] [43,174] [44,175] [45,176] [46,177] [47,178] [48,179] [49,180]
+[50,181] [51,182] [52,183] [53,184] [54,185] [55,186] [56,187] [57,188] [58,189] [59,190]
+[60,191] [61,192] [62,193] [63,194] [64,195] [65,196] [66,197] [67,198] [68,199] [69,200]
+[70,201] [71,202] [72,203] [73,204] [74,205] [75,206] [76,207] [77,208] [78,209] [79,210]
+[80,211] [81,212] [82,213] [83,214] [84,215] [85,216]
+E: [0,217] [1,218] [2,219] [3,220] [4,221] [5,222] [6,223] [7,224] [8,225] [9,226]
+[10,227] [11,228] [12,229] [13,230]
+time 0ms: Process O arrived (requires 28 frames)
+time 0ms: Cannot place process O -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+PAGE TABLE [page,frame]:
+A: [0,0] [1,1] [2,2] [3,3] [4,4] [5,5] [6,6] [7,7] [8,8] [9,9]
+[10,10] [11,11] [12,12] [13,13] [14,14] [15,15] [16,16] [17,17] [18,18] [19,19]
+[20,20] [21,21] [22,22] [23,23] [24,24] [25,25] [26,26] [27,27] [28,28] [29,29]
+[30,30] [31,31] [32,32] [33,33] [34,34] [35,35] [36,36] [37,37] [38,38] [39,39]
+[40,40] [41,41] [42,42] [43,43] [44,44]
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+C: [0,73] [1,74] [2,75] [3,76] [4,77] [5,78] [6,79] [7,80] [8,81] [9,82]
+[10,83] [11,84] [12,85] [13,86] [14,87] [15,88] [16,89] [17,90] [18,91] [19,92]
+[20,93] [21,94] [22,95] [23,96] [24,97] [25,98] [26,99] [27,100] [28,101] [29,102]
+[30,103] [31,104] [32,105] [33,106] [34,107] [35,108] [36,109] [37,110] [38,111] [39,112]
+[40,113] [41,114] [42,115] [43,116] [44,117] [45,118] [46,119] [47,120] [48,121] [49,122]
+[50,123] [51,124] [52,125] [53,126] [54,127] [55,128] [56,129] [57,130]
+D: [0,131] [1,132] [2,133] [3,134] [4,135] [5,136] [6,137] [7,138] [8,139] [9,140]
+[10,141] [11,142] [12,143] [13,144] [14,145] [15,146] [16,147] [17,148] [18,149] [19,150]
+[20,151] [21,152] [22,153] [23,154] [24,155] [25,156] [26,157] [27,158] [28,159] [29,160]
+[30,161] [31,162] [32,163] [33,164] [34,165] [35,166] [36,167] [37,168] [38,169] [39,170]
+[40,171] [41,172] [42,173] [43,174] [44,175] [45,176] [46,177] [47,178] [48,179] [49,180]
+[50,181] [51,182] [52,183] [53,184] [54,185] [55,186] [56,187] [57,188] [58,189] [59,190]
+[60,191] [61,192] [62,193] [63,194] [64,195] [65,196] [66,197] [67,198] [68,199] [69,200]
+[70,201] [71,202] [72,203] [73,204] [74,205] [75,206] [76,207] [77,208] [78,209] [79,210]
+[80,211] [81,212] [82,213] [83,214] [84,215] [85,216]
+E: [0,217] [1,218] [2,219] [3,220] [4,221] [5,222] [6,223] [7,224] [8,225] [9,226]
+[10,227] [11,228] [12,229] [13,230]
+time 0ms: Process P arrived (requires 58 frames)
+time 0ms: Cannot place process P -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+PAGE TABLE [page,frame]:
+A: [0,0] [1,1] [2,2] [3,3] [4,4] [5,5] [6,6] [7,7] [8,8] [9,9]
+[10,10] [11,11] [12,12] [13,13] [14,14] [15,15] [16,16] [17,17] [18,18] [19,19]
+[20,20] [21,21] [22,22] [23,23] [24,24] [25,25] [26,26] [27,27] [28,28] [29,29]
+[30,30] [31,31] [32,32] [33,33] [34,34] [35,35] [36,36] [37,37] [38,38] [39,39]
+[40,40] [41,41] [42,42] [43,43] [44,44]
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+C: [0,73] [1,74] [2,75] [3,76] [4,77] [5,78] [6,79] [7,80] [8,81] [9,82]
+[10,83] [11,84] [12,85] [13,86] [14,87] [15,88] [16,89] [17,90] [18,91] [19,92]
+[20,93] [21,94] [22,95] [23,96] [24,97] [25,98] [26,99] [27,100] [28,101] [29,102]
+[30,103] [31,104] [32,105] [33,106] [34,107] [35,108] [36,109] [37,110] [38,111] [39,112]
+[40,113] [41,114] [42,115] [43,116] [44,117] [45,118] [46,119] [47,120] [48,121] [49,122]
+[50,123] [51,124] [52,125] [53,126] [54,127] [55,128] [56,129] [57,130]
+D: [0,131] [1,132] [2,133] [3,134] [4,135] [5,136] [6,137] [7,138] [8,139] [9,140]
+[10,141] [11,142] [12,143] [13,144] [14,145] [15,146] [16,147] [17,148] [18,149] [19,150]
+[20,151] [21,152] [22,153] [23,154] [24,155] [25,156] [26,157] [27,158] [28,159] [29,160]
+[30,161] [31,162] [32,163] [33,164] [34,165] [35,166] [36,167] [37,168] [38,169] [39,170]
+[40,171] [41,172] [42,173] [43,174] [44,175] [45,176] [46,177] [47,178] [48,179] [49,180]
+[50,181] [51,182] [52,183] [53,184] [54,185] [55,186] [56,187] [57,188] [58,189] [59,190]
+[60,191] [61,192] [62,193] [63,194] [64,195] [65,196] [66,197] [67,198] [68,199] [69,200]
+[70,201] [71,202] [72,203] [73,204] [74,205] [75,206] [76,207] [77,208] [78,209] [79,210]
+[80,211] [81,212] [82,213] [83,214] [84,215] [85,216]
+E: [0,217] [1,218] [2,219] [3,220] [4,221] [5,222] [6,223] [7,224] [8,225] [9,226]
+[10,227] [11,228] [12,229] [13,230]
+time 0ms: Process Q arrived (requires 86 frames)
+time 0ms: Cannot place process Q -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+PAGE TABLE [page,frame]:
+A: [0,0] [1,1] [2,2] [3,3] [4,4] [5,5] [6,6] [7,7] [8,8] [9,9]
+[10,10] [11,11] [12,12] [13,13] [14,14] [15,15] [16,16] [17,17] [18,18] [19,19]
+[20,20] [21,21] [22,22] [23,23] [24,24] [25,25] [26,26] [27,27] [28,28] [29,29]
+[30,30] [31,31] [32,32] [33,33] [34,34] [35,35] [36,36] [37,37] [38,38] [39,39]
+[40,40] [41,41] [42,42] [43,43] [44,44]
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+C: [0,73] [1,74] [2,75] [3,76] [4,77] [5,78] [6,79] [7,80] [8,81] [9,82]
+[10,83] [11,84] [12,85] [13,86] [14,87] [15,88] [16,89] [17,90] [18,91] [19,92]
+[20,93] [21,94] [22,95] [23,96] [24,97] [25,98] [26,99] [27,100] [28,101] [29,102]
+[30,103] [31,104] [32,105] [33,106] [34,107] [35,108] [36,109] [37,110] [38,111] [39,112]
+[40,113] [41,114] [42,115] [43,116] [44,117] [45,118] [46,119] [47,120] [48,121] [49,122]
+[50,123] [51,124] [52,125] [53,126] [54,127] [55,128] [56,129] [57,130]
+D: [0,131] [1,132] [2,133] [3,134] [4,135] [5,136] [6,137] [7,138] [8,139] [9,140]
+[10,141] [11,142] [12,143] [13,144] [14,145] [15,146] [16,147] [17,148] [18,149] [19,150]
+[20,151] [21,152] [22,153] [23,154] [24,155] [25,156] [26,157] [27,158] [28,159] [29,160]
+[30,161] [31,162] [32,163] [33,164] [34,165] [35,166] [36,167] [37,168] [38,169] [39,170]
+[40,171] [41,172] [42,173] [43,174] [44,175] [45,176] [46,177] [47,178] [48,179] [49,180]
+[50,181] [51,182] [52,183] [53,184] [54,185] [55,186] [56,187] [57,188] [58,189] [59,190]
+[60,191] [61,192] [62,193] [63,194] [64,195] [65,196] [66,197] [67,198] [68,199] [69,200]
+[70,201] [71,202] [72,203] [73,204] [74,205] [75,206] [76,207] [77,208] [78,209] [79,210]
+[80,211] [81,212] [82,213] [83,214] [84,215] [85,216]
+E: [0,217] [1,218] [2,219] [3,220] [4,221] [5,222] [6,223] [7,224] [8,225] [9,226]
+[10,227] [11,228] [12,229] [13,230]
+time 0ms: Process R arrived (requires 45 frames)
+time 0ms: Cannot place process R -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+PAGE TABLE [page,frame]:
+A: [0,0] [1,1] [2,2] [3,3] [4,4] [5,5] [6,6] [7,7] [8,8] [9,9]
+[10,10] [11,11] [12,12] [13,13] [14,14] [15,15] [16,16] [17,17] [18,18] [19,19]
+[20,20] [21,21] [22,22] [23,23] [24,24] [25,25] [26,26] [27,27] [28,28] [29,29]
+[30,30] [31,31] [32,32] [33,33] [34,34] [35,35] [36,36] [37,37] [38,38] [39,39]
+[40,40] [41,41] [42,42] [43,43] [44,44]
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+C: [0,73] [1,74] [2,75] [3,76] [4,77] [5,78] [6,79] [7,80] [8,81] [9,82]
+[10,83] [11,84] [12,85] [13,86] [14,87] [15,88] [16,89] [17,90] [18,91] [19,92]
+[20,93] [21,94] [22,95] [23,96] [24,97] [25,98] [26,99] [27,100] [28,101] [29,102]
+[30,103] [31,104] [32,105] [33,106] [34,107] [35,108] [36,109] [37,110] [38,111] [39,112]
+[40,113] [41,114] [42,115] [43,116] [44,117] [45,118] [46,119] [47,120] [48,121] [49,122]
+[50,123] [51,124] [52,125] [53,126] [54,127] [55,128] [56,129] [57,130]
+D: [0,131] [1,132] [2,133] [3,134] [4,135] [5,136] [6,137] [7,138] [8,139] [9,140]
+[10,141] [11,142] [12,143] [13,144] [14,145] [15,146] [16,147] [17,148] [18,149] [19,150]
+[20,151] [21,152] [22,153] [23,154] [24,155] [25,156] [26,157] [27,158] [28,159] [29,160]
+[30,161] [31,162] [32,163] [33,164] [34,165] [35,166] [36,167] [37,168] [38,169] [39,170]
+[40,171] [41,172] [42,173] [43,174] [44,175] [45,176] [46,177] [47,178] [48,179] [49,180]
+[50,181] [51,182] [52,183] [53,184] [54,185] [55,186] [56,187] [57,188] [58,189] [59,190]
+[60,191] [61,192] [62,193] [63,194] [64,195] [65,196] [66,197] [67,198] [68,199] [69,200]
+[70,201] [71,202] [72,203] [73,204] [74,205] [75,206] [76,207] [77,208] [78,209] [79,210]
+[80,211] [81,212] [82,213] [83,214] [84,215] [85,216]
+E: [0,217] [1,218] [2,219] [3,220] [4,221] [5,222] [6,223] [7,224] [8,225] [9,226]
+[10,227] [11,228] [12,229] [13,230]
+time 0ms: Process S arrived (requires 28 frames)
+time 0ms: Cannot place process S -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+PAGE TABLE [page,frame]:
+A: [0,0] [1,1] [2,2] [3,3] [4,4] [5,5] [6,6] [7,7] [8,8] [9,9]
+[10,10] [11,11] [12,12] [13,13] [14,14] [15,15] [16,16] [17,17] [18,18] [19,19]
+[20,20] [21,21] [22,22] [23,23] [24,24] [25,25] [26,26] [27,27] [28,28] [29,29]
+[30,30] [31,31] [32,32] [33,33] [34,34] [35,35] [36,36] [37,37] [38,38] [39,39]
+[40,40] [41,41] [42,42] [43,43] [44,44]
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+C: [0,73] [1,74] [2,75] [3,76] [4,77] [5,78] [6,79] [7,80] [8,81] [9,82]
+[10,83] [11,84] [12,85] [13,86] [14,87] [15,88] [16,89] [17,90] [18,91] [19,92]
+[20,93] [21,94] [22,95] [23,96] [24,97] [25,98] [26,99] [27,100] [28,101] [29,102]
+[30,103] [31,104] [32,105] [33,106] [34,107] [35,108] [36,109] [37,110] [38,111] [39,112]
+[40,113] [41,114] [42,115] [43,116] [44,117] [45,118] [46,119] [47,120] [48,121] [49,122]
+[50,123] [51,124] [52,125] [53,126] [54,127] [55,128] [56,129] [57,130]
+D: [0,131] [1,132] [2,133] [3,134] [4,135] [5,136] [6,137] [7,138] [8,139] [9,140]
+[10,141] [11,142] [12,143] [13,144] [14,145] [15,146] [16,147] [17,148] [18,149] [19,150]
+[20,151] [21,152] [22,153] [23,154] [24,155] [25,156] [26,157] [27,158] [28,159] [29,160]
+[30,161] [31,162] [32,163] [33,164] [34,165] [35,166] [36,167] [37,168] [38,169] [39,170]
+[40,171] [41,172] [42,173] [43,174] [44,175] [45,176] [46,177] [47,178] [48,179] [49,180]
+[50,181] [51,182] [52,183] [53,184] [54,185] [55,186] [56,187] [57,188] [58,189] [59,190]
+[60,191] [61,192] [62,193] [63,194] [64,195] [65,196] [66,197] [67,198] [68,199] [69,200]
+[70,201] [71,202] [72,203] [73,204] [74,205] [75,206] [76,207] [77,208] [78,209] [79,210]
+[80,211] [81,212] [82,213] [83,214] [84,215] [85,216]
+E: [0,217] [1,218] [2,219] [3,220] [4,221] [5,222] [6,223] [7,224] [8,225] [9,226]
+[10,227] [11,228] [12,229] [13,230]
+time 0ms: Process T arrived (requires 58 frames)
+time 0ms: Cannot place process T -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+PAGE TABLE [page,frame]:
+A: [0,0] [1,1] [2,2] [3,3] [4,4] [5,5] [6,6] [7,7] [8,8] [9,9]
+[10,10] [11,11] [12,12] [13,13] [14,14] [15,15] [16,16] [17,17] [18,18] [19,19]
+[20,20] [21,21] [22,22] [23,23] [24,24] [25,25] [26,26] [27,27] [28,28] [29,29]
+[30,30] [31,31] [32,32] [33,33] [34,34] [35,35] [36,36] [37,37] [38,38] [39,39]
+[40,40] [41,41] [42,42] [43,43] [44,44]
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+C: [0,73] [1,74] [2,75] [3,76] [4,77] [5,78] [6,79] [7,80] [8,81] [9,82]
+[10,83] [11,84] [12,85] [13,86] [14,87] [15,88] [16,89] [17,90] [18,91] [19,92]
+[20,93] [21,94] [22,95] [23,96] [24,97] [25,98] [26,99] [27,100] [28,101] [29,102]
+[30,103] [31,104] [32,105] [33,106] [34,107] [35,108] [36,109] [37,110] [38,111] [39,112]
+[40,113] [41,114] [42,115] [43,116] [44,117] [45,118] [46,119] [47,120] [48,121] [49,122]
+[50,123] [51,124] [52,125] [53,126] [54,127] [55,128] [56,129] [57,130]
+D: [0,131] [1,132] [2,133] [3,134] [4,135] [5,136] [6,137] [7,138] [8,139] [9,140]
+[10,141] [11,142] [12,143] [13,144] [14,145] [15,146] [16,147] [17,148] [18,149] [19,150]
+[20,151] [21,152] [22,153] [23,154] [24,155] [25,156] [26,157] [27,158] [28,159] [29,160]
+[30,161] [31,162] [32,163] [33,164] [34,165] [35,166] [36,167] [37,168] [38,169] [39,170]
+[40,171] [41,172] [42,173] [43,174] [44,175] [45,176] [46,177] [47,178] [48,179] [49,180]
+[50,181] [51,182] [52,183] [53,184] [54,185] [55,186] [56,187] [57,188] [58,189] [59,190]
+[60,191] [61,192] [62,193] [63,194] [64,195] [65,196] [66,197] [67,198] [68,199] [69,200]
+[70,201] [71,202] [72,203] [73,204] [74,205] [75,206] [76,207] [77,208] [78,209] [79,210]
+[80,211] [81,212] [82,213] [83,214] [84,215] [85,216]
+E: [0,217] [1,218] [2,219] [3,220] [4,221] [5,222] [6,223] [7,224] [8,225] [9,226]
+[10,227] [11,228] [12,229] [13,230]
+time 0ms: Process U arrived (requires 86 frames)
+time 0ms: Cannot place process U -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+PAGE TABLE [page,frame]:
+A: [0,0] [1,1] [2,2] [3,3] [4,4] [5,5] [6,6] [7,7] [8,8] [9,9]
+[10,10] [11,11] [12,12] [13,13] [14,14] [15,15] [16,16] [17,17] [18,18] [19,19]
+[20,20] [21,21] [22,22] [23,23] [24,24] [25,25] [26,26] [27,27] [28,28] [29,29]
+[30,30] [31,31] [32,32] [33,33] [34,34] [35,35] [36,36] [37,37] [38,38] [39,39]
+[40,40] [41,41] [42,42] [43,43] [44,44]
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+C: [0,73] [1,74] [2,75] [3,76] [4,77] [5,78] [6,79] [7,80] [8,81] [9,82]
+[10,83] [11,84] [12,85] [13,86] [14,87] [15,88] [16,89] [17,90] [18,91] [19,92]
+[20,93] [21,94] [22,95] [23,96] [24,97] [25,98] [26,99] [27,100] [28,101] [29,102]
+[30,103] [31,104] [32,105] [33,106] [34,107] [35,108] [36,109] [37,110] [38,111] [39,112]
+[40,113] [41,114] [42,115] [43,116] [44,117] [45,118] [46,119] [47,120] [48,121] [49,122]
+[50,123] [51,124] [52,125] [53,126] [54,127] [55,128] [56,129] [57,130]
+D: [0,131] [1,132] [2,133] [3,134] [4,135] [5,136] [6,137] [7,138] [8,139] [9,140]
+[10,141] [11,142] [12,143] [13,144] [14,145] [15,146] [16,147] [17,148] [18,149] [19,150]
+[20,151] [21,152] [22,153] [23,154] [24,155] [25,156] [26,157] [27,158] [28,159] [29,160]
+[30,161] [31,162] [32,163] [33,164] [34,165] [35,166] [36,167] [37,168] [38,169] [39,170]
+[40,171] [41,172] [42,173] [43,174] [44,175] [45,176] [46,177] [47,178] [48,179] [49,180]
+[50,181] [51,182] [52,183] [53,184] [54,185] [55,186] [56,187] [57,188] [58,189] [59,190]
+[60,191] [61,192] [62,193] [63,194] [64,195] [65,196] [66,197] [67,198] [68,199] [69,200]
+[70,201] [71,202] [72,203] [73,204] [74,205] [75,206] [76,207] [77,208] [78,209] [79,210]
+[80,211] [81,212] [82,213] [83,214] [84,215] [85,216]
+E: [0,217] [1,218] [2,219] [3,220] [4,221] [5,222] [6,223] [7,224] [8,225] [9,226]
+[10,227] [11,228] [12,229] [13,230]
+time 0ms: Process V arrived (requires 86 frames)
+time 0ms: Cannot place process V -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+PAGE TABLE [page,frame]:
+A: [0,0] [1,1] [2,2] [3,3] [4,4] [5,5] [6,6] [7,7] [8,8] [9,9]
+[10,10] [11,11] [12,12] [13,13] [14,14] [15,15] [16,16] [17,17] [18,18] [19,19]
+[20,20] [21,21] [22,22] [23,23] [24,24] [25,25] [26,26] [27,27] [28,28] [29,29]
+[30,30] [31,31] [32,32] [33,33] [34,34] [35,35] [36,36] [37,37] [38,38] [39,39]
+[40,40] [41,41] [42,42] [43,43] [44,44]
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+C: [0,73] [1,74] [2,75] [3,76] [4,77] [5,78] [6,79] [7,80] [8,81] [9,82]
+[10,83] [11,84] [12,85] [13,86] [14,87] [15,88] [16,89] [17,90] [18,91] [19,92]
+[20,93] [21,94] [22,95] [23,96] [24,97] [25,98] [26,99] [27,100] [28,101] [29,102]
+[30,103] [31,104] [32,105] [33,106] [34,107] [35,108] [36,109] [37,110] [38,111] [39,112]
+[40,113] [41,114] [42,115] [43,116] [44,117] [45,118] [46,119] [47,120] [48,121] [49,122]
+[50,123] [51,124] [52,125] [53,126] [54,127] [55,128] [56,129] [57,130]
+D: [0,131] [1,132] [2,133] [3,134] [4,135] [5,136] [6,137] [7,138] [8,139] [9,140]
+[10,141] [11,142] [12,143] [13,144] [14,145] [15,146] [16,147] [17,148] [18,149] [19,150]
+[20,151] [21,152] [22,153] [23,154] [24,155] [25,156] [26,157] [27,158] [28,159] [29,160]
+[30,161] [31,162] [32,163] [33,164] [34,165] [35,166] [36,167] [37,168] [38,169] [39,170]
+[40,171] [41,172] [42,173] [43,174] [44,175] [45,176] [46,177] [47,178] [48,179] [49,180]
+[50,181] [51,182] [52,183] [53,184] [54,185] [55,186] [56,187] [57,188] [58,189] [59,190]
+[60,191] [61,192] [62,193] [63,194] [64,195] [65,196] [66,197] [67,198] [68,199] [69,200]
+[70,201] [71,202] [72,203] [73,204] [74,205] [75,206] [76,207] [77,208] [78,209] [79,210]
+[80,211] [81,212] [82,213] [83,214] [84,215] [85,216]
+E: [0,217] [1,218] [2,219] [3,220] [4,221] [5,222] [6,223] [7,224] [8,225] [9,226]
+[10,227] [11,228] [12,229] [13,230]
+time 0ms: Process W arrived (requires 86 frames)
+time 0ms: Cannot place process W -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+PAGE TABLE [page,frame]:
+A: [0,0] [1,1] [2,2] [3,3] [4,4] [5,5] [6,6] [7,7] [8,8] [9,9]
+[10,10] [11,11] [12,12] [13,13] [14,14] [15,15] [16,16] [17,17] [18,18] [19,19]
+[20,20] [21,21] [22,22] [23,23] [24,24] [25,25] [26,26] [27,27] [28,28] [29,29]
+[30,30] [31,31] [32,32] [33,33] [34,34] [35,35] [36,36] [37,37] [38,38] [39,39]
+[40,40] [41,41] [42,42] [43,43] [44,44]
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+C: [0,73] [1,74] [2,75] [3,76] [4,77] [5,78] [6,79] [7,80] [8,81] [9,82]
+[10,83] [11,84] [12,85] [13,86] [14,87] [15,88] [16,89] [17,90] [18,91] [19,92]
+[20,93] [21,94] [22,95] [23,96] [24,97] [25,98] [26,99] [27,100] [28,101] [29,102]
+[30,103] [31,104] [32,105] [33,106] [34,107] [35,108] [36,109] [37,110] [38,111] [39,112]
+[40,113] [41,114] [42,115] [43,116] [44,117] [45,118] [46,119] [47,120] [48,121] [49,122]
+[50,123] [51,124] [52,125] [53,126] [54,127] [55,128] [56,129] [57,130]
+D: [0,131] [1,132] [2,133] [3,134] [4,135] [5,136] [6,137] [7,138] [8,139] [9,140]
+[10,141] [11,142] [12,143] [13,144] [14,145] [15,146] [16,147] [17,148] [18,149] [19,150]
+[20,151] [21,152] [22,153] [23,154] [24,155] [25,156] [26,157] [27,158] [28,159] [29,160]
+[30,161] [31,162] [32,163] [33,164] [34,165] [35,166] [36,167] [37,168] [38,169] [39,170]
+[40,171] [41,172] [42,173] [43,174] [44,175] [45,176] [46,177] [47,178] [48,179] [49,180]
+[50,181] [51,182] [52,183] [53,184] [54,185] [55,186] [56,187] [57,188] [58,189] [59,190]
+[60,191] [61,192] [62,193] [63,194] [64,195] [65,196] [66,197] [67,198] [68,199] [69,200]
+[70,201] [71,202] [72,203] [73,204] [74,205] [75,206] [76,207] [77,208] [78,209] [79,210]
+[80,211] [81,212] [82,213] [83,214] [84,215] [85,216]
+E: [0,217] [1,218] [2,219] [3,220] [4,221] [5,222] [6,223] [7,224] [8,225] [9,226]
+[10,227] [11,228] [12,229] [13,230]
+time 100ms: Process X arrived (requires 24 frames)
+time 100ms: Placed process X:
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEEXXXXXXXXXXXXXXXXXXXXXXXX.
+================================
+PAGE TABLE [page,frame]:
+A: [0,0] [1,1] [2,2] [3,3] [4,4] [5,5] [6,6] [7,7] [8,8] [9,9]
+[10,10] [11,11] [12,12] [13,13] [14,14] [15,15] [16,16] [17,17] [18,18] [19,19]
+[20,20] [21,21] [22,22] [23,23] [24,24] [25,25] [26,26] [27,27] [28,28] [29,29]
+[30,30] [31,31] [32,32] [33,33] [34,34] [35,35] [36,36] [37,37] [38,38] [39,39]
+[40,40] [41,41] [42,42] [43,43] [44,44]
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+C: [0,73] [1,74] [2,75] [3,76] [4,77] [5,78] [6,79] [7,80] [8,81] [9,82]
+[10,83] [11,84] [12,85] [13,86] [14,87] [15,88] [16,89] [17,90] [18,91] [19,92]
+[20,93] [21,94] [22,95] [23,96] [24,97] [25,98] [26,99] [27,100] [28,101] [29,102]
+[30,103] [31,104] [32,105] [33,106] [34,107] [35,108] [36,109] [37,110] [38,111] [39,112]
+[40,113] [41,114] [42,115] [43,116] [44,117] [45,118] [46,119] [47,120] [48,121] [49,122]
+[50,123] [51,124] [52,125] [53,126] [54,127] [55,128] [56,129] [57,130]
+D: [0,131] [1,132] [2,133] [3,134] [4,135] [5,136] [6,137] [7,138] [8,139] [9,140]
+[10,141] [11,142] [12,143] [13,144] [14,145] [15,146] [16,147] [17,148] [18,149] [19,150]
+[20,151] [21,152] [22,153] [23,154] [24,155] [25,156] [26,157] [27,158] [28,159] [29,160]
+[30,161] [31,162] [32,163] [33,164] [34,165] [35,166] [36,167] [37,168] [38,169] [39,170]
+[40,171] [41,172] [42,173] [43,174] [44,175] [45,176] [46,177] [47,178] [48,179] [49,180]
+[50,181] [51,182] [52,183] [53,184] [54,185] [55,186] [56,187] [57,188] [58,189] [59,190]
+[60,191] [61,192] [62,193] [63,194] [64,195] [65,196] [66,197] [67,198] [68,199] [69,200]
+[70,201] [71,202] [72,203] [73,204] [74,205] [75,206] [76,207] [77,208] [78,209] [79,210]
+[80,211] [81,212] [82,213] [83,214] [84,215] [85,216]
+E: [0,217] [1,218] [2,219] [3,220] [4,221] [5,222] [6,223] [7,224] [8,225] [9,226]
+[10,227] [11,228] [12,229] [13,230]
+X: [0,231] [1,232] [2,233] [3,234] [4,235] [5,236] [6,237] [7,238] [8,239] [9,240]
+[10,241] [11,242] [12,243] [13,244] [14,245] [15,246] [16,247] [17,248] [18,249] [19,250]
+[20,251] [21,252] [22,253] [23,254]
+time 350ms: Process A removed:
+================================
+................................
+.............BBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEEXXXXXXXXXXXXXXXXXXXXXXXX.
+================================
+PAGE TABLE [page,frame]:
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+C: [0,73] [1,74] [2,75] [3,76] [4,77] [5,78] [6,79] [7,80] [8,81] [9,82]
+[10,83] [11,84] [12,85] [13,86] [14,87] [15,88] [16,89] [17,90] [18,91] [19,92]
+[20,93] [21,94] [22,95] [23,96] [24,97] [25,98] [26,99] [27,100] [28,101] [29,102]
+[30,103] [31,104] [32,105] [33,106] [34,107] [35,108] [36,109] [37,110] [38,111] [39,112]
+[40,113] [41,114] [42,115] [43,116] [44,117] [45,118] [46,119] [47,120] [48,121] [49,122]
+[50,123] [51,124] [52,125] [53,126] [54,127] [55,128] [56,129] [57,130]
+D: [0,131] [1,132] [2,133] [3,134] [4,135] [5,136] [6,137] [7,138] [8,139] [9,140]
+[10,141] [11,142] [12,143] [13,144] [14,145] [15,146] [16,147] [17,148] [18,149] [19,150]
+[20,151] [21,152] [22,153] [23,154] [24,155] [25,156] [26,157] [27,158] [28,159] [29,160]
+[30,161] [31,162] [32,163] [33,164] [34,165] [35,166] [36,167] [37,168] [38,169] [39,170]
+[40,171] [41,172] [42,173] [43,174] [44,175] [45,176] [46,177] [47,178] [48,179] [49,180]
+[50,181] [51,182] [52,183] [53,184] [54,185] [55,186] [56,187] [57,188] [58,189] [59,190]
+[60,191] [61,192] [62,193] [63,194] [64,195] [65,196] [66,197] [67,198] [68,199] [69,200]
+[70,201] [71,202] [72,203] [73,204] [74,205] [75,206] [76,207] [77,208] [78,209] [79,210]
+[80,211] [81,212] [82,213] [83,214] [84,215] [85,216]
+E: [0,217] [1,218] [2,219] [3,220] [4,221] [5,222] [6,223] [7,224] [8,225] [9,226]
+[10,227] [11,228] [12,229] [13,230]
+X: [0,231] [1,232] [2,233] [3,234] [4,235] [5,236] [6,237] [7,238] [8,239] [9,240]
+[10,241] [11,242] [12,243] [13,244] [14,245] [15,246] [16,247] [17,248] [18,249] [19,250]
+[20,251] [21,252] [22,253] [23,254]
+time 400ms: Process A arrived (requires 45 frames)
+time 400ms: Placed process A:
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEEXXXXXXXXXXXXXXXXXXXXXXXX.
+================================
+PAGE TABLE [page,frame]:
+A: [0,0] [1,1] [2,2] [3,3] [4,4] [5,5] [6,6] [7,7] [8,8] [9,9]
+[10,10] [11,11] [12,12] [13,13] [14,14] [15,15] [16,16] [17,17] [18,18] [19,19]
+[20,20] [21,21] [22,22] [23,23] [24,24] [25,25] [26,26] [27,27] [28,28] [29,29]
+[30,30] [31,31] [32,32] [33,33] [34,34] [35,35] [36,36] [37,37] [38,38] [39,39]
+[40,40] [41,41] [42,42] [43,43] [44,44]
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+C: [0,73] [1,74] [2,75] [3,76] [4,77] [5,78] [6,79] [7,80] [8,81] [9,82]
+[10,83] [11,84] [12,85] [13,86] [14,87] [15,88] [16,89] [17,90] [18,91] [19,92]
+[20,93] [21,94] [22,95] [23,96] [24,97] [25,98] [26,99] [27,100] [28,101] [29,102]
+[30,103] [31,104] [32,105] [33,106] [34,107] [35,108] [36,109] [37,110] [38,111] [39,112]
+[40,113] [41,114] [42,115] [43,116] [44,117] [45,118] [46,119] [47,120] [48,121] [49,122]
+[50,123] [51,124] [52,125] [53,126] [54,127] [55,128] [56,129] [57,130]
+D: [0,131] [1,132] [2,133] [3,134] [4,135] [5,136] [6,137] [7,138] [8,139] [9,140]
+[10,141] [11,142] [12,143] [13,144] [14,145] [15,146] [16,147] [17,148] [18,149] [19,150]
+[20,151] [21,152] [22,153] [23,154] [24,155] [25,156] [26,157] [27,158] [28,159] [29,160]
+[30,161] [31,162] [32,163] [33,164] [34,165] [35,166] [36,167] [37,168] [38,169] [39,170]
+[40,171] [41,172] [42,173] [43,174] [44,175] [45,176] [46,177] [47,178] [48,179] [49,180]
+[50,181] [51,182] [52,183] [53,184] [54,185] [55,186] [56,187] [57,188] [58,189] [59,190]
+[60,191] [61,192] [62,193] [63,194] [64,195] [65,196] [66,197] [67,198] [68,199] [69,200]
+[70,201] [71,202] [72,203] [73,204] [74,205] [75,206] [76,207] [77,208] [78,209] [79,210]
+[80,211] [81,212] [82,213] [83,214] [84,215] [85,216]
+E: [0,217] [1,218] [2,219] [3,220] [4,221] [5,222] [6,223] [7,224] [8,225] [9,226]
+[10,227] [11,228] [12,229] [13,230]
+X: [0,231] [1,232] [2,233] [3,234] [4,235] [5,236] [6,237] [7,238] [8,239] [9,240]
+[10,241] [11,242] [12,243] [13,244] [14,245] [15,246] [16,247] [17,248] [18,249] [19,250]
+[20,251] [21,252] [22,253] [23,254]
+time 400ms: Process F arrived (requires 45 frames)
+time 400ms: Cannot place process F -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEEXXXXXXXXXXXXXXXXXXXXXXXX.
+================================
+PAGE TABLE [page,frame]:
+A: [0,0] [1,1] [2,2] [3,3] [4,4] [5,5] [6,6] [7,7] [8,8] [9,9]
+[10,10] [11,11] [12,12] [13,13] [14,14] [15,15] [16,16] [17,17] [18,18] [19,19]
+[20,20] [21,21] [22,22] [23,23] [24,24] [25,25] [26,26] [27,27] [28,28] [29,29]
+[30,30] [31,31] [32,32] [33,33] [34,34] [35,35] [36,36] [37,37] [38,38] [39,39]
+[40,40] [41,41] [42,42] [43,43] [44,44]
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+C: [0,73] [1,74] [2,75] [3,76] [4,77] [5,78] [6,79] [7,80] [8,81] [9,82]
+[10,83] [11,84] [12,85] [13,86] [14,87] [15,88] [16,89] [17,90] [18,91] [19,92]
+[20,93] [21,94] [22,95] [23,96] [24,97] [25,98] [26,99] [27,100] [28,101] [29,102]
+[30,103] [31,104] [32,105] [33,106] [34,107] [35,108] [36,109] [37,110] [38,111] [39,112]
+[40,113] [41,114] [42,115] [43,116] [44,117] [45,118] [46,119] [47,120] [48,121] [49,122]
+[50,123] [51,124] [52,125] [53,126] [54,127] [55,128] [56,129] [57,130]
+D: [0,131] [1,132] [2,133] [3,134] [4,135] [5,136] [6,137] [7,138] [8,139] [9,140]
+[10,141] [11,142] [12,143] [13,144] [14,145] [15,146] [16,147] [17,148] [18,149] [19,150]
+[20,151] [21,152] [22,153] [23,154] [24,155] [25,156] [26,157] [27,158] [28,159] [29,160]
+[30,161] [31,162] [32,163] [33,164] [34,165] [35,166] [36,167] [37,168] [38,169] [39,170]
+[40,171] [41,172] [42,173] [43,174] [44,175] [45,176] [46,177] [47,178] [48,179] [49,180]
+[50,181] [51,182] [52,183] [53,184] [54,185] [55,186] [56,187] [57,188] [58,189] [59,190]
+[60,191] [61,192] [62,193] [63,194] [64,195] [65,196] [66,197] [67,198] [68,199] [69,200]
+[70,201] [71,202] [72,203] [73,204] [74,205] [75,206] [76,207] [77,208] [78,209] [79,210]
+[80,211] [81,212] [82,213] [83,214] [84,215] [85,216]
+E: [0,217] [1,218] [2,219] [3,220] [4,221] [5,222] [6,223] [7,224] [8,225] [9,226]
+[10,227] [11,228] [12,229] [13,230]
+X: [0,231] [1,232] [2,233] [3,234] [4,235] [5,236] [6,237] [7,238] [8,239] [9,240]
+[10,241] [11,242] [12,243] [13,244] [14,245] [15,246] [16,247] [17,248] [18,249] [19,250]
+[20,251] [21,252] [22,253] [23,254]
+time 400ms: Process J arrived (requires 45 frames)
+time 400ms: Cannot place process J -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEEXXXXXXXXXXXXXXXXXXXXXXXX.
+================================
+PAGE TABLE [page,frame]:
+A: [0,0] [1,1] [2,2] [3,3] [4,4] [5,5] [6,6] [7,7] [8,8] [9,9]
+[10,10] [11,11] [12,12] [13,13] [14,14] [15,15] [16,16] [17,17] [18,18] [19,19]
+[20,20] [21,21] [22,22] [23,23] [24,24] [25,25] [26,26] [27,27] [28,28] [29,29]
+[30,30] [31,31] [32,32] [33,33] [34,34] [35,35] [36,36] [37,37] [38,38] [39,39]
+[40,40] [41,41] [42,42] [43,43] [44,44]
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+C: [0,73] [1,74] [2,75] [3,76] [4,77] [5,78] [6,79] [7,80] [8,81] [9,82]
+[10,83] [11,84] [12,85] [13,86] [14,87] [15,88] [16,89] [17,90] [18,91] [19,92]
+[20,93] [21,94] [22,95] [23,96] [24,97] [25,98] [26,99] [27,100] [28,101] [29,102]
+[30,103] [31,104] [32,105] [33,106] [34,107] [35,108] [36,109] [37,110] [38,111] [39,112]
+[40,113] [41,114] [42,115] [43,116] [44,117] [45,118] [46,119] [47,120] [48,121] [49,122]
+[50,123] [51,124] [52,125] [53,126] [54,127] [55,128] [56,129] [57,130]
+D: [0,131] [1,132] [2,133] [3,134] [4,135] [5,136] [6,137] [7,138] [8,139] [9,140]
+[10,141] [11,142] [12,143] [13,144] [14,145] [15,146] [16,147] [17,148] [18,149] [19,150]
+[20,151] [21,152] [22,153] [23,154] [24,155] [25,156] [26,157] [27,158] [28,159] [29,160]
+[30,161] [31,162] [32,163] [33,164] [34,165] [35,166] [36,167] [37,168] [38,169] [39,170]
+[40,171] [41,172] [42,173] [43,174] [44,175] [45,176] [46,177] [47,178] [48,179] [49,180]
+[50,181] [51,182] [52,183] [53,184] [54,185] [55,186] [56,187] [57,188] [58,189] [59,190]
+[60,191] [61,192] [62,193] [63,194] [64,195] [65,196] [66,197] [67,198] [68,199] [69,200]
+[70,201] [71,202] [72,203] [73,204] [74,205] [75,206] [76,207] [77,208] [78,209] [79,210]
+[80,211] [81,212] [82,213] [83,214] [84,215] [85,216]
+E: [0,217] [1,218] [2,219] [3,220] [4,221] [5,222] [6,223] [7,224] [8,225] [9,226]
+[10,227] [11,228] [12,229] [13,230]
+X: [0,231] [1,232] [2,233] [3,234] [4,235] [5,236] [6,237] [7,238] [8,239] [9,240]
+[10,241] [11,242] [12,243] [13,244] [14,245] [15,246] [16,247] [17,248] [18,249] [19,250]
+[20,251] [21,252] [22,253] [23,254]
+time 400ms: Process N arrived (requires 45 frames)
+time 400ms: Cannot place process N -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEEXXXXXXXXXXXXXXXXXXXXXXXX.
+================================
+PAGE TABLE [page,frame]:
+A: [0,0] [1,1] [2,2] [3,3] [4,4] [5,5] [6,6] [7,7] [8,8] [9,9]
+[10,10] [11,11] [12,12] [13,13] [14,14] [15,15] [16,16] [17,17] [18,18] [19,19]
+[20,20] [21,21] [22,22] [23,23] [24,24] [25,25] [26,26] [27,27] [28,28] [29,29]
+[30,30] [31,31] [32,32] [33,33] [34,34] [35,35] [36,36] [37,37] [38,38] [39,39]
+[40,40] [41,41] [42,42] [43,43] [44,44]
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+C: [0,73] [1,74] [2,75] [3,76] [4,77] [5,78] [6,79] [7,80] [8,81] [9,82]
+[10,83] [11,84] [12,85] [13,86] [14,87] [15,88] [16,89] [17,90] [18,91] [19,92]
+[20,93] [21,94] [22,95] [23,96] [24,97] [25,98] [26,99] [27,100] [28,101] [29,102]
+[30,103] [31,104] [32,105] [33,106] [34,107] [35,108] [36,109] [37,110] [38,111] [39,112]
+[40,113] [41,114] [42,115] [43,116] [44,117] [45,118] [46,119] [47,120] [48,121] [49,122]
+[50,123] [51,124] [52,125] [53,126] [54,127] [55,128] [56,129] [57,130]
+D: [0,131] [1,132] [2,133] [3,134] [4,135] [5,136] [6,137] [7,138] [8,139] [9,140]
+[10,141] [11,142] [12,143] [13,144] [14,145] [15,146] [16,147] [17,148] [18,149] [19,150]
+[20,151] [21,152] [22,153] [23,154] [24,155] [25,156] [26,157] [27,158] [28,159] [29,160]
+[30,161] [31,162] [32,163] [33,164] [34,165] [35,166] [36,167] [37,168] [38,169] [39,170]
+[40,171] [41,172] [42,173] [43,174] [44,175] [45,176] [46,177] [47,178] [48,179] [49,180]
+[50,181] [51,182] [52,183] [53,184] [54,185] [55,186] [56,187] [57,188] [58,189] [59,190]
+[60,191] [61,192] [62,193] [63,194] [64,195] [65,196] [66,197] [67,198] [68,199] [69,200]
+[70,201] [71,202] [72,203] [73,204] [74,205] [75,206] [76,207] [77,208] [78,209] [79,210]
+[80,211] [81,212] [82,213] [83,214] [84,215] [85,216]
+E: [0,217] [1,218] [2,219] [3,220] [4,221] [5,222] [6,223] [7,224] [8,225] [9,226]
+[10,227] [11,228] [12,229] [13,230]
+X: [0,231] [1,232] [2,233] [3,234] [4,235] [5,236] [6,237] [7,238] [8,239] [9,240]
+[10,241] [11,242] [12,243] [13,244] [14,245] [15,246] [16,247] [17,248] [18,249] [19,250]
+[20,251] [21,252] [22,253] [23,254]
+time 400ms: Process R arrived (requires 45 frames)
+time 400ms: Cannot place process R -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEEXXXXXXXXXXXXXXXXXXXXXXXX.
+================================
+PAGE TABLE [page,frame]:
+A: [0,0] [1,1] [2,2] [3,3] [4,4] [5,5] [6,6] [7,7] [8,8] [9,9]
+[10,10] [11,11] [12,12] [13,13] [14,14] [15,15] [16,16] [17,17] [18,18] [19,19]
+[20,20] [21,21] [22,22] [23,23] [24,24] [25,25] [26,26] [27,27] [28,28] [29,29]
+[30,30] [31,31] [32,32] [33,33] [34,34] [35,35] [36,36] [37,37] [38,38] [39,39]
+[40,40] [41,41] [42,42] [43,43] [44,44]
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+C: [0,73] [1,74] [2,75] [3,76] [4,77] [5,78] [6,79] [7,80] [8,81] [9,82]
+[10,83] [11,84] [12,85] [13,86] [14,87] [15,88] [16,89] [17,90] [18,91] [19,92]
+[20,93] [21,94] [22,95] [23,96] [24,97] [25,98] [26,99] [27,100] [28,101] [29,102]
+[30,103] [31,104] [32,105] [33,106] [34,107] [35,108] [36,109] [37,110] [38,111] [39,112]
+[40,113] [41,114] [42,115] [43,116] [44,117] [45,118] [46,119] [47,120] [48,121] [49,122]
+[50,123] [51,124] [52,125] [53,126] [54,127] [55,128] [56,129] [57,130]
+D: [0,131] [1,132] [2,133] [3,134] [4,135] [5,136] [6,137] [7,138] [8,139] [9,140]
+[10,141] [11,142] [12,143] [13,144] [14,145] [15,146] [16,147] [17,148] [18,149] [19,150]
+[20,151] [21,152] [22,153] [23,154] [24,155] [25,156] [26,157] [27,158] [28,159] [29,160]
+[30,161] [31,162] [32,163] [33,164] [34,165] [35,166] [36,167] [37,168] [38,169] [39,170]
+[40,171] [41,172] [42,173] [43,174] [44,175] [45,176] [46,177] [47,178] [48,179] [49,180]
+[50,181] [51,182] [52,183] [53,184] [54,185] [55,186] [56,187] [57,188] [58,189] [59,190]
+[60,191] [61,192] [62,193] [63,194] [64,195] [65,196] [66,197] [67,198] [68,199] [69,200]
+[70,201] [71,202] [72,203] [73,204] [74,205] [75,206] [76,207] [77,208] [78,209] [79,210]
+[80,211] [81,212] [82,213] [83,214] [84,215] [85,216]
+E: [0,217] [1,218] [2,219] [3,220] [4,221] [5,222] [6,223] [7,224] [8,225] [9,226]
+[10,227] [11,228] [12,229] [13,230]
+X: [0,231] [1,232] [2,233] [3,234] [4,235] [5,236] [6,237] [7,238] [8,239] [9,240]
+[10,241] [11,242] [12,243] [13,244] [14,245] [15,246] [16,247] [17,248] [18,249] [19,250]
+[20,251] [21,252] [22,253] [23,254]
+time 435ms: Process Y arrived (requires 13 frames)
+time 435ms: Cannot place process Y -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAABBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEEXXXXXXXXXXXXXXXXXXXXXXXX.
+================================
+PAGE TABLE [page,frame]:
+A: [0,0] [1,1] [2,2] [3,3] [4,4] [5,5] [6,6] [7,7] [8,8] [9,9]
+[10,10] [11,11] [12,12] [13,13] [14,14] [15,15] [16,16] [17,17] [18,18] [19,19]
+[20,20] [21,21] [22,22] [23,23] [24,24] [25,25] [26,26] [27,27] [28,28] [29,29]
+[30,30] [31,31] [32,32] [33,33] [34,34] [35,35] [36,36] [37,37] [38,38] [39,39]
+[40,40] [41,41] [42,42] [43,43] [44,44]
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+C: [0,73] [1,74] [2,75] [3,76] [4,77] [5,78] [6,79] [7,80] [8,81] [9,82]
+[10,83] [11,84] [12,85] [13,86] [14,87] [15,88] [16,89] [17,90] [18,91] [19,92]
+[20,93] [21,94] [22,95] [23,96] [24,97] [25,98] [26,99] [27,100] [28,101] [29,102]
+[30,103] [31,104] [32,105] [33,106] [34,107] [35,108] [36,109] [37,110] [38,111] [39,112]
+[40,113] [41,114] [42,115] [43,116] [44,117] [45,118] [46,119] [47,120] [48,121] [49,122]
+[50,123] [51,124] [52,125] [53,126] [54,127] [55,128] [56,129] [57,130]
+D: [0,131] [1,132] [2,133] [3,134] [4,135] [5,136] [6,137] [7,138] [8,139] [9,140]
+[10,141] [11,142] [12,143] [13,144] [14,145] [15,146] [16,147] [17,148] [18,149] [19,150]
+[20,151] [21,152] [22,153] [23,154] [24,155] [25,156] [26,157] [27,158] [28,159] [29,160]
+[30,161] [31,162] [32,163] [33,164] [34,165] [35,166] [36,167] [37,168] [38,169] [39,170]
+[40,171] [41,172] [42,173] [43,174] [44,175] [45,176] [46,177] [47,178] [48,179] [49,180]
+[50,181] [51,182] [52,183] [53,184] [54,185] [55,186] [56,187] [57,188] [58,189] [59,190]
+[60,191] [61,192] [62,193] [63,194] [64,195] [65,196] [66,197] [67,198] [68,199] [69,200]
+[70,201] [71,202] [72,203] [73,204] [74,205] [75,206] [76,207] [77,208] [78,209] [79,210]
+[80,211] [81,212] [82,213] [83,214] [84,215] [85,216]
+E: [0,217] [1,218] [2,219] [3,220] [4,221] [5,222] [6,223] [7,224] [8,225] [9,226]
+[10,227] [11,228] [12,229] [13,230]
+X: [0,231] [1,232] [2,233] [3,234] [4,235] [5,236] [6,237] [7,238] [8,239] [9,240]
+[10,241] [11,242] [12,243] [13,244] [14,245] [15,246] [16,247] [17,248] [18,249] [19,250]
+[20,251] [21,252] [22,253] [23,254]
+time 450ms: Process A removed:
+================================
+................................
+.............BBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEEXXXXXXXXXXXXXXXXXXXXXXXX.
+================================
+PAGE TABLE [page,frame]:
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+C: [0,73] [1,74] [2,75] [3,76] [4,77] [5,78] [6,79] [7,80] [8,81] [9,82]
+[10,83] [11,84] [12,85] [13,86] [14,87] [15,88] [16,89] [17,90] [18,91] [19,92]
+[20,93] [21,94] [22,95] [23,96] [24,97] [25,98] [26,99] [27,100] [28,101] [29,102]
+[30,103] [31,104] [32,105] [33,106] [34,107] [35,108] [36,109] [37,110] [38,111] [39,112]
+[40,113] [41,114] [42,115] [43,116] [44,117] [45,118] [46,119] [47,120] [48,121] [49,122]
+[50,123] [51,124] [52,125] [53,126] [54,127] [55,128] [56,129] [57,130]
+D: [0,131] [1,132] [2,133] [3,134] [4,135] [5,136] [6,137] [7,138] [8,139] [9,140]
+[10,141] [11,142] [12,143] [13,144] [14,145] [15,146] [16,147] [17,148] [18,149] [19,150]
+[20,151] [21,152] [22,153] [23,154] [24,155] [25,156] [26,157] [27,158] [28,159] [29,160]
+[30,161] [31,162] [32,163] [33,164] [34,165] [35,166] [36,167] [37,168] [38,169] [39,170]
+[40,171] [41,172] [42,173] [43,174] [44,175] [45,176] [46,177] [47,178] [48,179] [49,180]
+[50,181] [51,182] [52,183] [53,184] [54,185] [55,186] [56,187] [57,188] [58,189] [59,190]
+[60,191] [61,192] [62,193] [63,194] [64,195] [65,196] [66,197] [67,198] [68,199] [69,200]
+[70,201] [71,202] [72,203] [73,204] [74,205] [75,206] [76,207] [77,208] [78,209] [79,210]
+[80,211] [81,212] [82,213] [83,214] [84,215] [85,216]
+E: [0,217] [1,218] [2,219] [3,220] [4,221] [5,222] [6,223] [7,224] [8,225] [9,226]
+[10,227] [11,228] [12,229] [13,230]
+X: [0,231] [1,232] [2,233] [3,234] [4,235] [5,236] [6,237] [7,238] [8,239] [9,240]
+[10,241] [11,242] [12,243] [13,244] [14,245] [15,246] [16,247] [17,248] [18,249] [19,250]
+[20,251] [21,252] [22,253] [23,254]
+time 480ms: Process X removed:
+================================
+................................
+.............BBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+PAGE TABLE [page,frame]:
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+C: [0,73] [1,74] [2,75] [3,76] [4,77] [5,78] [6,79] [7,80] [8,81] [9,82]
+[10,83] [11,84] [12,85] [13,86] [14,87] [15,88] [16,89] [17,90] [18,91] [19,92]
+[20,93] [21,94] [22,95] [23,96] [24,97] [25,98] [26,99] [27,100] [28,101] [29,102]
+[30,103] [31,104] [32,105] [33,106] [34,107] [35,108] [36,109] [37,110] [38,111] [39,112]
+[40,113] [41,114] [42,115] [43,116] [44,117] [45,118] [46,119] [47,120] [48,121] [49,122]
+[50,123] [51,124] [52,125] [53,126] [54,127] [55,128] [56,129] [57,130]
+D: [0,131] [1,132] [2,133] [3,134] [4,135] [5,136] [6,137] [7,138] [8,139] [9,140]
+[10,141] [11,142] [12,143] [13,144] [14,145] [15,146] [16,147] [17,148] [18,149] [19,150]
+[20,151] [21,152] [22,153] [23,154] [24,155] [25,156] [26,157] [27,158] [28,159] [29,160]
+[30,161] [31,162] [32,163] [33,164] [34,165] [35,166] [36,167] [37,168] [38,169] [39,170]
+[40,171] [41,172] [42,173] [43,174] [44,175] [45,176] [46,177] [47,178] [48,179] [49,180]
+[50,181] [51,182] [52,183] [53,184] [54,185] [55,186] [56,187] [57,188] [58,189] [59,190]
+[60,191] [61,192] [62,193] [63,194] [64,195] [65,196] [66,197] [67,198] [68,199] [69,200]
+[70,201] [71,202] [72,203] [73,204] [74,205] [75,206] [76,207] [77,208] [78,209] [79,210]
+[80,211] [81,212] [82,213] [83,214] [84,215] [85,216]
+E: [0,217] [1,218] [2,219] [3,220] [4,221] [5,222] [6,223] [7,224] [8,225] [9,226]
+[10,227] [11,228] [12,229] [13,230]
+time 500ms: Process X arrived (requires 24 frames)
+time 500ms: Placed process X:
+================================
+XXXXXXXXXXXXXXXXXXXXXXXX........
+.............BBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEE.........................
+================================
+PAGE TABLE [page,frame]:
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+C: [0,73] [1,74] [2,75] [3,76] [4,77] [5,78] [6,79] [7,80] [8,81] [9,82]
+[10,83] [11,84] [12,85] [13,86] [14,87] [15,88] [16,89] [17,90] [18,91] [19,92]
+[20,93] [21,94] [22,95] [23,96] [24,97] [25,98] [26,99] [27,100] [28,101] [29,102]
+[30,103] [31,104] [32,105] [33,106] [34,107] [35,108] [36,109] [37,110] [38,111] [39,112]
+[40,113] [41,114] [42,115] [43,116] [44,117] [45,118] [46,119] [47,120] [48,121] [49,122]
+[50,123] [51,124] [52,125] [53,126] [54,127] [55,128] [56,129] [57,130]
+D: [0,131] [1,132] [2,133] [3,134] [4,135] [5,136] [6,137] [7,138] [8,139] [9,140]
+[10,141] [11,142] [12,143] [13,144] [14,145] [15,146] [16,147] [17,148] [18,149] [19,150]
+[20,151] [21,152] [22,153] [23,154] [24,155] [25,156] [26,157] [27,158] [28,159] [29,160]
+[30,161] [31,162] [32,163] [33,164] [34,165] [35,166] [36,167] [37,168] [38,169] [39,170]
+[40,171] [41,172] [42,173] [43,174] [44,175] [45,176] [46,177] [47,178] [48,179] [49,180]
+[50,181] [51,182] [52,183] [53,184] [54,185] [55,186] [56,187] [57,188] [58,189] [59,190]
+[60,191] [61,192] [62,193] [63,194] [64,195] [65,196] [66,197] [67,198] [68,199] [69,200]
+[70,201] [71,202] [72,203] [73,204] [74,205] [75,206] [76,207] [77,208] [78,209] [79,210]
+[80,211] [81,212] [82,213] [83,214] [84,215] [85,216]
+E: [0,217] [1,218] [2,219] [3,220] [4,221] [5,222] [6,223] [7,224] [8,225] [9,226]
+[10,227] [11,228] [12,229] [13,230]
+X: [0,0] [1,1] [2,2] [3,3] [4,4] [5,5] [6,6] [7,7] [8,8] [9,9]
+[10,10] [11,11] [12,12] [13,13] [14,14] [15,15] [16,16] [17,17] [18,18] [19,19]
+[20,20] [21,21] [22,22] [23,23]
+time 550ms: Process Z arrived (requires 46 frames)
+time 550ms: Placed process Z:
+================================
+XXXXXXXXXXXXXXXXXXXXXXXXZZZZZZZZ
+ZZZZZZZZZZZZZBBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDEEEEEEE
+EEEEEEEZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+PAGE TABLE [page,frame]:
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+C: [0,73] [1,74] [2,75] [3,76] [4,77] [5,78] [6,79] [7,80] [8,81] [9,82]
+[10,83] [11,84] [12,85] [13,86] [14,87] [15,88] [16,89] [17,90] [18,91] [19,92]
+[20,93] [21,94] [22,95] [23,96] [24,97] [25,98] [26,99] [27,100] [28,101] [29,102]
+[30,103] [31,104] [32,105] [33,106] [34,107] [35,108] [36,109] [37,110] [38,111] [39,112]
+[40,113] [41,114] [42,115] [43,116] [44,117] [45,118] [46,119] [47,120] [48,121] [49,122]
+[50,123] [51,124] [52,125] [53,126] [54,127] [55,128] [56,129] [57,130]
+D: [0,131] [1,132] [2,133] [3,134] [4,135] [5,136] [6,137] [7,138] [8,139] [9,140]
+[10,141] [11,142] [12,143] [13,144] [14,145] [15,146] [16,147] [17,148] [18,149] [19,150]
+[20,151] [21,152] [22,153] [23,154] [24,155] [25,156] [26,157] [27,158] [28,159] [29,160]
+[30,161] [31,162] [32,163] [33,164] [34,165] [35,166] [36,167] [37,168] [38,169] [39,170]
+[40,171] [41,172] [42,173] [43,174] [44,175] [45,176] [46,177] [47,178] [48,179] [49,180]
+[50,181] [51,182] [52,183] [53,184] [54,185] [55,186] [56,187] [57,188] [58,189] [59,190]
+[60,191] [61,192] [62,193] [63,194] [64,195] [65,196] [66,197] [67,198] [68,199] [69,200]
+[70,201] [71,202] [72,203] [73,204] [74,205] [75,206] [76,207] [77,208] [78,209] [79,210]
+[80,211] [81,212] [82,213] [83,214] [84,215] [85,216]
+E: [0,217] [1,218] [2,219] [3,220] [4,221] [5,222] [6,223] [7,224] [8,225] [9,226]
+[10,227] [11,228] [12,229] [13,230]
+X: [0,0] [1,1] [2,2] [3,3] [4,4] [5,5] [6,6] [7,7] [8,8] [9,9]
+[10,10] [11,11] [12,12] [13,13] [14,14] [15,15] [16,16] [17,17] [18,18] [19,19]
+[20,20] [21,21] [22,22] [23,23]
+Z: [0,24] [1,25] [2,26] [3,27] [4,28] [5,29] [6,30] [7,31] [8,32] [9,33]
+[10,34] [11,35] [12,36] [13,37] [14,38] [15,39] [16,40] [17,41] [18,42] [19,43]
+[20,44] [21,231] [22,232] [23,233] [24,234] [25,235] [26,236] [27,237] [28,238] [29,239]
+[30,240] [31,241] [32,242] [33,243] [34,244] [35,245] [36,246] [37,247] [38,248] [39,249]
+[40,250] [41,251] [42,252] [43,253] [44,254] [45,255]
+time 650ms: Process D removed:
+================================
+XXXXXXXXXXXXXXXXXXXXXXXXZZZZZZZZ
+ZZZZZZZZZZZZZBBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCC.............................
+................................
+.........................EEEEEEE
+EEEEEEEZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+PAGE TABLE [page,frame]:
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+C: [0,73] [1,74] [2,75] [3,76] [4,77] [5,78] [6,79] [7,80] [8,81] [9,82]
+[10,83] [11,84] [12,85] [13,86] [14,87] [15,88] [16,89] [17,90] [18,91] [19,92]
+[20,93] [21,94] [22,95] [23,96] [24,97] [25,98] [26,99] [27,100] [28,101] [29,102]
+[30,103] [31,104] [32,105] [33,106] [34,107] [35,108] [36,109] [37,110] [38,111] [39,112]
+[40,113] [41,114] [42,115] [43,116] [44,117] [45,118] [46,119] [47,120] [48,121] [49,122]
+[50,123] [51,124] [52,125] [53,126] [54,127] [55,128] [56,129] [57,130]
+E: [0,217] [1,218] [2,219] [3,220] [4,221] [5,222] [6,223] [7,224] [8,225] [9,226]
+[10,227] [11,228] [12,229] [13,230]
+X: [0,0] [1,1] [2,2] [3,3] [4,4] [5,5] [6,6] [7,7] [8,8] [9,9]
+[10,10] [11,11] [12,12] [13,13] [14,14] [15,15] [16,16] [17,17] [18,18] [19,19]
+[20,20] [21,21] [22,22] [23,23]
+Z: [0,24] [1,25] [2,26] [3,27] [4,28] [5,29] [6,30] [7,31] [8,32] [9,33]
+[10,34] [11,35] [12,36] [13,37] [14,38] [15,39] [16,40] [17,41] [18,42] [19,43]
+[20,44] [21,231] [22,232] [23,233] [24,234] [25,235] [26,236] [27,237] [28,238] [29,239]
+[30,240] [31,241] [32,242] [33,243] [34,244] [35,245] [36,246] [37,247] [38,248] [39,249]
+[40,250] [41,251] [42,252] [43,253] [44,254] [45,255]
+time 950ms: Process C removed:
+================================
+XXXXXXXXXXXXXXXXXXXXXXXXZZZZZZZZ
+ZZZZZZZZZZZZZBBBBBBBBBBBBBBBBBBB
+BBBBBBBBB.......................
+................................
+................................
+................................
+.........................EEEEEEE
+EEEEEEEZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+PAGE TABLE [page,frame]:
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+E: [0,217] [1,218] [2,219] [3,220] [4,221] [5,222] [6,223] [7,224] [8,225] [9,226]
+[10,227] [11,228] [12,229] [13,230]
+X: [0,0] [1,1] [2,2] [3,3] [4,4] [5,5] [6,6] [7,7] [8,8] [9,9]
+[10,10] [11,11] [12,12] [13,13] [14,14] [15,15] [16,16] [17,17] [18,18] [19,19]
+[20,20] [21,21] [22,22] [23,23]
+Z: [0,24] [1,25] [2,26] [3,27] [4,28] [5,29] [6,30] [7,31] [8,32] [9,33]
+[10,34] [11,35] [12,36] [13,37] [14,38] [15,39] [16,40] [17,41] [18,42] [19,43]
+[20,44] [21,231] [22,232] [23,233] [24,234] [25,235] [26,236] [27,237] [28,238] [29,239]
+[30,240] [31,241] [32,242] [33,243] [34,244] [35,245] [36,246] [37,247] [38,248] [39,249]
+[40,250] [41,251] [42,252] [43,253] [44,254] [45,255]
+time 975ms: Process X removed:
+================================
+........................ZZZZZZZZ
+ZZZZZZZZZZZZZBBBBBBBBBBBBBBBBBBB
+BBBBBBBBB.......................
+................................
+................................
+................................
+.........................EEEEEEE
+EEEEEEEZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+PAGE TABLE [page,frame]:
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+E: [0,217] [1,218] [2,219] [3,220] [4,221] [5,222] [6,223] [7,224] [8,225] [9,226]
+[10,227] [11,228] [12,229] [13,230]
+Z: [0,24] [1,25] [2,26] [3,27] [4,28] [5,29] [6,30] [7,31] [8,32] [9,33]
+[10,34] [11,35] [12,36] [13,37] [14,38] [15,39] [16,40] [17,41] [18,42] [19,43]
+[20,44] [21,231] [22,232] [23,233] [24,234] [25,235] [26,236] [27,237] [28,238] [29,239]
+[30,240] [31,241] [32,242] [33,243] [34,244] [35,245] [36,246] [37,247] [38,248] [39,249]
+[40,250] [41,251] [42,252] [43,253] [44,254] [45,255]
+time 1100ms: Process C arrived (requires 58 frames)
+time 1100ms: Placed process C:
+================================
+CCCCCCCCCCCCCCCCCCCCCCCCZZZZZZZZ
+ZZZZZZZZZZZZZBBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCC.....................
+................................
+................................
+.........................EEEEEEE
+EEEEEEEZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+PAGE TABLE [page,frame]:
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+C: [0,0] [1,1] [2,2] [3,3] [4,4] [5,5] [6,6] [7,7] [8,8] [9,9]
+[10,10] [11,11] [12,12] [13,13] [14,14] [15,15] [16,16] [17,17] [18,18] [19,19]
+[20,20] [21,21] [22,22] [23,23] [24,73] [25,74] [26,75] [27,76] [28,77] [29,78]
+[30,79] [31,80] [32,81] [33,82] [34,83] [35,84] [36,85] [37,86] [38,87] [39,88]
+[40,89] [41,90] [42,91] [43,92] [44,93] [45,94] [46,95] [47,96] [48,97] [49,98]
+[50,99] [51,100] [52,101] [53,102] [54,103] [55,104] [56,105] [57,106]
+E: [0,217] [1,218] [2,219] [3,220] [4,221] [5,222] [6,223] [7,224] [8,225] [9,226]
+[10,227] [11,228] [12,229] [13,230]
+Z: [0,24] [1,25] [2,26] [3,27] [4,28] [5,29] [6,30] [7,31] [8,32] [9,33]
+[10,34] [11,35] [12,36] [13,37] [14,38] [15,39] [16,40] [17,41] [18,42] [19,43]
+[20,44] [21,231] [22,232] [23,233] [24,234] [25,235] [26,236] [27,237] [28,238] [29,239]
+[30,240] [31,241] [32,242] [33,243] [34,244] [35,245] [36,246] [37,247] [38,248] [39,249]
+[40,250] [41,251] [42,252] [43,253] [44,254] [45,255]
+time 1100ms: Process H arrived (requires 58 frames)
+time 1100ms: Placed process H:
+================================
+CCCCCCCCCCCCCCCCCCCCCCCCZZZZZZZZ
+ZZZZZZZZZZZZZBBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHH...........................
+.........................EEEEEEE
+EEEEEEEZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+PAGE TABLE [page,frame]:
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+C: [0,0] [1,1] [2,2] [3,3] [4,4] [5,5] [6,6] [7,7] [8,8] [9,9]
+[10,10] [11,11] [12,12] [13,13] [14,14] [15,15] [16,16] [17,17] [18,18] [19,19]
+[20,20] [21,21] [22,22] [23,23] [24,73] [25,74] [26,75] [27,76] [28,77] [29,78]
+[30,79] [31,80] [32,81] [33,82] [34,83] [35,84] [36,85] [37,86] [38,87] [39,88]
+[40,89] [41,90] [42,91] [43,92] [44,93] [45,94] [46,95] [47,96] [48,97] [49,98]
+[50,99] [51,100] [52,101] [53,102] [54,103] [55,104] [56,105] [57,106]
+E: [0,217] [1,218] [2,219] [3,220] [4,221] [5,222] [6,223] [7,224] [8,225] [9,226]
+[10,227] [11,228] [12,229] [13,230]
+H: [0,107] [1,108] [2,109] [3,110] [4,111] [5,112] [6,113] [7,114] [8,115] [9,116]
+[10,117] [11,118] [12,119] [13,120] [14,121] [15,122] [16,123] [17,124] [18,125] [19,126]
+[20,127] [21,128] [22,129] [23,130] [24,131] [25,132] [26,133] [27,134] [28,135] [29,136]
+[30,137] [31,138] [32,139] [33,140] [34,141] [35,142] [36,143] [37,144] [38,145] [39,146]
+[40,147] [41,148] [42,149] [43,150] [44,151] [45,152] [46,153] [47,154] [48,155] [49,156]
+[50,157] [51,158] [52,159] [53,160] [54,161] [55,162] [56,163] [57,164]
+Z: [0,24] [1,25] [2,26] [3,27] [4,28] [5,29] [6,30] [7,31] [8,32] [9,33]
+[10,34] [11,35] [12,36] [13,37] [14,38] [15,39] [16,40] [17,41] [18,42] [19,43]
+[20,44] [21,231] [22,232] [23,233] [24,234] [25,235] [26,236] [27,237] [28,238] [29,239]
+[30,240] [31,241] [32,242] [33,243] [34,244] [35,245] [36,246] [37,247] [38,248] [39,249]
+[40,250] [41,251] [42,252] [43,253] [44,254] [45,255]
+time 1100ms: Process L arrived (requires 58 frames)
+time 1100ms: Cannot place process L -- skipped!
+================================
+CCCCCCCCCCCCCCCCCCCCCCCCZZZZZZZZ
+ZZZZZZZZZZZZZBBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHH...........................
+.........................EEEEEEE
+EEEEEEEZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+PAGE TABLE [page,frame]:
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+C: [0,0] [1,1] [2,2] [3,3] [4,4] [5,5] [6,6] [7,7] [8,8] [9,9]
+[10,10] [11,11] [12,12] [13,13] [14,14] [15,15] [16,16] [17,17] [18,18] [19,19]
+[20,20] [21,21] [22,22] [23,23] [24,73] [25,74] [26,75] [27,76] [28,77] [29,78]
+[30,79] [31,80] [32,81] [33,82] [34,83] [35,84] [36,85] [37,86] [38,87] [39,88]
+[40,89] [41,90] [42,91] [43,92] [44,93] [45,94] [46,95] [47,96] [48,97] [49,98]
+[50,99] [51,100] [52,101] [53,102] [54,103] [55,104] [56,105] [57,106]
+E: [0,217] [1,218] [2,219] [3,220] [4,221] [5,222] [6,223] [7,224] [8,225] [9,226]
+[10,227] [11,228] [12,229] [13,230]
+H: [0,107] [1,108] [2,109] [3,110] [4,111] [5,112] [6,113] [7,114] [8,115] [9,116]
+[10,117] [11,118] [12,119] [13,120] [14,121] [15,122] [16,123] [17,124] [18,125] [19,126]
+[20,127] [21,128] [22,129] [23,130] [24,131] [25,132] [26,133] [27,134] [28,135] [29,136]
+[30,137] [31,138] [32,139] [33,140] [34,141] [35,142] [36,143] [37,144] [38,145] [39,146]
+[40,147] [41,148] [42,149] [43,150] [44,151] [45,152] [46,153] [47,154] [48,155] [49,156]
+[50,157] [51,158] [52,159] [53,160] [54,161] [55,162] [56,163] [57,164]
+Z: [0,24] [1,25] [2,26] [3,27] [4,28] [5,29] [6,30] [7,31] [8,32] [9,33]
+[10,34] [11,35] [12,36] [13,37] [14,38] [15,39] [16,40] [17,41] [18,42] [19,43]
+[20,44] [21,231] [22,232] [23,233] [24,234] [25,235] [26,236] [27,237] [28,238] [29,239]
+[30,240] [31,241] [32,242] [33,243] [34,244] [35,245] [36,246] [37,247] [38,248] [39,249]
+[40,250] [41,251] [42,252] [43,253] [44,254] [45,255]
+time 1100ms: Process P arrived (requires 58 frames)
+time 1100ms: Cannot place process P -- skipped!
+================================
+CCCCCCCCCCCCCCCCCCCCCCCCZZZZZZZZ
+ZZZZZZZZZZZZZBBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHH...........................
+.........................EEEEEEE
+EEEEEEEZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+PAGE TABLE [page,frame]:
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+C: [0,0] [1,1] [2,2] [3,3] [4,4] [5,5] [6,6] [7,7] [8,8] [9,9]
+[10,10] [11,11] [12,12] [13,13] [14,14] [15,15] [16,16] [17,17] [18,18] [19,19]
+[20,20] [21,21] [22,22] [23,23] [24,73] [25,74] [26,75] [27,76] [28,77] [29,78]
+[30,79] [31,80] [32,81] [33,82] [34,83] [35,84] [36,85] [37,86] [38,87] [39,88]
+[40,89] [41,90] [42,91] [43,92] [44,93] [45,94] [46,95] [47,96] [48,97] [49,98]
+[50,99] [51,100] [52,101] [53,102] [54,103] [55,104] [56,105] [57,106]
+E: [0,217] [1,218] [2,219] [3,220] [4,221] [5,222] [6,223] [7,224] [8,225] [9,226]
+[10,227] [11,228] [12,229] [13,230]
+H: [0,107] [1,108] [2,109] [3,110] [4,111] [5,112] [6,113] [7,114] [8,115] [9,116]
+[10,117] [11,118] [12,119] [13,120] [14,121] [15,122] [16,123] [17,124] [18,125] [19,126]
+[20,127] [21,128] [22,129] [23,130] [24,131] [25,132] [26,133] [27,134] [28,135] [29,136]
+[30,137] [31,138] [32,139] [33,140] [34,141] [35,142] [36,143] [37,144] [38,145] [39,146]
+[40,147] [41,148] [42,149] [43,150] [44,151] [45,152] [46,153] [47,154] [48,155] [49,156]
+[50,157] [51,158] [52,159] [53,160] [54,161] [55,162] [56,163] [57,164]
+Z: [0,24] [1,25] [2,26] [3,27] [4,28] [5,29] [6,30] [7,31] [8,32] [9,33]
+[10,34] [11,35] [12,36] [13,37] [14,38] [15,39] [16,40] [17,41] [18,42] [19,43]
+[20,44] [21,231] [22,232] [23,233] [24,234] [25,235] [26,236] [27,237] [28,238] [29,239]
+[30,240] [31,241] [32,242] [33,243] [34,244] [35,245] [36,246] [37,247] [38,248] [39,249]
+[40,250] [41,251] [42,252] [43,253] [44,254] [45,255]
+time 1100ms: Process T arrived (requires 58 frames)
+time 1100ms: Cannot place process T -- skipped!
+================================
+CCCCCCCCCCCCCCCCCCCCCCCCZZZZZZZZ
+ZZZZZZZZZZZZZBBBBBBBBBBBBBBBBBBB
+BBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHH...........................
+.........................EEEEEEE
+EEEEEEEZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+PAGE TABLE [page,frame]:
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+C: [0,0] [1,1] [2,2] [3,3] [4,4] [5,5] [6,6] [7,7] [8,8] [9,9]
+[10,10] [11,11] [12,12] [13,13] [14,14] [15,15] [16,16] [17,17] [18,18] [19,19]
+[20,20] [21,21] [22,22] [23,23] [24,73] [25,74] [26,75] [27,76] [28,77] [29,78]
+[30,79] [31,80] [32,81] [33,82] [34,83] [35,84] [36,85] [37,86] [38,87] [39,88]
+[40,89] [41,90] [42,91] [43,92] [44,93] [45,94] [46,95] [47,96] [48,97] [49,98]
+[50,99] [51,100] [52,101] [53,102] [54,103] [55,104] [56,105] [57,106]
+E: [0,217] [1,218] [2,219] [3,220] [4,221] [5,222] [6,223] [7,224] [8,225] [9,226]
+[10,227] [11,228] [12,229] [13,230]
+H: [0,107] [1,108] [2,109] [3,110] [4,111] [5,112] [6,113] [7,114] [8,115] [9,116]
+[10,117] [11,118] [12,119] [13,120] [14,121] [15,122] [16,123] [17,124] [18,125] [19,126]
+[20,127] [21,128] [22,129] [23,130] [24,131] [25,132] [26,133] [27,134] [28,135] [29,136]
+[30,137] [31,138] [32,139] [33,140] [34,141] [35,142] [36,143] [37,144] [38,145] [39,146]
+[40,147] [41,148] [42,149] [43,150] [44,151] [45,152] [46,153] [47,154] [48,155] [49,156]
+[50,157] [51,158] [52,159] [53,160] [54,161] [55,162] [56,163] [57,164]
+Z: [0,24] [1,25] [2,26] [3,27] [4,28] [5,29] [6,30] [7,31] [8,32] [9,33]
+[10,34] [11,35] [12,36] [13,37] [14,38] [15,39] [16,40] [17,41] [18,42] [19,43]
+[20,44] [21,231] [22,232] [23,233] [24,234] [25,235] [26,236] [27,237] [28,238] [29,239]
+[30,240] [31,241] [32,242] [33,243] [34,244] [35,245] [36,246] [37,247] [38,248] [39,249]
+[40,250] [41,251] [42,252] [43,253] [44,254] [45,255]
+time 1200ms: Process C removed:
+================================
+........................ZZZZZZZZ
+ZZZZZZZZZZZZZBBBBBBBBBBBBBBBBBBB
+BBBBBBBBB.......................
+...........HHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHH...........................
+.........................EEEEEEE
+EEEEEEEZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+PAGE TABLE [page,frame]:
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+E: [0,217] [1,218] [2,219] [3,220] [4,221] [5,222] [6,223] [7,224] [8,225] [9,226]
+[10,227] [11,228] [12,229] [13,230]
+H: [0,107] [1,108] [2,109] [3,110] [4,111] [5,112] [6,113] [7,114] [8,115] [9,116]
+[10,117] [11,118] [12,119] [13,120] [14,121] [15,122] [16,123] [17,124] [18,125] [19,126]
+[20,127] [21,128] [22,129] [23,130] [24,131] [25,132] [26,133] [27,134] [28,135] [29,136]
+[30,137] [31,138] [32,139] [33,140] [34,141] [35,142] [36,143] [37,144] [38,145] [39,146]
+[40,147] [41,148] [42,149] [43,150] [44,151] [45,152] [46,153] [47,154] [48,155] [49,156]
+[50,157] [51,158] [52,159] [53,160] [54,161] [55,162] [56,163] [57,164]
+Z: [0,24] [1,25] [2,26] [3,27] [4,28] [5,29] [6,30] [7,31] [8,32] [9,33]
+[10,34] [11,35] [12,36] [13,37] [14,38] [15,39] [16,40] [17,41] [18,42] [19,43]
+[20,44] [21,231] [22,232] [23,233] [24,234] [25,235] [26,236] [27,237] [28,238] [29,239]
+[30,240] [31,241] [32,242] [33,243] [34,244] [35,245] [36,246] [37,247] [38,248] [39,249]
+[40,250] [41,251] [42,252] [43,253] [44,254] [45,255]
+time 1200ms: Process H removed:
+================================
+........................ZZZZZZZZ
+ZZZZZZZZZZZZZBBBBBBBBBBBBBBBBBBB
+BBBBBBBBB.......................
+................................
+................................
+................................
+.........................EEEEEEE
+EEEEEEEZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+PAGE TABLE [page,frame]:
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+E: [0,217] [1,218] [2,219] [3,220] [4,221] [5,222] [6,223] [7,224] [8,225] [9,226]
+[10,227] [11,228] [12,229] [13,230]
+Z: [0,24] [1,25] [2,26] [3,27] [4,28] [5,29] [6,30] [7,31] [8,32] [9,33]
+[10,34] [11,35] [12,36] [13,37] [14,38] [15,39] [16,40] [17,41] [18,42] [19,43]
+[20,44] [21,231] [22,232] [23,233] [24,234] [25,235] [26,236] [27,237] [28,238] [29,239]
+[30,240] [31,241] [32,242] [33,243] [34,244] [35,245] [36,246] [37,247] [38,248] [39,249]
+[40,250] [41,251] [42,252] [43,253] [44,254] [45,255]
+time 1350ms: Process D arrived (requires 86 frames)
+time 1350ms: Placed process D:
+================================
+DDDDDDDDDDDDDDDDDDDDDDDDZZZZZZZZ
+ZZZZZZZZZZZZZBBBBBBBBBBBBBBBBBBB
+BBBBBBBBBDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDD.........................
+................................
+.........................EEEEEEE
+EEEEEEEZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+PAGE TABLE [page,frame]:
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+D: [0,0] [1,1] [2,2] [3,3] [4,4] [5,5] [6,6] [7,7] [8,8] [9,9]
+[10,10] [11,11] [12,12] [13,13] [14,14] [15,15] [16,16] [17,17] [18,18] [19,19]
+[20,20] [21,21] [22,22] [23,23] [24,73] [25,74] [26,75] [27,76] [28,77] [29,78]
+[30,79] [31,80] [32,81] [33,82] [34,83] [35,84] [36,85] [37,86] [38,87] [39,88]
+[40,89] [41,90] [42,91] [43,92] [44,93] [45,94] [46,95] [47,96] [48,97] [49,98]
+[50,99] [51,100] [52,101] [53,102] [54,103] [55,104] [56,105] [57,106] [58,107] [59,108]
+[60,109] [61,110] [62,111] [63,112] [64,113] [65,114] [66,115] [67,116] [68,117] [69,118]
+[70,119] [71,120] [72,121] [73,122] [74,123] [75,124] [76,125] [77,126] [78,127] [79,128]
+[80,129] [81,130] [82,131] [83,132] [84,133] [85,134]
+E: [0,217] [1,218] [2,219] [3,220] [4,221] [5,222] [6,223] [7,224] [8,225] [9,226]
+[10,227] [11,228] [12,229] [13,230]
+Z: [0,24] [1,25] [2,26] [3,27] [4,28] [5,29] [6,30] [7,31] [8,32] [9,33]
+[10,34] [11,35] [12,36] [13,37] [14,38] [15,39] [16,40] [17,41] [18,42] [19,43]
+[20,44] [21,231] [22,232] [23,233] [24,234] [25,235] [26,236] [27,237] [28,238] [29,239]
+[30,240] [31,241] [32,242] [33,243] [34,244] [35,245] [36,246] [37,247] [38,248] [39,249]
+[40,250] [41,251] [42,252] [43,253] [44,254] [45,255]
+time 1350ms: Process I arrived (requires 86 frames)
+time 1350ms: Cannot place process I -- skipped!
+================================
+DDDDDDDDDDDDDDDDDDDDDDDDZZZZZZZZ
+ZZZZZZZZZZZZZBBBBBBBBBBBBBBBBBBB
+BBBBBBBBBDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDD.........................
+................................
+.........................EEEEEEE
+EEEEEEEZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+PAGE TABLE [page,frame]:
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+D: [0,0] [1,1] [2,2] [3,3] [4,4] [5,5] [6,6] [7,7] [8,8] [9,9]
+[10,10] [11,11] [12,12] [13,13] [14,14] [15,15] [16,16] [17,17] [18,18] [19,19]
+[20,20] [21,21] [22,22] [23,23] [24,73] [25,74] [26,75] [27,76] [28,77] [29,78]
+[30,79] [31,80] [32,81] [33,82] [34,83] [35,84] [36,85] [37,86] [38,87] [39,88]
+[40,89] [41,90] [42,91] [43,92] [44,93] [45,94] [46,95] [47,96] [48,97] [49,98]
+[50,99] [51,100] [52,101] [53,102] [54,103] [55,104] [56,105] [57,106] [58,107] [59,108]
+[60,109] [61,110] [62,111] [63,112] [64,113] [65,114] [66,115] [67,116] [68,117] [69,118]
+[70,119] [71,120] [72,121] [73,122] [74,123] [75,124] [76,125] [77,126] [78,127] [79,128]
+[80,129] [81,130] [82,131] [83,132] [84,133] [85,134]
+E: [0,217] [1,218] [2,219] [3,220] [4,221] [5,222] [6,223] [7,224] [8,225] [9,226]
+[10,227] [11,228] [12,229] [13,230]
+Z: [0,24] [1,25] [2,26] [3,27] [4,28] [5,29] [6,30] [7,31] [8,32] [9,33]
+[10,34] [11,35] [12,36] [13,37] [14,38] [15,39] [16,40] [17,41] [18,42] [19,43]
+[20,44] [21,231] [22,232] [23,233] [24,234] [25,235] [26,236] [27,237] [28,238] [29,239]
+[30,240] [31,241] [32,242] [33,243] [34,244] [35,245] [36,246] [37,247] [38,248] [39,249]
+[40,250] [41,251] [42,252] [43,253] [44,254] [45,255]
+time 1350ms: Process M arrived (requires 86 frames)
+time 1350ms: Cannot place process M -- skipped!
+================================
+DDDDDDDDDDDDDDDDDDDDDDDDZZZZZZZZ
+ZZZZZZZZZZZZZBBBBBBBBBBBBBBBBBBB
+BBBBBBBBBDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDD.........................
+................................
+.........................EEEEEEE
+EEEEEEEZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+PAGE TABLE [page,frame]:
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+D: [0,0] [1,1] [2,2] [3,3] [4,4] [5,5] [6,6] [7,7] [8,8] [9,9]
+[10,10] [11,11] [12,12] [13,13] [14,14] [15,15] [16,16] [17,17] [18,18] [19,19]
+[20,20] [21,21] [22,22] [23,23] [24,73] [25,74] [26,75] [27,76] [28,77] [29,78]
+[30,79] [31,80] [32,81] [33,82] [34,83] [35,84] [36,85] [37,86] [38,87] [39,88]
+[40,89] [41,90] [42,91] [43,92] [44,93] [45,94] [46,95] [47,96] [48,97] [49,98]
+[50,99] [51,100] [52,101] [53,102] [54,103] [55,104] [56,105] [57,106] [58,107] [59,108]
+[60,109] [61,110] [62,111] [63,112] [64,113] [65,114] [66,115] [67,116] [68,117] [69,118]
+[70,119] [71,120] [72,121] [73,122] [74,123] [75,124] [76,125] [77,126] [78,127] [79,128]
+[80,129] [81,130] [82,131] [83,132] [84,133] [85,134]
+E: [0,217] [1,218] [2,219] [3,220] [4,221] [5,222] [6,223] [7,224] [8,225] [9,226]
+[10,227] [11,228] [12,229] [13,230]
+Z: [0,24] [1,25] [2,26] [3,27] [4,28] [5,29] [6,30] [7,31] [8,32] [9,33]
+[10,34] [11,35] [12,36] [13,37] [14,38] [15,39] [16,40] [17,41] [18,42] [19,43]
+[20,44] [21,231] [22,232] [23,233] [24,234] [25,235] [26,236] [27,237] [28,238] [29,239]
+[30,240] [31,241] [32,242] [33,243] [34,244] [35,245] [36,246] [37,247] [38,248] [39,249]
+[40,250] [41,251] [42,252] [43,253] [44,254] [45,255]
+time 1350ms: Process Q arrived (requires 86 frames)
+time 1350ms: Cannot place process Q -- skipped!
+================================
+DDDDDDDDDDDDDDDDDDDDDDDDZZZZZZZZ
+ZZZZZZZZZZZZZBBBBBBBBBBBBBBBBBBB
+BBBBBBBBBDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDD.........................
+................................
+.........................EEEEEEE
+EEEEEEEZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+PAGE TABLE [page,frame]:
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+D: [0,0] [1,1] [2,2] [3,3] [4,4] [5,5] [6,6] [7,7] [8,8] [9,9]
+[10,10] [11,11] [12,12] [13,13] [14,14] [15,15] [16,16] [17,17] [18,18] [19,19]
+[20,20] [21,21] [22,22] [23,23] [24,73] [25,74] [26,75] [27,76] [28,77] [29,78]
+[30,79] [31,80] [32,81] [33,82] [34,83] [35,84] [36,85] [37,86] [38,87] [39,88]
+[40,89] [41,90] [42,91] [43,92] [44,93] [45,94] [46,95] [47,96] [48,97] [49,98]
+[50,99] [51,100] [52,101] [53,102] [54,103] [55,104] [56,105] [57,106] [58,107] [59,108]
+[60,109] [61,110] [62,111] [63,112] [64,113] [65,114] [66,115] [67,116] [68,117] [69,118]
+[70,119] [71,120] [72,121] [73,122] [74,123] [75,124] [76,125] [77,126] [78,127] [79,128]
+[80,129] [81,130] [82,131] [83,132] [84,133] [85,134]
+E: [0,217] [1,218] [2,219] [3,220] [4,221] [5,222] [6,223] [7,224] [8,225] [9,226]
+[10,227] [11,228] [12,229] [13,230]
+Z: [0,24] [1,25] [2,26] [3,27] [4,28] [5,29] [6,30] [7,31] [8,32] [9,33]
+[10,34] [11,35] [12,36] [13,37] [14,38] [15,39] [16,40] [17,41] [18,42] [19,43]
+[20,44] [21,231] [22,232] [23,233] [24,234] [25,235] [26,236] [27,237] [28,238] [29,239]
+[30,240] [31,241] [32,242] [33,243] [34,244] [35,245] [36,246] [37,247] [38,248] [39,249]
+[40,250] [41,251] [42,252] [43,253] [44,254] [45,255]
+time 1350ms: Process U arrived (requires 86 frames)
+time 1350ms: Cannot place process U -- skipped!
+================================
+DDDDDDDDDDDDDDDDDDDDDDDDZZZZZZZZ
+ZZZZZZZZZZZZZBBBBBBBBBBBBBBBBBBB
+BBBBBBBBBDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDD.........................
+................................
+.........................EEEEEEE
+EEEEEEEZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+PAGE TABLE [page,frame]:
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+D: [0,0] [1,1] [2,2] [3,3] [4,4] [5,5] [6,6] [7,7] [8,8] [9,9]
+[10,10] [11,11] [12,12] [13,13] [14,14] [15,15] [16,16] [17,17] [18,18] [19,19]
+[20,20] [21,21] [22,22] [23,23] [24,73] [25,74] [26,75] [27,76] [28,77] [29,78]
+[30,79] [31,80] [32,81] [33,82] [34,83] [35,84] [36,85] [37,86] [38,87] [39,88]
+[40,89] [41,90] [42,91] [43,92] [44,93] [45,94] [46,95] [47,96] [48,97] [49,98]
+[50,99] [51,100] [52,101] [53,102] [54,103] [55,104] [56,105] [57,106] [58,107] [59,108]
+[60,109] [61,110] [62,111] [63,112] [64,113] [65,114] [66,115] [67,116] [68,117] [69,118]
+[70,119] [71,120] [72,121] [73,122] [74,123] [75,124] [76,125] [77,126] [78,127] [79,128]
+[80,129] [81,130] [82,131] [83,132] [84,133] [85,134]
+E: [0,217] [1,218] [2,219] [3,220] [4,221] [5,222] [6,223] [7,224] [8,225] [9,226]
+[10,227] [11,228] [12,229] [13,230]
+Z: [0,24] [1,25] [2,26] [3,27] [4,28] [5,29] [6,30] [7,31] [8,32] [9,33]
+[10,34] [11,35] [12,36] [13,37] [14,38] [15,39] [16,40] [17,41] [18,42] [19,43]
+[20,44] [21,231] [22,232] [23,233] [24,234] [25,235] [26,236] [27,237] [28,238] [29,239]
+[30,240] [31,241] [32,242] [33,243] [34,244] [35,245] [36,246] [37,247] [38,248] [39,249]
+[40,250] [41,251] [42,252] [43,253] [44,254] [45,255]
+time 1350ms: Process V arrived (requires 86 frames)
+time 1350ms: Cannot place process V -- skipped!
+================================
+DDDDDDDDDDDDDDDDDDDDDDDDZZZZZZZZ
+ZZZZZZZZZZZZZBBBBBBBBBBBBBBBBBBB
+BBBBBBBBBDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDD.........................
+................................
+.........................EEEEEEE
+EEEEEEEZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+PAGE TABLE [page,frame]:
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+D: [0,0] [1,1] [2,2] [3,3] [4,4] [5,5] [6,6] [7,7] [8,8] [9,9]
+[10,10] [11,11] [12,12] [13,13] [14,14] [15,15] [16,16] [17,17] [18,18] [19,19]
+[20,20] [21,21] [22,22] [23,23] [24,73] [25,74] [26,75] [27,76] [28,77] [29,78]
+[30,79] [31,80] [32,81] [33,82] [34,83] [35,84] [36,85] [37,86] [38,87] [39,88]
+[40,89] [41,90] [42,91] [43,92] [44,93] [45,94] [46,95] [47,96] [48,97] [49,98]
+[50,99] [51,100] [52,101] [53,102] [54,103] [55,104] [56,105] [57,106] [58,107] [59,108]
+[60,109] [61,110] [62,111] [63,112] [64,113] [65,114] [66,115] [67,116] [68,117] [69,118]
+[70,119] [71,120] [72,121] [73,122] [74,123] [75,124] [76,125] [77,126] [78,127] [79,128]
+[80,129] [81,130] [82,131] [83,132] [84,133] [85,134]
+E: [0,217] [1,218] [2,219] [3,220] [4,221] [5,222] [6,223] [7,224] [8,225] [9,226]
+[10,227] [11,228] [12,229] [13,230]
+Z: [0,24] [1,25] [2,26] [3,27] [4,28] [5,29] [6,30] [7,31] [8,32] [9,33]
+[10,34] [11,35] [12,36] [13,37] [14,38] [15,39] [16,40] [17,41] [18,42] [19,43]
+[20,44] [21,231] [22,232] [23,233] [24,234] [25,235] [26,236] [27,237] [28,238] [29,239]
+[30,240] [31,241] [32,242] [33,243] [34,244] [35,245] [36,246] [37,247] [38,248] [39,249]
+[40,250] [41,251] [42,252] [43,253] [44,254] [45,255]
+time 1350ms: Process W arrived (requires 86 frames)
+time 1350ms: Cannot place process W -- skipped!
+================================
+DDDDDDDDDDDDDDDDDDDDDDDDZZZZZZZZ
+ZZZZZZZZZZZZZBBBBBBBBBBBBBBBBBBB
+BBBBBBBBBDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDD.........................
+................................
+.........................EEEEEEE
+EEEEEEEZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+PAGE TABLE [page,frame]:
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+D: [0,0] [1,1] [2,2] [3,3] [4,4] [5,5] [6,6] [7,7] [8,8] [9,9]
+[10,10] [11,11] [12,12] [13,13] [14,14] [15,15] [16,16] [17,17] [18,18] [19,19]
+[20,20] [21,21] [22,22] [23,23] [24,73] [25,74] [26,75] [27,76] [28,77] [29,78]
+[30,79] [31,80] [32,81] [33,82] [34,83] [35,84] [36,85] [37,86] [38,87] [39,88]
+[40,89] [41,90] [42,91] [43,92] [44,93] [45,94] [46,95] [47,96] [48,97] [49,98]
+[50,99] [51,100] [52,101] [53,102] [54,103] [55,104] [56,105] [57,106] [58,107] [59,108]
+[60,109] [61,110] [62,111] [63,112] [64,113] [65,114] [66,115] [67,116] [68,117] [69,118]
+[70,119] [71,120] [72,121] [73,122] [74,123] [75,124] [76,125] [77,126] [78,127] [79,128]
+[80,129] [81,130] [82,131] [83,132] [84,133] [85,134]
+E: [0,217] [1,218] [2,219] [3,220] [4,221] [5,222] [6,223] [7,224] [8,225] [9,226]
+[10,227] [11,228] [12,229] [13,230]
+Z: [0,24] [1,25] [2,26] [3,27] [4,28] [5,29] [6,30] [7,31] [8,32] [9,33]
+[10,34] [11,35] [12,36] [13,37] [14,38] [15,39] [16,40] [17,41] [18,42] [19,43]
+[20,44] [21,231] [22,232] [23,233] [24,234] [25,235] [26,236] [27,237] [28,238] [29,239]
+[30,240] [31,241] [32,242] [33,243] [34,244] [35,245] [36,246] [37,247] [38,248] [39,249]
+[40,250] [41,251] [42,252] [43,253] [44,254] [45,255]
+time 1400ms: Process E removed:
+================================
+DDDDDDDDDDDDDDDDDDDDDDDDZZZZZZZZ
+ZZZZZZZZZZZZZBBBBBBBBBBBBBBBBBBB
+BBBBBBBBBDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDD.........................
+................................
+................................
+.......ZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+PAGE TABLE [page,frame]:
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+D: [0,0] [1,1] [2,2] [3,3] [4,4] [5,5] [6,6] [7,7] [8,8] [9,9]
+[10,10] [11,11] [12,12] [13,13] [14,14] [15,15] [16,16] [17,17] [18,18] [19,19]
+[20,20] [21,21] [22,22] [23,23] [24,73] [25,74] [26,75] [27,76] [28,77] [29,78]
+[30,79] [31,80] [32,81] [33,82] [34,83] [35,84] [36,85] [37,86] [38,87] [39,88]
+[40,89] [41,90] [42,91] [43,92] [44,93] [45,94] [46,95] [47,96] [48,97] [49,98]
+[50,99] [51,100] [52,101] [53,102] [54,103] [55,104] [56,105] [57,106] [58,107] [59,108]
+[60,109] [61,110] [62,111] [63,112] [64,113] [65,114] [66,115] [67,116] [68,117] [69,118]
+[70,119] [71,120] [72,121] [73,122] [74,123] [75,124] [76,125] [77,126] [78,127] [79,128]
+[80,129] [81,130] [82,131] [83,132] [84,133] [85,134]
+Z: [0,24] [1,25] [2,26] [3,27] [4,28] [5,29] [6,30] [7,31] [8,32] [9,33]
+[10,34] [11,35] [12,36] [13,37] [14,38] [15,39] [16,40] [17,41] [18,42] [19,43]
+[20,44] [21,231] [22,232] [23,233] [24,234] [25,235] [26,236] [27,237] [28,238] [29,239]
+[30,240] [31,241] [32,242] [33,243] [34,244] [35,245] [36,246] [37,247] [38,248] [39,249]
+[40,250] [41,251] [42,252] [43,253] [44,254] [45,255]
+time 1450ms: Process Z removed:
+================================
+DDDDDDDDDDDDDDDDDDDDDDDD........
+.............BBBBBBBBBBBBBBBBBBB
+BBBBBBBBBDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDD.........................
+................................
+................................
+................................
+================================
+PAGE TABLE [page,frame]:
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+D: [0,0] [1,1] [2,2] [3,3] [4,4] [5,5] [6,6] [7,7] [8,8] [9,9]
+[10,10] [11,11] [12,12] [13,13] [14,14] [15,15] [16,16] [17,17] [18,18] [19,19]
+[20,20] [21,21] [22,22] [23,23] [24,73] [25,74] [26,75] [27,76] [28,77] [29,78]
+[30,79] [31,80] [32,81] [33,82] [34,83] [35,84] [36,85] [37,86] [38,87] [39,88]
+[40,89] [41,90] [42,91] [43,92] [44,93] [45,94] [46,95] [47,96] [48,97] [49,98]
+[50,99] [51,100] [52,101] [53,102] [54,103] [55,104] [56,105] [57,106] [58,107] [59,108]
+[60,109] [61,110] [62,111] [63,112] [64,113] [65,114] [66,115] [67,116] [68,117] [69,118]
+[70,119] [71,120] [72,121] [73,122] [74,123] [75,124] [76,125] [77,126] [78,127] [79,128]
+[80,129] [81,130] [82,131] [83,132] [84,133] [85,134]
+time 1800ms: Process D removed:
+================================
+................................
+.............BBBBBBBBBBBBBBBBBBB
+BBBBBBBBB.......................
+................................
+................................
+................................
+................................
+................................
+================================
+PAGE TABLE [page,frame]:
+B: [0,45] [1,46] [2,47] [3,48] [4,49] [5,50] [6,51] [7,52] [8,53] [9,54]
+[10,55] [11,56] [12,57] [13,58] [14,59] [15,60] [16,61] [17,62] [18,63] [19,64]
+[20,65] [21,66] [22,67] [23,68] [24,69] [25,70] [26,71] [27,72]
+time 2650ms: Process B removed:
+================================
+................................
+................................
+................................
+................................
+................................
+................................
+................................
+................................
+================================
+PAGE TABLE [page,frame]:
+time 2650ms: Simulator ended (Non-contiguous)

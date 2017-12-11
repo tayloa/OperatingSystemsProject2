@@ -33,3 +33,6 @@ if __name__ == '__main__':
     processes = get_instructions(sys.argv[1])
     main = MainMemory(processes)
     main.run("next")
+    # main.run("best")
+    # main.run("first")
+    # main.run("")
