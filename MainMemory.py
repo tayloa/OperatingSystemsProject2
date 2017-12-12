@@ -33,13 +33,13 @@ class MainMemory():
             self.memory[start:(start + process.frame)] = [str(process) for char in self.memory[start:(start + process.frame)]]
             self.running.append([process,[]])
             return True
-        # else:
-        #     for i in range(len(self.memory)):
-        #         if ("".join(self.memory[i:(i + process.frame)])) == ("." * process.frame):
-        #             self.memory[start:(start + process.frame)] = [str(process) for char in self.memory[start:(start + process.frame)]]
-        #             self.running.append([process,[]])
-        #             return True
-        #         i+=process.frame
+        else:
+            for i in range(len(self.memory)):
+                if ("".join(self.memory[i:(i + process.frame)])) == ("." * process.frame):
+                    self.memory[i:(i + process.frame)] = [str(process) for char in self.memory[i:(i + process.frame)]]
+                    self.running.append([process,[]])
+                    return True
+                i+=process.frame
         return False
 
     def first_fit(self,process):
@@ -120,8 +120,8 @@ class MainMemory():
                 process = pair[0]
                 if process.finished(t):
                     # Save the ending frame of the process we are removing
-                    # start = (''.join(self.memory).find(str(process)))
-                    start = 0
+                    start = (''.join(self.memory).rfind(str(process)))
+                    # start = 0
                     # Convert memory to string form for easy manipulation
                     temp = "".join(self.memory)
                     # Remove the process by replacing it with free space
