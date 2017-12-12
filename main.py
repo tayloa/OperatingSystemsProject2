@@ -30,9 +30,10 @@ def get_instructions(file_name):
     return process_list
 
 if __name__ == '__main__':
-    processes = get_instructions(sys.argv[1])
-    main = MainMemory(processes)
-    main.run("next")
-    # main.run("best")
-    # main.run("first")
-    # main.run("")
+    processes1 = get_instructions(sys.argv[1])
+    main1 = MainMemory(processes1)
+    main1.run("Next")
+    print('')
+    processes2 = get_instructions(sys.argv[1])
+    main2 = MainMemory(processes2)
+    main2.run("First")

@@ -28,7 +28,6 @@ class MainMemory():
 
     # Placement algorithms for each process
     def next_fit(self,start,process):
-
         # Find a free range after the end index of the most recently added process
         if ("".join(self.memory[start:(start + process.frame)])) == ("." * process.frame):
             self.memory[start:(start + process.frame)] = [str(process) for char in self.memory[start:(start + process.frame)]]
@@ -36,10 +35,25 @@ class MainMemory():
             return True
         return False
 
-    def best_fit(self,process):
-        return False
-
     def first_fit(self,process):
+        ##Convert self.memory (a list) to a string
+        tmp = ''.join(self.memory) 
+        ##'A'*3 = 'AAA'
+        process_string = str(process)*process.frame
+        ##String of empty dots that equals the size of the process_string
+        empty_string = '.'*process.frame
+        # while(1):
+        if tmp.find(empty_string) == -1:
+            # if(256-len(empty_string) > 0):
+            #     tmp.append('.')
+            # else:
+            return False
+        else:
+            self.memory[tmp.find(empty_string) : (tmp.find(empty_string)+process.frame)] = [str(process) for char in  process_string]
+            return True
+
+    def best_fit(self,process):
+        ##Iterate through the memory and look for first block of space large enough to contain
         return False
 
     def non_contiguous(self,process):
@@ -69,13 +83,13 @@ class MainMemory():
     # Place the process based on the algorithm
     def place(self,start,process):
         placed = False
-        if self.algo == "next":
+        if self.algo == "Next":
             # Find the index where last process ended and start searching for free memory after it
             placed = self.next_fit(start, process)
-        elif self.algo == "best":
-            pass
-        elif self.algo == "first":
-            pass
+        elif self.algo == "Best":
+            placed = self.best_fit(process)
+        elif self.algo == "First":
+            placed = self.first_fit(process)
         # non_contiguous placement algorithms
         else:
             pass
@@ -86,7 +100,7 @@ class MainMemory():
         # Run the simulation unitl all processes are finished
         t = 0
         self.algo = algo
-        print("time {}ms: Simulator started (Contiguous -- Next-Fit)".format(t))
+        print("time {}ms: Simulator started (Contiguous -- {}-Fit)".format(t,algo))
         skipped = []
         last_placed = "" # The last process we added or removed
 
@@ -103,6 +117,7 @@ class MainMemory():
                     print("time {}ms: Process {} removed:".format(t, process))
                     print(self)
                     if process.arr_t != -1:
+                        ##still have arrival times
                         self.process_list.append(process)
                 else:
                     unfinished.append(pair)
