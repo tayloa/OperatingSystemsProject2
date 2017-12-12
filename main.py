@@ -25,7 +25,7 @@ def get_instructions(file_name):
                 arrivals = []
                 for i in range(2,len(split_line)):
                     temp = split_line[i].split('/')
-                    arrivals.append((int(temp[0]),int(temp[1])))
+                    arrivals.append([int(temp[0]),int(temp[1])])
                 process_list.append(Process(name,mem,arrivals))
     return process_list
 

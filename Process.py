@@ -25,6 +25,11 @@ class Process:
                 return True
         return False
 
+    # Adjust all future arrival times after defragmentation occurs
+    def adjust_times(self,t):
+        for pair in self.arrivals:
+            pair[0] += t
+
     def finished(self,t):
         if self.end_t != -1:
             if self.end_t == t:
