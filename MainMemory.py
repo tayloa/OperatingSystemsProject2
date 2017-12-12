@@ -33,11 +33,18 @@ class MainMemory():
             self.memory[start:(start + process.frame)] = [str(process) for char in self.memory[start:(start + process.frame)]]
             self.running.append([process,[]])
             return True
+        # else:
+        #     for i in range(len(self.memory)):
+        #         if ("".join(self.memory[i:(i + process.frame)])) == ("." * process.frame):
+        #             self.memory[start:(start + process.frame)] = [str(process) for char in self.memory[start:(start + process.frame)]]
+        #             self.running.append([process,[]])
+        #             return True
+        #         i+=process.frame
         return False
 
     def first_fit(self,process):
         ##Convert self.memory (a list) to a string
-        tmp = ''.join(self.memory) 
+        tmp = ''.join(self.memory)
         ##'A'*3 = 'AAA'
         process_string = str(process)*process.frame
         ##String of empty dots that equals the size of the process_string
@@ -102,58 +109,66 @@ class MainMemory():
         self.algo = algo
         print("time {}ms: Simulator started (Contiguous -- {}-Fit)".format(t,algo))
         skipped = []
-        last_placed = "" # The last process we added or removed
+        start = 0 # Ending frame (index) of the last process we placed, used for Next-fir algorithm
 
         while (1):
 
             # Check if a process finished
+            # If a process is finished we will "remove it" from running by not adding it to unfinished
             unfinished = [] # keep unfinished processes
             for pair in self.running:
                 process = pair[0]
                 if process.finished(t):
+                    # Save the ending frame of the process we are removing
+                    # start = (''.join(self.memory).find(str(process)))
+                    start = 0
+                    # Convert memory to string form for easy manipulation
                     temp = "".join(self.memory)
+                    # Remove the process by replacing it with free space
                     temp = temp.replace(str(process), ".")
+                    # Convert the string back to a list
                     self.memory = [c for c in temp]
                     print("time {}ms: Process {} removed:".format(t, process))
                     print(self)
+
+                    # Save processes that still have cycles to complete
                     if process.arr_t != -1:
-                        ##still have arrival times
                         self.process_list.append(process)
                 else:
                     unfinished.append(pair)
-            self.running = unfinished
+            self.running = unfinished # Save the list of unfinished processes as the new running
 
             # Check if a process arrived
             unarrived = [] # keep track of unarrived processes
+
             for process in self.process_list:
                 if process.arrived(t):
 
-                    # Place the processes in a frame depending on the algorithm
                     # Check if the process is in memory
                     if str(process) not in self.memory and str(process) not in skipped:
                         print("time {}ms: Process {} arrived (requires {} frames)".format(t, process, process.frame ))
                         placed = False
-                        print(last_placed)
 
                         # Add the process to the start if memory is empty
                         if "".join(self.memory) == len(self.memory) * ".":
+                            # Check if the process was actually placed
                             if self.place(0, process) == True:
                                 print("time {}ms: Placed process {}:".format(t, process))
                                 print(self)
+                                start = (''.join(self.memory).rfind(str(process))) + 1
                                 continue
 
                         # Check if there is enough space to add the process, then try adding it
                         if ("".join(self.memory)).count(".") >= process.frame:
 
                             # Next-fit
-                            # get end location of last placed process
-                            start = (''.join(self.memory).rfind(last_placed)) + 1
-                            # If there is not enough space for the process after this location, set the start to 0
-                            if len(("".join(self.memory[start:len(self.memory)]))) < process.frame:
+                            # If there is not enough space for the process after this location or
+                            # the start index is greater
+                            if "".join(self.memory[start:len(self.memory)]).count(".") < process.frame or start >= len(self.memory):
                                 start = 0
                             if self.place(start,process) == True:
                                 print("time {}ms: Placed process {}:".format(t, process))
-                                last_placed = str(process)
+                                start = (''.join(self.memory).rfind(str(process))) + 1
                                 print(self)
 
                             # Defrag and then try adding the process
@@ -164,9 +179,10 @@ class MainMemory():
                                 current_frames = self.get_current_frames()
                                 print("time {}ms: Defragmentation complete (moved {} frames: {})".format(t, t_units, current_frames))
                                 start = (''.join(self.memory).find("."))
+                                print(self)
                                 if self.place(start,process) == True:
                                     print("time {}ms: Placed process {}:".format(t, process))
-                                    last_placed = str(process)
+                                    start = (''.join(self.memory).rfind(str(process))) + 1
                                     print(self)
 
                                 # Adjust all current and future times to account for defragmentation
@@ -178,7 +194,7 @@ class MainMemory():
                                     p.arr_t += t_units
                                     p.end_t += t_units
 
-                                last_placed = str(process)
+                                start = (''.join(self.memory).rfind(str(process))) + 1
                         else:
                             print("time {}ms: Cannot place process {} -- skipped!".format(t,process))
                             skipped.append(str(process))

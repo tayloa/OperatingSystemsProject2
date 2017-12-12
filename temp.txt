@@ -1,6 +1,5 @@
 time 0ms: Simulator started (Contiguous -- Next-Fit)
 time 0ms: Process A arrived (requires 45 frames)
-
 time 0ms: Placed process A:
 ================================
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -13,7 +12,6 @@ AAAAAAAAAAAA....................
 ...............................
 ================================
 time 0ms: Process B arrived (requires 28 frames)
-A
 time 0ms: Placed process B:
 ================================
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -26,7 +24,6 @@ BBBBBBBB........................
 ...............................
 ================================
 time 0ms: Process C arrived (requires 58 frames)
-B
 time 0ms: Placed process C:
 ================================
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -39,7 +36,6 @@ CC..............................
 ...............................
 ================================
 time 0ms: Process D arrived (requires 86 frames)
-C
 time 0ms: Placed process D:
 ================================
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -52,7 +48,6 @@ DDDDDDDDDDDDDDDDDDDDDDDD........
 ...............................
 ================================
 time 0ms: Process E arrived (requires 14 frames)
-D
 time 0ms: Placed process E:
 ================================
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -65,7 +60,6 @@ DDDDDDDDDDDDDDDDDDDDDDDDEEEEEEEE
 EEEEEE.........................
 ================================
 time 100ms: Process F arrived (requires 24 frames)
-E
 time 100ms: Placed process F:
 ================================
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -89,7 +83,6 @@ DDDDDDDDDDDDDDDDDDDDDDDDEEEEEEEE
 EEEEEEFFFFFFFFFFFFFFFFFFFFFFFF.
 ================================
 time 400ms: Process A arrived (requires 45 frames)
-F
 time 400ms: Placed process A:
 ================================
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -102,7 +95,6 @@ DDDDDDDDDDDDDDDDDDDDDDDDEEEEEEEE
 EEEEEEFFFFFFFFFFFFFFFFFFFFFFFF.
 ================================
 time 435ms: Process G arrived (requires 13 frames)
-A
 time 435ms: Cannot place process G -- skipped!
 ================================
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -137,7 +129,6 @@ DDDDDDDDDDDDDDDDDDDDDDDDEEEEEEEE
 EEEEEE.........................
 ================================
 time 500ms: Process F arrived (requires 24 frames)
-A
 time 500ms: Placed process F:
 ================================
 FFFFFFFFFFFFFFFFFFFFFFFF.........
@@ -150,9 +141,18 @@ DDDDDDDDDDDDDDDDDDDDDDDDEEEEEEEE
 EEEEEE.........................
 ================================
 time 550ms: Process J arrived (requires 46 frames)
-F
 time 550ms: Cannot place process J -- starting defragmentation
 time 760ms: Defragmentation complete (moved 210 frames: B, C, D, E, F)
+================================
+FFFFFFFFFFFFFFFFFFFFFFFFBBBBBBBBB
+BBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDEEEEEEEEEEEEEE...............
+...............................
+================================
 time 760ms: Placed process J:
 ================================
 FFFFFFFFFFFFFFFFFFFFFFFFBBBBBBBBB
@@ -198,9 +198,18 @@ BBBBBBBBBBBBBBBBBBB.............
 JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
 ================================
 time 1310ms: Process C arrived (requires 58 frames)
-J
 time 1310ms: Cannot place process C -- starting defragmentation
 time 1398ms: Defragmentation complete (moved 88 frames: B, E, J)
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBEEEEE
+EEEEEEEEEJJJJJJJJJJJJJJJJJJJJJJJ
+JJJJJJJJJJJJJJJJJJJJJJJ.........
+................................
+................................
+................................
+................................
+...............................
+================================
 time 1398ms: Placed process C:
 ================================
 BBBBBBBBBBBBBBBBBBBBBBBBBBBBEEEEE
@@ -224,9 +233,18 @@ JJJJJJJJJJJJJJJJJJJJJJJ.........
 ...............................
 ================================
 time 1648ms: Process D arrived (requires 86 frames)
-C
 time 1648ms: Cannot place process D -- starting defragmentation
 time 1736ms: Defragmentation complete (moved 88 frames: B, E, J)
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBEEEEE
+EEEEEEEEEJJJJJJJJJJJJJJJJJJJJJJJ
+JJJJJJJJJJJJJJJJJJJJJJJ.........
+................................
+................................
+................................
+................................
+...............................
+================================
 time 1736ms: Placed process D:
 ================================
 BBBBBBBBBBBBBBBBBBBBBBBBBBBBEEEEE
@@ -282,4 +300,4 @@ time 3036ms: Process B removed:
 ................................
 ...............................
 ================================
-time 3036ms: Simulator ended (next)
+time 3036ms: Simulator ended (Next)
