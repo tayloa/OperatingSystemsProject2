@@ -174,15 +174,16 @@ def non_contiguous(p_list):
 
 if __name__ == '__main__':
     processes1 = get_instructions(sys.argv[1])
-    processes3 = get_instructions(sys.argv[1])
-    processes4 = get_instructions(sys.argv[1]) # for the non-contiguous memory allocation
-
     main1 = MainMemory(processes1)
     main1.run("Next")
-    # print('')
-    # processes2 = get_instructions(sys.argv[1])
-    # main2 = MainMemory(processes2)
-    # main2.run("First")
-
-    print()
+    print('')
+    processes2 = get_instructions(sys.argv[1])
+    main2 = MainMemory(processes2)
+    main2.run("First")
+    print('')
+    processes3 = get_instructions(sys.argv[1])
+    main3 = MainMemory(processes3)
+    main3.run("Best")
+    print('')
+    processes4 = get_instructions(sys.argv[1])
     non_contiguous(processes4)
