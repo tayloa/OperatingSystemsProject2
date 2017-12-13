@@ -18,12 +18,11 @@ class MainMemory():
 
     def __str__(self):
         result = ("=" * 32) + '\n'
-        for i in range(len(self.memory)):
-            if (i % 32 == 0)  and (i != 0):
-                result+= self.memory[i] + '\n'
-            else:
-                result += self.memory[i]
-        result += '\n' + ("=" * 32)
+        for i in range(len(self.memory)//32+1):
+            result+= "".join(self.memory[i*32:(i+1)*32])
+            if(((i+1)*32) != 288):
+                result+='\n'
+        result+= ("=" * 32)
         return result
 
     # Placement algorithms for each process
@@ -43,25 +42,55 @@ class MainMemory():
         return False
 
     def first_fit(self,process):
-        ##Convert self.memory (a list) to a string
+        #Convert self.memory (a list) to a string
         tmp = ''.join(self.memory)
-        ##'A'*3 = 'AAA'
-        process_string = str(process)*process.frame
-        ##String of empty dots that equals the size of the process_string
+        #Create string of '.' equal to the length of the process frames
         empty_string = '.'*process.frame
-        # while(1):
+        #Find the first instance of this '.' string in memory
+        #If one does not exist, no partition large enough to hold process
         if tmp.find(empty_string) == -1:
-            # if(256-len(empty_string) > 0):
-            #     tmp.append('.')
-            # else:
             return False
+        #Otherwise, add process to memory and add it to list of running proccesses
         else:
-            self.memory[tmp.find(empty_string) : (tmp.find(empty_string)+process.frame)] = [str(process) for char in  process_string]
+            #Start index : Stop index
+            self.memory[tmp.find(empty_string) : (tmp.find(empty_string)+process.frame)] = [str(process) for i in range(process.frame)]
+            self.running.append([process,[]])
             return True
 
     def best_fit(self,process):
-        ##Iterate through the memory and look for first block of space large enough to contain
-        return False
+        mincount = 100000000 #Arbitrarily large number at start; used to compare free memory partition sizes
+        minposition = -1 #Starting index of the smallest free memory partition in memory
+
+        count = 0 #Number of free frames in the current free memory partition
+        position = 0 #Starting index of current free memory partiotion
+
+        for i in range(len(self.memory)):
+            if(self.memory[i] == '.'):
+                if count == 0: #Start of new free memory partition
+                    position = i #Save position
+                # Case: *****...........
+                # where * could be any character followed by all '.'
+                count+=1
+                if i == 255:
+                    #print("Count: {} Mincount: {} Partition Size {}\n").format(count,mincount,process.frame)
+                    if((count < mincount) and (count>=process.frame)): #If the current partition size is smaller than the smallest one seen thus far
+                        mincount = count
+                        minposition = position #Record the start index of this partition
+                    count = 0
+            else:
+                if count > 0: #Meaning the last element was a '.'
+                    #print("Count: {} Mincount: {} Partition Size {}\n").format(count,mincount,process.frame)
+                    if((count < mincount) and (count>=process.frame)): #If the current partition size is smaller than the smallest one seen thus far
+                        mincount = count
+                        minposition = position #Record the start index of this partition
+                    count = 0
+        if(minposition == -1): 
+            return False
+        #Otherwise, add process to memory and add it to list of running proccesses
+        else:
+            self.memory[minposition : minposition+process.frame] = [str(process) for i in range(process.frame)]
+            self.running.append([process,[]])
+            return True
 
     def non_contiguous(self,process):
         return False
