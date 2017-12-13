@@ -50,7 +50,7 @@ class MainMemory():
         else:
             #Start index : Stop index
             self.memory[tmp.find(empty_string) : (tmp.find(empty_string)+process.frame)] = [str(process) for i in range(process.frame)]
-            self.running.append([process,[]])
+            self.running.append(process)
             return True
 
     def best_fit(self,process):
@@ -80,12 +80,12 @@ class MainMemory():
                         mincount = count
                         minposition = position #Record the start index of this partition
                     count = 0
-        if(minposition == -1): 
+        if(minposition == -1):
             return False
         #Otherwise, add process to memory and add it to list of running proccesses
         else:
             self.memory[minposition : minposition+process.frame] = [str(process) for i in range(process.frame)]
-            self.running.append([process,[]])
+            self.running.append(process)
             return True
 
     def non_contiguous(self,process):
@@ -132,7 +132,7 @@ class MainMemory():
         # Run the simulation unitl all processes are finished
         t = 0
         self.algo = algo
-        print("time {}ms: Simulator Started (Contiguous -- {}-Fit)".format(t,algo))
+        print("time {}ms: Simulator started (Contiguous -- {}-Fit)".format(t,algo))
         skipped = []
         prev_process_end = 0 # Ending frame (index) of the last process we placed, used for Next-fir algorithm
 
@@ -157,8 +157,8 @@ class MainMemory():
                     # Convert the string back to a list
                     self.memory = [c for c in temp]
 
-                    # if "".join(self.memory[end_frame:len(self.memory)]).count(".") < process.frame:
-                        # prev_process_end = start_frame
+                    if "".join(self.memory[end_frame:len(self.memory)]).count(".") < process.frame:
+                        prev_process_end = start_frame
                     print("time {}ms: Process {} removed:".format(t, process))
                     print(self)
 
@@ -249,4 +249,4 @@ class MainMemory():
             if len(self.process_list) == 0 and len(self.running) == 0:
                 break
             t = t + 1
-        print("time {}ms: Simulator ended ({})".format(t, algo))
+        print("time {}ms: Simulator ended (Contiguous -- {}-Fit)".format(t, algo))

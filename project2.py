@@ -67,7 +67,7 @@ def print_p_table(p_table):
             if(j%10 != 0):
                 ans+= "[{},{}] ".format(p_table[i][j][0], p_table[i][j][1])
             else:
-                ans+= "[{},{}] ".format(p_table[i][j][0], p_table[i][j][1])
+                ans+= "[{},{}]".format(p_table[i][j][0], p_table[i][j][1])
                 ans += "\n"
         print(ans)
 
