@@ -119,6 +119,8 @@ class MainMemory():
                     end_frame = (''.join(self.memory).rfind(str(process)))
                     prev_process_end = end_frame
 
+                    # prev_process_end = (''.join(self.memory).find(str(process)))
+
                     # Convert memory to string form for easy manipulation
                     temp = "".join(self.memory)
                     # Remove the process by replacing it with free space
@@ -126,8 +128,8 @@ class MainMemory():
                     # Convert the string back to a list
                     self.memory = [c for c in temp]
 
-                    if "".join(self.memory[end_frame:len(self.memory)]).count(".") < process.frame:
-                        prev_process_end = start_frame
+                    # if "".join(self.memory[end_frame:len(self.memory)]).count(".") < process.frame:
+                        # prev_process_end = start_frame
                     print("time {}ms: Process {} removed:".format(t, process))
                     print(self)
 
@@ -140,16 +142,16 @@ class MainMemory():
             # Sort the lists based on process name and arrival time
             self.running = sorted(unfinished, key = lambda x: (x.end_t,x.name)) # Save the list of unfinished processes as the new running
 
-            # Check if a process arrived
             unarrived = [] # keep track of unarrived processes
 
             self.process_list.sort(key = lambda x: (x.arr_t,x.name))
 
             for process in self.process_list:
+                # Check if a process arrived
                 if process.arrived(t):
 
                     # Check if the process is in memory
-                    if str(process) not in self.memory and str(process) not in skipped:
+                    if str(process) not in self.memory:
                         print("time {}ms: Process {} arrived (requires {} frames)".format(t, process, process.frame ))
                         placed = False
 
@@ -168,6 +170,7 @@ class MainMemory():
                             # Next-fit
                             # If there is not enough space for the process after this location or
                             # the prev_process_end index is greater
+
                             if "".join(self.memory[prev_process_end:len(self.memory)]).count(".") < process.frame or prev_process_end >= len(self.memory):
                                 prev_process_end = 0
                             if self.place(prev_process_end,process) == True:
@@ -209,12 +212,12 @@ class MainMemory():
                 else:
                     if process.arr_t != -1:
                         unarrived.append(process)
+
             # Sort the lists based on process name and arrival time
             self.process_list = sorted(unarrived, key = lambda x: (x.arr_t,x.name))
             self.running.sort(key = lambda x: (x.end_t,x.name))
 
-
-            if (len(self.process_list) == 0 and len(self.running) == 0):
+            if len(self.process_list) == 0 and len(self.running) == 0:
                 break
             t = t + 1
         print("time {}ms: Simulator ended ({})".format(t, algo))

@@ -40,12 +40,12 @@ def print_mem(mem):
     return result
 
 def can_be_added(string_memory, frame_num):
-    counter = 0 
+    counter = 0
     counter = string_memory.count('.')
     # print("counter is: ", counter, "with string_memory: ", string_memory, "and frame_num: ", frame_num)
     if frame_num <= counter:
         return True
-    return False 
+    return False
 
 
 def print_mem(mem_to_print):
@@ -85,9 +85,8 @@ def non_contiguous(p_list):
     # can convert memory to string to string using join to help print and find
     # stuff
     while (1):
-        t = 0
         string_mem = ''.join(memory)
-        print(memory)
+        # print(memory)
         #break
         for i in range(len(p_list)):
             # print("At time", t, "This process", p_list[i], "has this status of arrived:", p_list[i].arrived(t))
@@ -98,52 +97,52 @@ def non_contiguous(p_list):
             # print(p_list[i], "produces this value for can_be_added:", can_be_added(string_mem, p_list[i].frame))
             # input("ASDF")
             # print(p_list[i], "has an arrival time of: ", p_list[i].arr_t)
-            if (p_list[i].arrived(t)): # if a process has arrived and there is space for it 
+            if (p_list[i].arrived(t)): # if a process has arrived and there is space for it
                 print("time {}ms: Process {} arrived (requires {} frames)".format(t, p_list[i], p_list[i].frame))
                 if(not full and enough_space):
-                    # put the process in the running list, place it in memory, and then construct it's list and put 
-                    # it in the page table. Or tuple so it can be sorted. 
-                    # have to count the number of '.' in the thing in order to see 
+                    # put the process in the running list, place it in memory, and then construct it's list and put
+                    # it in the page table. Or tuple so it can be sorted.
+                    # have to count the number of '.' in the thing in order to see
                     print("time {}ms: Placed Process {}:".format(t, p_list[i]))
                     running.append(p_list[i])
-                    page_counter = 0 # i can be frame 
-                    table_list_to_add = [str(p_list[i])] # list where the first entry is the name of the list, and entries after are the 
-                    # [page, frame] a list. Convert to a table later? 
-                    for j in range(len(memory)): 
-                        if(memory[j] == '.'): 
+                    page_counter = 0 # i can be frame
+                    table_list_to_add = [str(p_list[i])] # list where the first entry is the name of the list, and entries after are the
+                    # [page, frame] a list. Convert to a table later?
+                    for j in range(len(memory)):
+                        if(memory[j] == '.'):
                             memory[j] = p_list[i].name
-                            page_frame = (page_counter, j) # i is the placement in the list 
+                            page_frame = (page_counter, j) # i is the placement in the list
                             table_list_to_add.append(page_frame)
                             page_counter += 1
-                        if(page_counter == p_list[i].frame): 
-                            # should be done now 
+                        if(page_counter == p_list[i].frame):
+                            # should be done now
                             page_table.append(table_list_to_add)
-                            page_table.sort() # to keep in alpha order 
+                            page_table.sort() # to keep in alpha order
                             break
-                    # print the memory now to see it 
+                    # print the memory now to see it
                     print_mem(memory)
-                    # now print page_table 
+                    # now print page_table
                     print_p_table(page_table)
                     #input("memory should print")
-                elif(full or not enough_space): # is the full needed? 
+                elif(full or not enough_space): # is the full needed?
                     # if it's the arrival time but there's not enough space or it's full (maybe about the full)
-                    # then it should skip the process. To get it moving into the next thing, 
-                    # should it call finished, except on it's own end time instead of the real time 
-                    # in order to "fake" a finish? that's what I'm thinking. 
+                    # then it should skip the process. To get it moving into the next thing,
+                    # should it call finished, except on it's own end time instead of the real time
+                    # in order to "fake" a finish? that's what I'm thinking.
                     print("time {}ms: Cannot place process".format(t), p_list[i],"-- skipped!")
                     print_mem(memory)
                     print_p_table(page_table)
-                    # now to actually make it so the process is the next arrival time or nah. 
-                    p_list[i].finished(p_list[i].end_t) # DEBUG this should.....work...Aaron puts it in a skipped array but meh. Should always be true too 
-            elif(p_list[i].finished(t)): # DEBUG I guess if it's here, then we can assume it's already in memory. If not, then 
+                    # now to actually make it so the process is the next arrival time or nah.
+                    p_list[i].finished(p_list[i].end_t) # DEBUG this should.....work...Aaron puts it in a skipped array but meh. Should always be true too
+            elif(p_list[i].finished(t)): # DEBUG I guess if it's here, then we can assume it's already in memory. If not, then
             # may need to put it in a running list(already have one)
                 print("time {}ms: Process".format(t), p_list[i], "removed:")
-                # now actually need to get rid of it in memory and in the 
-                # page_table 
+                # now actually need to get rid of it in memory and in the
+                # page_table
                 for l in range(len(memory)):
                     if memory[l] == p_list[i].name:
                         memory[l] = '.'
-                # page_table 
+                # page_table
                 for l in range(len(page_table)):
                     # print(page_table)
                     # print("l is currently", l, "page_table[l] is: ", page_table[l])
@@ -158,10 +157,10 @@ def non_contiguous(p_list):
                 print_mem(memory)
                 print_p_table(page_table)
             # in order to see if simulation is done, can go through each process in p_list and check their arrivals..and if they're in running?
-            # if it's empty and running is empty, then we good to go. or have a done array or remove from 
+            # if it's empty and running is empty, then we good to go. or have a done array or remove from
 
-        # should go through running and see if anything is finished, or is that handled starting at the elif(p_list[i].finished(t)) statement? 
-        # DEBUG or can run through each p_list[i] again and see if all arr_t == -1, if so then we good!! 
+        # should go through running and see if anything is finished, or is that handled starting at the elif(p_list[i].finished(t)) statement?
+        # DEBUG or can run through each p_list[i] again and see if all arr_t == -1, if so then we good!!
         all_done = True
         for i in range(len(p_list)):
             if p_list[i].arr_t != -1 or p_list[i].run_t != -1 or p_list[i].end_t != -1:
@@ -170,12 +169,6 @@ def non_contiguous(p_list):
             print("time {}ms: Simulator ended (Non-contiguous)".format(t))
             break
 
-            if (p_list[i].arrived(t) and not full): # if a process has arrived and there is space for it
-                # put the process in the running list, place it in memory, and then construct it's list and put
-                # it in the page table. Or tuple so it can be sorted.
-                running.append(p_list[i])
-                print("time {}ms: Process {} arrived (requires {} frames)".format(t, p_list[i], p_list[i].frame))
-                break
         t+=1
     return
 
@@ -190,6 +183,6 @@ if __name__ == '__main__':
     # processes2 = get_instructions(sys.argv[1])
     # main2 = MainMemory(processes2)
     # main2.run("First")
-    
+
     print()
-    non_contiguous(processes4) 
+    non_contiguous(processes4)
