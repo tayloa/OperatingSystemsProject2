@@ -11,6 +11,7 @@ class MainMemory():
         self.memory = list("." * 256)
         self.algo = ""
         self.running = []
+        self.moved = [] #Processes moved in defrag
 
     def __str__(self):
         result = ("=" * 32) + '\n'
@@ -109,7 +110,7 @@ class MainMemory():
     # Returns a formatted string of all currently running processes
     def get_current_frames(self):
         result = ""
-        processes = [str(p) for p in self.running]
+        processes = [str(p) for p in self.moved]
         processes.sort()
         for i in range(len(processes)):
             if i == len(processes) - 1:
@@ -120,13 +121,14 @@ class MainMemory():
 
     # Defrag memory to make space for a new process
     def defrag(self,t):
+        self.moved = [] #Reset list of processes moved
         temp = "".join(self.memory)
         # index = temp.find(".")
         temp = temp.replace(".", "")
         free_space = len(self.memory) - len(temp)
         temp += ("." * free_space)
         self.memory = [c for c in temp]
-        return len(self.memory) - free_space
+        return len(self.memory) - free_space # - index
 
     # Place the process based on the algorithm
     def place(self,prev_process_end,process):
@@ -234,6 +236,9 @@ class MainMemory():
                                 t_units = self.defrag(t)
                                 t += t_units
                                 current_frames = self.get_current_frames()
+                                ##
+
+                                ##
                                 print("time {}ms: Defragmentation complete (moved {} frames: {})".format(t, t_units, current_frames))
                                 prev_process_end = (''.join(self.memory).find("."))
                                 print(self)
