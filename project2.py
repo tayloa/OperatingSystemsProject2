@@ -69,6 +69,7 @@ def print_p_table(p_table):
             else:
                 ans+= "[{},{}]".format(p_table[i][j][0], p_table[i][j][1])
                 ans += "\n"
+        ans = ans.rstrip()
         print(ans)
 
 def non_contiguous(p_list):
@@ -103,7 +104,7 @@ def non_contiguous(p_list):
                     # put the process in the running list, place it in memory, and then construct it's list and put
                     # it in the page table. Or tuple so it can be sorted.
                     # have to count the number of '.' in the thing in order to see
-                    print("time {}ms: Placed Process {}:".format(t, p_list[i]))
+                    print("time {}ms: Placed process {}:".format(t, p_list[i]))
                     running.append(p_list[i])
                     page_counter = 0 # i can be frame
                     table_list_to_add = [str(p_list[i])] # list where the first entry is the name of the list, and entries after are the
