@@ -5,7 +5,10 @@ class MainMemory():
         process_list: all processes that need to be used in the simulation
         memory: string representation of physical memory
         algo: placement algorithm to be used
-        running: list of running processes in the format [ process object ]
+        running: list of running processes in the format
+            [
+               process object,
+            ]
         '''
         self.process_list = process_list
         self.memory = list("." * 256)
@@ -103,7 +106,7 @@ class MainMemory():
         # Run the simulation unitl all processes are finished
         t = 0
         self.algo = algo
-        print("time {}ms: Simulator Started (Contiguous -- {}-Fit)".format(t,algo))
+        print("time {}ms: Simulator prev_process_ended (Contiguous -- {}-Fit)".format(t,algo))
         skipped = []
         prev_process_end = 0 # Ending frame (index) of the last process we placed, used for Next-fir algorithm
 
@@ -190,27 +193,32 @@ class MainMemory():
                                     print(self)
 
                                 # Adjust all current and future times to account for defragmentation
-                                for p in self.running:
+                                for pair in self.running:
                                     # Be careful not to adjust processes that are in both lists
-                                    p.adjust_times(t_units)
+                                    if pair[0] not in self.process_list:
+                                        pair[0].adjust_times(t_units)
+
+                                temp = "".join(self.memory)
                                 for p in self.process_list:
                                     # Be careful not to adjust processes that are in both lists
-                                    if p not in self.running:
+                                    if str(p) not in temp:
                                         p.adjust_times(t_units)
 
                                 prev_process_end = (''.join(self.memory).rfind(str(process))) + 1
+                                for pair in self.running:
+                                    print(str(pair[0]),pair[0].end_t)
+                                for pair in self.process_list:
+                                    print(str(pair),pair.end_t)
                         else:
                             print("time {}ms: Cannot place process {} -- skipped!".format(t,process))
                             # Move on to the process's next arrival time if it is skipped
                             process.next_arr_t()
-                            if process.arr_t != -1:
-                                unarrived.append(process)
+                            unarrived.append(process)
                             print(self)
                 else:
-                    if process.arr_t != -1:
-                        unarrived.append(process)
+                    unarrived.append(process)
             # Sort the lists based on process name and arrival time
-            self.process_list = sorted(unarrived, key = lambda x: (x.arr_t,x.name))
+            self.process_list.sort(key = lambda x: (x.arr_t,x.name))
             self.running.sort(key = lambda x: (x.end_t,x.name))
 
             if (len(self.process_list) == 0 and len(self.running) == 0):

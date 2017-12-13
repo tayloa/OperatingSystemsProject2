@@ -1,0 +1,674 @@
+time 0ms: Simulator Started (Contiguous -- Next-Fit)
+time 0ms: Process A arrived (requires 45 frames)
+time 0ms: Placed process A:
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAA....................
+................................
+................................
+................................
+................................
+................................
+...............................
+================================
+time 0ms: Process B arrived (requires 28 frames)
+time 0ms: Placed process B:
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAABBBBBBBBBBBBBBBBBBBB
+BBBBBBBB........................
+................................
+................................
+................................
+................................
+...............................
+================================
+time 0ms: Process C arrived (requires 58 frames)
+time 0ms: Placed process C:
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAABBBBBBBBBBBBBBBBBBBB
+BBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CC..............................
+................................
+................................
+...............................
+================================
+time 0ms: Process D arrived (requires 86 frames)
+time 0ms: Placed process D:
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAABBBBBBBBBBBBBBBBBBBB
+BBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDD........
+...............................
+================================
+time 0ms: Process E arrived (requires 14 frames)
+time 0ms: Placed process E:
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAABBBBBBBBBBBBBBBBBBBB
+BBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDEEEEEEEE
+EEEEEE.........................
+================================
+time 0ms: Process F arrived (requires 45 frames)
+time 0ms: Cannot place process F -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAABBBBBBBBBBBBBBBBBBBB
+BBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDEEEEEEEE
+EEEEEE.........................
+================================
+time 0ms: Process G arrived (requires 28 frames)
+time 0ms: Cannot place process G -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAABBBBBBBBBBBBBBBBBBBB
+BBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDEEEEEEEE
+EEEEEE.........................
+================================
+time 0ms: Process H arrived (requires 58 frames)
+time 0ms: Cannot place process H -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAABBBBBBBBBBBBBBBBBBBB
+BBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDEEEEEEEE
+EEEEEE.........................
+================================
+time 0ms: Process I arrived (requires 86 frames)
+time 0ms: Cannot place process I -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAABBBBBBBBBBBBBBBBBBBB
+BBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDEEEEEEEE
+EEEEEE.........................
+================================
+time 0ms: Process J arrived (requires 45 frames)
+time 0ms: Cannot place process J -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAABBBBBBBBBBBBBBBBBBBB
+BBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDEEEEEEEE
+EEEEEE.........................
+================================
+time 0ms: Process K arrived (requires 28 frames)
+time 0ms: Cannot place process K -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAABBBBBBBBBBBBBBBBBBBB
+BBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDEEEEEEEE
+EEEEEE.........................
+================================
+time 0ms: Process L arrived (requires 58 frames)
+time 0ms: Cannot place process L -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAABBBBBBBBBBBBBBBBBBBB
+BBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDEEEEEEEE
+EEEEEE.........................
+================================
+time 0ms: Process M arrived (requires 86 frames)
+time 0ms: Cannot place process M -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAABBBBBBBBBBBBBBBBBBBB
+BBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDEEEEEEEE
+EEEEEE.........................
+================================
+time 0ms: Process N arrived (requires 45 frames)
+time 0ms: Cannot place process N -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAABBBBBBBBBBBBBBBBBBBB
+BBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDEEEEEEEE
+EEEEEE.........................
+================================
+time 0ms: Process O arrived (requires 28 frames)
+time 0ms: Cannot place process O -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAABBBBBBBBBBBBBBBBBBBB
+BBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDEEEEEEEE
+EEEEEE.........................
+================================
+time 0ms: Process P arrived (requires 58 frames)
+time 0ms: Cannot place process P -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAABBBBBBBBBBBBBBBBBBBB
+BBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDEEEEEEEE
+EEEEEE.........................
+================================
+time 0ms: Process Q arrived (requires 86 frames)
+time 0ms: Cannot place process Q -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAABBBBBBBBBBBBBBBBBBBB
+BBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDEEEEEEEE
+EEEEEE.........................
+================================
+time 0ms: Process R arrived (requires 45 frames)
+time 0ms: Cannot place process R -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAABBBBBBBBBBBBBBBBBBBB
+BBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDEEEEEEEE
+EEEEEE.........................
+================================
+time 0ms: Process S arrived (requires 28 frames)
+time 0ms: Cannot place process S -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAABBBBBBBBBBBBBBBBBBBB
+BBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDEEEEEEEE
+EEEEEE.........................
+================================
+time 0ms: Process T arrived (requires 58 frames)
+time 0ms: Cannot place process T -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAABBBBBBBBBBBBBBBBBBBB
+BBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDEEEEEEEE
+EEEEEE.........................
+================================
+time 0ms: Process U arrived (requires 86 frames)
+time 0ms: Cannot place process U -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAABBBBBBBBBBBBBBBBBBBB
+BBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDEEEEEEEE
+EEEEEE.........................
+================================
+time 0ms: Process V arrived (requires 86 frames)
+time 0ms: Cannot place process V -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAABBBBBBBBBBBBBBBBBBBB
+BBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDEEEEEEEE
+EEEEEE.........................
+================================
+time 0ms: Process W arrived (requires 86 frames)
+time 0ms: Cannot place process W -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAABBBBBBBBBBBBBBBBBBBB
+BBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDEEEEEEEE
+EEEEEE.........................
+================================
+time 100ms: Process X arrived (requires 24 frames)
+time 100ms: Placed process X:
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAABBBBBBBBBBBBBBBBBBBB
+BBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDEEEEEEEE
+EEEEEEXXXXXXXXXXXXXXXXXXXXXXXX.
+================================
+time 350ms: Process A removed:
+================================
+.................................
+............BBBBBBBBBBBBBBBBBBBB
+BBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDEEEEEEEE
+EEEEEEXXXXXXXXXXXXXXXXXXXXXXXX.
+================================
+time 400ms: Process A arrived (requires 45 frames)
+time 400ms: Placed process A:
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAABBBBBBBBBBBBBBBBBBBB
+BBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDEEEEEEEE
+EEEEEEXXXXXXXXXXXXXXXXXXXXXXXX.
+================================
+time 400ms: Process F arrived (requires 45 frames)
+time 400ms: Cannot place process F -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAABBBBBBBBBBBBBBBBBBBB
+BBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDEEEEEEEE
+EEEEEEXXXXXXXXXXXXXXXXXXXXXXXX.
+================================
+time 400ms: Process J arrived (requires 45 frames)
+time 400ms: Cannot place process J -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAABBBBBBBBBBBBBBBBBBBB
+BBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDEEEEEEEE
+EEEEEEXXXXXXXXXXXXXXXXXXXXXXXX.
+================================
+time 400ms: Process N arrived (requires 45 frames)
+time 400ms: Cannot place process N -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAABBBBBBBBBBBBBBBBBBBB
+BBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDEEEEEEEE
+EEEEEEXXXXXXXXXXXXXXXXXXXXXXXX.
+================================
+time 400ms: Process R arrived (requires 45 frames)
+time 400ms: Cannot place process R -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAABBBBBBBBBBBBBBBBBBBB
+BBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDEEEEEEEE
+EEEEEEXXXXXXXXXXXXXXXXXXXXXXXX.
+================================
+time 435ms: Process Y arrived (requires 13 frames)
+time 435ms: Cannot place process Y -- skipped!
+================================
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAABBBBBBBBBBBBBBBBBBBB
+BBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDEEEEEEEE
+EEEEEEXXXXXXXXXXXXXXXXXXXXXXXX.
+================================
+time 450ms: Process A removed:
+================================
+.................................
+............BBBBBBBBBBBBBBBBBBBB
+BBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDEEEEEEEE
+EEEEEEXXXXXXXXXXXXXXXXXXXXXXXX.
+================================
+time 480ms: Process X removed:
+================================
+.................................
+............BBBBBBBBBBBBBBBBBBBB
+BBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDEEEEEEEE
+EEEEEE.........................
+================================
+time 500ms: Process X arrived (requires 24 frames)
+time 500ms: Placed process X:
+================================
+.................................
+............BBBBBBBBBBBBBBBBBBBB
+BBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDEEEEEEEE
+EEEEEEXXXXXXXXXXXXXXXXXXXXXXXX.
+================================
+time 550ms: Process Z arrived (requires 46 frames)
+time 550ms: Cannot place process Z -- starting defragmentation
+time 760ms: Defragmentation complete (moved 210 frames: B, C, D, E, X)
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDEEEEEEEEEEEEEEXXXXXXX
+XXXXXXXXXXXXXXXXX...............
+...............................
+================================
+time 760ms: Placed process Z:
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDEEEEEEEEEEEEEEXXXXXXX
+XXXXXXXXXXXXXXXXXZZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 860ms: Process D removed:
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCC...........
+................................
+................................
+...........EEEEEEEEEEEEEEXXXXXXX
+XXXXXXXXXXXXXXXXXZZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1160ms: Process C removed:
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBB.....
+................................
+................................
+................................
+................................
+...........EEEEEEEEEEEEEEXXXXXXX
+XXXXXXXXXXXXXXXXXZZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1185ms: Process X removed:
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBB.....
+................................
+................................
+................................
+................................
+...........EEEEEEEEEEEEEE.......
+.................ZZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1310ms: Process C arrived (requires 58 frames)
+time 1310ms: Placed process C:
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCC...........
+................................
+................................
+...........EEEEEEEEEEEEEE.......
+.................ZZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1310ms: Process H arrived (requires 58 frames)
+time 1310ms: Placed process H:
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHH.................
+...........EEEEEEEEEEEEEE.......
+.................ZZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1310ms: Process L arrived (requires 58 frames)
+time 1310ms: Cannot place process L -- skipped!
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHH.................
+...........EEEEEEEEEEEEEE.......
+.................ZZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1310ms: Process P arrived (requires 58 frames)
+time 1310ms: Cannot place process P -- skipped!
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHH.................
+...........EEEEEEEEEEEEEE.......
+.................ZZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1310ms: Process T arrived (requires 58 frames)
+time 1310ms: Cannot place process T -- skipped!
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHH.................
+...........EEEEEEEEEEEEEE.......
+.................ZZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1410ms: Process C removed:
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBB.....
+................................
+.....................HHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHH.................
+...........EEEEEEEEEEEEEE.......
+.................ZZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1410ms: Process H removed:
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBB.....
+................................
+................................
+................................
+................................
+...........EEEEEEEEEEEEEE.......
+.................ZZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1560ms: Process D arrived (requires 86 frames)
+time 1560ms: Placed process D:
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBB.....
+................................
+.....................DDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDEEEEEEEEEEEEEE.......
+.................ZZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1560ms: Process I arrived (requires 86 frames)
+time 1560ms: Cannot place process I -- skipped!
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBB.....
+................................
+.....................DDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDEEEEEEEEEEEEEE.......
+.................ZZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1560ms: Process M arrived (requires 86 frames)
+time 1560ms: Cannot place process M -- skipped!
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBB.....
+................................
+.....................DDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDEEEEEEEEEEEEEE.......
+.................ZZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1560ms: Process Q arrived (requires 86 frames)
+time 1560ms: Cannot place process Q -- skipped!
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBB.....
+................................
+.....................DDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDEEEEEEEEEEEEEE.......
+.................ZZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1560ms: Process U arrived (requires 86 frames)
+time 1560ms: Cannot place process U -- skipped!
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBB.....
+................................
+.....................DDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDEEEEEEEEEEEEEE.......
+.................ZZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1560ms: Process V arrived (requires 86 frames)
+time 1560ms: Cannot place process V -- skipped!
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBB.....
+................................
+.....................DDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDEEEEEEEEEEEEEE.......
+.................ZZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1560ms: Process W arrived (requires 86 frames)
+time 1560ms: Cannot place process W -- skipped!
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBB.....
+................................
+.....................DDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDEEEEEEEEEEEEEE.......
+.................ZZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1610ms: Process E removed:
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBB.....
+................................
+.....................DDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDD.....................
+.................ZZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+================================
+time 1660ms: Process Z removed:
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBB.....
+................................
+.....................DDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDD.....................
+................................
+...............................
+================================
+time 2010ms: Process D removed:
+================================
+BBBBBBBBBBBBBBBBBBBBBBBBBBBB.....
+................................
+................................
+................................
+................................
+................................
+................................
+...............................
+================================
+time 2860ms: Process B removed:
+================================
+.................................
+................................
+................................
+................................
+................................
+................................
+................................
+...............................
+================================
+time 2860ms: Simulator ended (Next)

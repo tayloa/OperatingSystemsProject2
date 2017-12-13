@@ -43,34 +43,34 @@ def non_contiguous(p_list):
     t = 0
 
     print("time {}ms: Simulator started (Non-contiguous)".format(t))
-    memory = list("." * 256) 
-    page_table = [] 
+    memory = list("." * 256)
+    page_table = []
     running = []
-    # for i in range(len(p_list)): 
-    #     page_table.append([]) # the first entry in this list will be the page, second 
-        # is its spot in the table. 
-    # might not be needed 
+    # for i in range(len(p_list)):
+    #     page_table.append([]) # the first entry in this list will be the page, second
+        # is its spot in the table.
+    # might not be needed
 
-    # can convert memory to string to string using join to help print and find 
-    # stuff 
-    while (1): 
+    # can convert memory to string to string using join to help print and find
+    # stuff
+    while (1):
         t = 0
         string_mem = ''.join(memory)
         print(memory)
-        #break 
+        #break
         for i in range(len(p_list)):
             print("At time", t, "This process", p_list[i], "has this status of arrived:", p_list[i].arrived(t))
             string_mem = ''.join(memory)
-            full = (string_mem.find(".") == -1) # this is false if there are no open spots in memory 
-            if (p_list[i].arrived(t) and not full): # if a process has arrived and there is space for it 
-                # put the process in the running list, place it in memory, and then construct it's list and put 
-                # it in the page table. Or tuple so it can be sorted. 
+            full = (string_mem.find(".") == -1) # this is false if there are no open spots in memory
+            if (p_list[i].arrived(t) and not full): # if a process has arrived and there is space for it
+                # put the process in the running list, place it in memory, and then construct it's list and put
+                # it in the page table. Or tuple so it can be sorted.
                 running.append(p_list[i])
                 print("time {}ms: Process {} arrived (requires {} frames)".format(t, p_list[i], p_list[i].frame))
                 break
 
         t+=1
-    return 
+    return
 
 if __name__ == '__main__':
     processes1 = get_instructions(sys.argv[1])
@@ -82,6 +82,6 @@ if __name__ == '__main__':
     # processes2 = get_instructions(sys.argv[1])
     # main2 = MainMemory(processes2)
     # main2.run("First")
-    
 
-    non_contiguous(processes4) 
+
+    # non_contiguous(processes4)
