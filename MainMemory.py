@@ -24,20 +24,6 @@ class MainMemory():
 
     # Placement algorithms for each process
     def next_fit(self,prev_process_end,process):
-        # Find a free range after the end index of the most recently added process
-        # if ("".join(self.memory)[prev_process_end] ):
-        #     prev_process_end,process += 1
-        # if ("".join(self.memory[prev_process_end:(prev_process_end + process.frame)])) == ("." * process.frame):
-        #     self.memory[prev_process_end:(prev_process_end + process.frame)] = [str(process) for char in self.memory[prev_process_end:(prev_process_end + process.frame)]]
-        #     self.running.append(process)
-        #     return True
-        # else:
-        # for i in range(start, len(self.memory)):
-        #     if ("".join(self.memory[i:(i + process.frame)])) == ("." * process.frame):
-        #         self.memory[i:(i + process.frame)] = [str(process) for char in self.memory[i:(i + process.frame)]]
-        #         self.running.append(process)
-        #         return True
-        #     i+=process.frame
 
         # Start looking after the end of the last process starting index
         for i in range(prev_process_end, len(self.memory)):
@@ -45,6 +31,7 @@ class MainMemory():
                 self.memory[i:(i + process.frame)] = [str(process) for char in self.memory[i:(i + process.frame)]]
                 self.running.append(process)
                 return True
+
         # Start looking at the start of memory
         for i in range(0, prev_process_end):
             if ("".join(self.memory[i:(i + process.frame)])) == ("." * process.frame):
@@ -161,12 +148,6 @@ class MainMemory():
             unfinished = [] # keep unfinished processes
             for process in self.running:
                 if process.finished(t):
-                    # Save the ending frame of the process we are removing
-                    # start_frame = (''.join(self.memory).find(str(process)))
-                    # end_frame = (''.join(self.memory).rfind(str(process)))
-                    # prev_process_end = end_frame
-
-                    # prev_process_end = (''.join(self.memory).find(str(process)))
 
                     # Convert memory to string form for easy manipulation
                     temp = "".join(self.memory)
@@ -174,9 +155,6 @@ class MainMemory():
                     temp = temp.replace(str(process), ".")
                     # Convert the string back to a list
                     self.memory = [c for c in temp]
-
-                    # if "".join(self.memory[end_frame:len(self.memory)]).count(".") < process.frame:
-                        # prev_process_end = start_frame
 
                     print("time {}ms: Process {} removed:".format(t, process))
                     print(self)
@@ -215,16 +193,6 @@ class MainMemory():
                         # Check if there is enough space to add the process, then try adding it
                         if ("".join(self.memory)).count(".") >= process.frame:
 
-                            # Next-fit
-                            # If there is not enough space for the process after this location or
-                            # the prev_process_end index is greater
-
-                            # if "".join(self.memory[prev_process_end:len(self.memory)]).count(".") < process.frame or prev_process_end >= len(self.memory):
-                                # prev_process_end = 0
-
-                            if t == 500:
-                                print(prev_process_end)
-
                             if self.place(prev_process_end,process) == True:
                                 print("time {}ms: Placed process {}:".format(t, process))
                                 prev_process_end = (''.join(self.memory).rfind(str(process))) + 1
@@ -236,9 +204,7 @@ class MainMemory():
                                 t_units = self.defrag(t)
                                 t += t_units
                                 current_frames = self.get_current_frames()
-                                ##
-
-                                ##
+                                
                                 print("time {}ms: Defragmentation complete (moved {} frames: {})".format(t, t_units, current_frames))
                                 prev_process_end = (''.join(self.memory).find("."))
                                 print(self)
