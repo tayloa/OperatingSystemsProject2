@@ -110,11 +110,12 @@ class MainMemory():
     # Defrag memory to make space for a new process
     def defrag(self,t):
         temp = "".join(self.memory)
+        index = temp.find('.')
         temp = temp.replace(".", "")
         free_space = len(self.memory) - len(temp)
         temp += ("." * free_space)
         self.memory = [c for c in temp]
-        return len(self.memory) - free_space
+        return len(self.memory) - free_space + index
 
     # Place the process based on the algorithm
     def place(self,start,process):
