@@ -68,7 +68,6 @@ def non_contiguous(p_list):
                 running.append(p_list[i])
                 print("time {}ms: Process {} arrived (requires {} frames)".format(t, p_list[i], p_list[i].frame))
                 break
-
         t+=1
     return
 

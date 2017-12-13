@@ -213,6 +213,7 @@ class MainMemory():
             self.process_list = sorted(unarrived, key = lambda x: (x.arr_t,x.name))
             self.running.sort(key = lambda x: (x.end_t,x.name))
 
+
             if (len(self.process_list) == 0 and len(self.running) == 0):
                 break
             t = t + 1
