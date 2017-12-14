@@ -110,12 +110,20 @@ class MainMemory():
     def defrag(self,t):
         self.moved = [] #Reset list of processes moved
         temp = "".join(self.memory)
-        # index = temp.find(".")
+        #Find all processes before '.'
+        index = temp.find('.')
+        unmoved = []
+        for i in range(index):
+            if str(self.memory[i]) not in unmoved:
+                unmoved.append(str(self.memory[i]))
+        for i in range(len(self.running)):
+            if str(self.running[i]) not in unmoved:
+                self.moved.append(str(self.running[i]))
         temp = temp.replace(".", "")
         free_space = len(self.memory) - len(temp)
         temp += ("." * free_space)
         self.memory = [c for c in temp]
-        return len(self.memory) - free_space # - index
+        return len(self.memory) - free_space - index
 
     # Place the process based on the algorithm
     def place(self,prev_process_end,process):
