@@ -110,12 +110,12 @@ class MainMemory():
     def defrag(self,t):
         self.moved = [] #Reset list of processes moved
         temp = "".join(self.memory)
-        # index = temp.find(".")
+        index = temp.find(".")
         temp = temp.replace(".", "")
         free_space = len(self.memory) - len(temp)
         temp += ("." * free_space)
         self.memory = [c for c in temp]
-        return len(self.memory) - free_space # - index
+        return len(self.memory) - free_space + index
 
     # Place the process based on the algorithm
     def place(self,prev_process_end,process):
@@ -151,8 +151,10 @@ class MainMemory():
 
                     # Convert memory to string form for easy manipulation
                     temp = "".join(self.memory)
+
                     # Remove the process by replacing it with free space
                     temp = temp.replace(str(process), ".")
+
                     # Convert the string back to a list
                     self.memory = [c for c in temp]
 
@@ -173,6 +175,7 @@ class MainMemory():
             self.process_list.sort(key = lambda x: (x.arr_t,x.name))
 
             for process in self.process_list:
+
                 # Check if a process arrived
                 if process.arrived(t):
 
@@ -204,7 +207,7 @@ class MainMemory():
                                 t_units = self.defrag(t)
                                 t += t_units
                                 current_frames = self.get_current_frames()
-                                
+
                                 print("time {}ms: Defragmentation complete (moved {} frames: {})".format(t, t_units, current_frames))
                                 prev_process_end = (''.join(self.memory).find("."))
                                 print(self)
@@ -215,9 +218,11 @@ class MainMemory():
 
                                 # Adjust all current and future times to account for defragmentation
                                 for p in self.running:
+
                                     # Be careful not to adjust processes that are in both lists
                                     p.adjust_times(t_units)
                                 for p in self.process_list:
+
                                     # Be careful not to adjust processes that are in both lists
                                     if p not in self.running:
                                         p.adjust_times(t_units)
@@ -225,6 +230,7 @@ class MainMemory():
                                 prev_process_end = (''.join(self.memory).rfind(str(process)))
                         else:
                             print("time {}ms: Cannot place process {} -- skipped!".format(t,process))
+
                             # Move on to the process's next arrival time if it is skipped
                             process.next_arr_t()
                             if process.arr_t != -1:
